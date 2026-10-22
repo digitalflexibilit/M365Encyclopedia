@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 
 ## Current features
 
@@ -38,6 +38,13 @@ A Microsoft Graph API that lets admins manage spending policies, configure servi
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Hosting infrastructure that runs apps built in Cowork, Code and Copilot Studio inside the organization's Microsoft 365 environment. IT governs it, and makers share apps with teammates and connect them to live data. Consumes Copilot Credits.
+
+### Copilot Search with embedded chat
+- **Status:** Rolling out
+- **Last change:** 2026-10-06, chat embedded in Copilot Search results on Windows and web (Roadmap ID 512429)
+- **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+
+Microsoft 365 Chat is built into Copilot Search results. End users can ask follow-up questions, synthesize information and generate content without leaving the search page. A Microsoft 365 Copilot license is needed.
 
 ### Cowork and Chat in Home
 - **Status:** Rolling out
