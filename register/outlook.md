@@ -1,8 +1,15 @@
 # Outlook
 
-Last updated: 2026-10-21
+Last updated: 2026-10-23
 
 ## Current features
+
+### Copilot email triage actions
+- **Status:** Rolling out
+- **Last change:** 2026-09-23, delete, move, copy, categorize and folder and rule management added
+- **More info:** [Triage email with Microsoft Copilot in Outlook](https://support.microsoft.com/en-us/outlook/triage-email-with-microsoft-365-copilot-in-outlook)
+
+Users ask Copilot in plain language to archive, delete, move, copy, flag or categorize messages, create folders and help create inbox rules. It works in Copilot Chat and in Outlook on Windows, web, Mac and mobile. Actions on more than five emails need confirmation. English only.
 
 ### Schedule with Copilot in classic Outlook
 - **Status:** Rolling out

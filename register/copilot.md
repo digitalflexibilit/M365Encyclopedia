@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-10-22
+Last updated: 2026-10-23
 
 ## Current features
 
@@ -59,6 +59,13 @@ Home is the new starting point in the Copilot app. Chat handles quick questions 
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Fabric IQ grounds Copilot Chat and Cowork in trusted business data, including Power BI semantic models. Business users get answers based on governed data without leaving Copilot.
+
+### Notebooks in Microsoft 365 Copilot
+- **Status:** Rolling out
+- **Last change:** 2026-10, Markdown, TXT and RTF files supported as sources
+- **More info:** [What’s New in Notebooks: October 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-notebooks--october-2026/4559105)
+
+Notebooks let end users collect sources and chat over them in one place. Markdown, TXT and RTF files can now be added next to the existing source types, and the navigation pane was refreshed.
 
 ### Office in Copilot
 - **Status:** Rolling out
