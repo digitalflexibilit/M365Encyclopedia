@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-10-23
+Last updated: 2026-10-25
 
 ## Current features
 
@@ -62,10 +62,10 @@ Fabric IQ grounds Copilot Chat and Cowork in trusted business data, including Po
 
 ### Notebooks in Microsoft 365 Copilot
 - **Status:** Rolling out
-- **Last change:** 2026-10, Markdown, TXT and RTF files supported as sources
+- **Last change:** 2026-10-12, Frontier features added (Office editing on the canvas, interactive reports, PDF creation, delegating simple work, model choice); scheduled automations and new audio overviews announced for the next few weeks
 - **More info:** [What’s New in Notebooks: October 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-notebooks--october-2026/4559105)
 
-Notebooks let end users collect sources and chat over them in one place. Markdown, TXT and RTF files can now be added next to the existing source types, and the navigation pane was refreshed.
+Notebooks let end users collect sources and chat over them in one place. Markdown, TXT and RTF files can now be added next to the existing source types, and the navigation pane was refreshed. Suggested artifacts are GA. In the Frontier program, users can edit Word, Excel and PowerPoint files on the Notebooks canvas, create interactive reports and PDFs, delegate simple work to Copilot and choose a model.
 
 ### Office in Copilot
 - **Status:** Rolling out

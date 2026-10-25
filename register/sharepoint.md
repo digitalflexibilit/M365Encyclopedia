@@ -1,8 +1,15 @@
 # SharePoint
 
-Last updated: 2026-10-23
+Last updated: 2026-10-25
 
 ## Current features
+
+### Everyone except external users permissions report
+- **Status:** GA
+- **Last change:** 2026-10-06, released on web
+- **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+
+Gives SharePoint Advanced Management admins an item-level report of content shared with the Everyone and Everyone except external users groups. Admins use it to find oversharing, for example before rolling out Copilot.
 
 ### Copilot in SharePoint PDF, version history and Advanced Autofill
 - **Status:** Rolling out
