@@ -1,8 +1,15 @@
 # Microsoft Teams
 
-Last updated: 2026-10-21
+Last updated: 2026-10-27
 
 ## Current features
+
+### GitHub app in Teams
+- **Status:** GA
+- **Last change:** 2026-10-23, new app combines GitHub notifications and GitHub Copilot
+- **More info:** [Turn GitHub notifications into code with GitHub Copilot in Microsoft Teams](https://techcommunity.microsoft.com/blog/microsoftteamsblog/turn-github-notifications-into-code-with-github-copilot-in-microsoft-teams/4566408)
+
+The new GitHub app in Teams brings GitHub notifications and GitHub Copilot into Teams so developers can act on notifications from chat. Replaces GitHub (deprecated), the legacy app, which is retired on 16 November 2026.
 
 ### Pause all notifications
 - **Status:** Rolling out
