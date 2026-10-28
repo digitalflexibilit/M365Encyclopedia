@@ -1,8 +1,15 @@
 # PowerPoint
 
-Last updated: 2026-10-22
+Last updated: 2026-10-28
 
 ## Current features
+
+### Attach a deck or image to a Copilot presentation
+- **Status:** Rolling out
+- **Last change:** 2026-10-27, Windows and web
+- **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+
+When creating a presentation, users can attach an existing deck so Copilot applies its theme and styles, or attach an image that Copilot works into the slides. Used by end users with a Microsoft 365 Copilot license.
 
 ### Copilot web sources and enterprise assets in PowerPoint
 - **Status:** Rolling out

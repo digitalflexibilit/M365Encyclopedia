@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-10-22
+Last updated: 2026-10-28
 
 ## Current features
 
@@ -17,6 +17,13 @@ Admins can edit the query string and user identity mapping rules of a Copilot co
 - **More info:** [Understand usage-based billing and cost management for Copilot Credits](https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-overview-copilot-credits)
 
 Admins configure spending policies, set user and organization limits, route credit requests and review consumption by user, group, agent and service. Covers Cowork, Code, Copilot Managed Runtime, Work IQ API and more.
+
+### Custom MCP connectors
+- **Status:** Rolling out
+- **Last change:** 2026-10-27, listed in Copilot release notes (Roadmap ID 501585)
+- **More info:** [Set up custom federated connectors](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/set-up-custom-federated-connectors)
+
+Admins create a connector to their own Model Context Protocol (MCP) server in the Microsoft 365 admin center (Copilot, Connectors) and deploy it across the organization. Microsoft 365 Copilot can then read and act on internal data with user-scoped sign-in. Needs the Global Administrator or AI Administrator role.
 
 ### Managed developer environment requirement
 - **Status:** Retiring

@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-10-25
+Last updated: 2026-10-28
 
 ## Current features
 
@@ -60,6 +60,13 @@ Home is the new starting point in the Copilot app. Chat handles quick questions 
 
 Fabric IQ grounds Copilot Chat and Cowork in trusted business data, including Power BI semantic models. Business users get answers based on governed data without leaving Copilot.
 
+### Learning agent in Microsoft 365 Copilot
+- **Status:** Rolling out
+- **Last change:** 2026-10-27, listed in Copilot release notes (Roadmap ID 490154)
+- **More info:** [Overview of Learning agent](https://learn.microsoft.com/en-us/viva/learning/learning-agent-overview)
+
+An agent in Microsoft Copilot that gives employees personalized microlearning and structured learning paths, including Copilot upskilling tips, plans and assessments. End users add it from the agent store, and admins deploy it in the Microsoft 365 admin center. A Microsoft Copilot license is needed, and Viva Learning Premium unlocks advanced features.
+
 ### Notebooks in Microsoft 365 Copilot
 - **Status:** Rolling out
 - **Last change:** 2026-10-12, Frontier features added (Office editing on the canvas, interactive reports, PDF creation, delegating simple work, model choice); scheduled automations and new audio overviews announced for the next few weeks
@@ -87,6 +94,13 @@ A unified catalog of Microsoft, partner and custom plugins for Copilot. IT appro
 - **More info:** [October 2026 announcements - Partner Center](https://learn.microsoft.com/en-us/partner-center/announcements/2026-october)
 
 From 1 December 2026, usage-based billing is on by default for new Microsoft 365 Copilot Business licenses bought through CSP, with a default limit of 4,000 Copilot Credits per user per month that admins can change. Not available at first in several markets.
+
+### Work IQ API usage-based billing
+- **Status:** Rolling out
+- **Last change:** 2026-10-27, listed in Copilot release notes (Roadmap ID 559017)
+- **More info:** [Work IQ overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/)
+
+Developers can call Work IQ endpoints (A2A, MCP and REST) from their own agents and apps without a pre-assigned Microsoft 365 Copilot license. Usage is billed in Copilot Credits per request, based on the agents and models invoked. Admins manage the cost in the Microsoft 365 admin center.
 
 ## Retired / replaced
 
