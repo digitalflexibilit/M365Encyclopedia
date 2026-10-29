@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-10-28
+Last updated: 2026-10-29
 
 ## Current features
 
@@ -46,6 +46,13 @@ Hosting infrastructure that runs apps built in Cowork, Code and Copilot Studio i
 
 Microsoft 365 Chat is built into Copilot Search results. End users can ask follow-up questions, synthesize information and generate content without leaving the search page. A Microsoft 365 Copilot license is needed.
 
+### Copilot usage metrics for apps
+- **Status:** Rolling out
+- **Last change:** 2026-10-27, new metrics for the Copilot app, Edge, OneNote, Outlook, Word, Excel and PowerPoint
+- **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+
+The Copilot Dashboard and Viva Insights Advanced Analysis show new usage metrics for Copilot in the Copilot app, Edge, OneNote, Outlook, Word, Excel and PowerPoint. Admins and analysts use them to track adoption.
+
 ### Cowork and Chat in Home
 - **Status:** Rolling out
 - **Last change:** 2026-09-25, Home combines Chat and Cowork in the Copilot app
@@ -69,10 +76,10 @@ An agent in Microsoft Copilot that gives employees personalized microlearning an
 
 ### Notebooks in Microsoft 365 Copilot
 - **Status:** Rolling out
-- **Last change:** 2026-10-12, Frontier features added (Office editing on the canvas, interactive reports, PDF creation, delegating simple work, model choice); scheduled automations and new audio overviews announced for the next few weeks
+- **Last change:** 2026-10-27, web links as sources and new Notebooks design in the Copilot app on iOS; 2026-10-12, Frontier features added (Office editing on the canvas, interactive reports, PDF creation, delegating simple work, model choice); scheduled automations and new audio overviews announced for the next few weeks
 - **More info:** [What’s New in Notebooks: October 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-notebooks--october-2026/4559105)
 
-Notebooks let end users collect sources and chat over them in one place. Markdown, TXT and RTF files can now be added next to the existing source types, and the navigation pane was refreshed. Suggested artifacts are GA. In the Frontier program, users can edit Word, Excel and PowerPoint files on the Notebooks canvas, create interactive reports and PDFs, delegate simple work to Copilot and choose a model.
+Notebooks let end users collect sources and chat over them in one place. Markdown, TXT and RTF files can now be added next to the existing source types, and the navigation pane was refreshed. Web links can also be added as reference sources, and the Copilot app on iOS has a new Notebooks design. Suggested artifacts are GA. In the Frontier program, users can edit Word, Excel and PowerPoint files on the Notebooks canvas, create interactive reports and PDFs, delegate simple work to Copilot and choose a model.
 
 ### Office in Copilot
 - **Status:** Rolling out
@@ -88,12 +95,26 @@ Word, Excel and PowerPoint are built into the Copilot app, so Copilot creates or
 
 A unified catalog of Microsoft, partner and custom plugins for Copilot. IT approves and manages plugins centrally, and developers publish once to extend Copilot across supported experiences.
 
+### Rich entity cards for connector results
+- **Status:** Rolling out
+- **Last change:** 2026-10-27, listed in Copilot release notes
+- **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+
+Results from Copilot connectors in Search appear as entity cards with metadata instead of plain text links. End users can see more about an item before opening it.
+
 ### Usage-based billing default for Copilot Business
 - **Status:** Roadmap
 - **Last change:** 2026-10-01, effective date moved from 2026-11-02 to 2026-12-01
 - **More info:** [October 2026 announcements - Partner Center](https://learn.microsoft.com/en-us/partner-center/announcements/2026-october)
 
 From 1 December 2026, usage-based billing is on by default for new Microsoft 365 Copilot Business licenses bought through CSP, with a default limit of 4,000 Copilot Credits per user per month that admins can change. Not available at first in several markets.
+
+### Work IQ API declarative agent access
+- **Status:** Rolling out
+- **Last change:** 2026-10-27, listed in Copilot release notes
+- **More info:** [Work IQ overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/)
+
+Developers get programmatic access to first-party and tenant-defined declarative agents through the Work IQ endpoint, so their own apps can call those agents.
 
 ### Work IQ API usage-based billing
 - **Status:** Rolling out

@@ -1,8 +1,15 @@
 # Microsoft Teams
 
-Last updated: 2026-10-27
+Last updated: 2026-10-29
 
 ## Current features
+
+### Copilot Chat after a call in Queues
+- **Status:** Rolling out
+- **Last change:** 2026-10-27, listed in Copilot release notes
+- **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+
+In the Recap tab of a recorded call queue call in the Queues app, users can open Copilot Chat to summarize the call and ask questions about it. Available on Windows and Mac, and the user needs Copilot.
 
 ### GitHub app in Teams
 - **Status:** GA
