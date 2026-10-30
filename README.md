@@ -10,7 +10,7 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 |---|---|---|
 | [Microsoft 365 Copilot](register/copilot.md) | 17 | 2026-10-29 |
 | [Copilot Studio](register/copilot-studio.md) | 8 | 2026-10-24 |
-| [Teams](register/teams.md) | 4 | 2026-10-29 |
+| [Teams](register/teams.md) | 5 | 2026-10-30 |
 | [Outlook](register/outlook.md) | 3 | 2026-10-28 |
 | [Word](register/word.md) | 1 | 2026-10-21 |
 | [Excel](register/excel.md) | 1 | 2026-10-21 |

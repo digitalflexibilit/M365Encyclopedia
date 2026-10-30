@@ -1,8 +1,15 @@
 # Microsoft Teams
 
-Last updated: 2026-10-29
+Last updated: 2026-10-30
 
 ## Current features
+
+### Agent response streaming in all conversation types
+- **Status:** GA
+- **Last change:** 2026-10-28, streaming extended from one-on-one chats to group chats, channels and meeting chats
+- **More info:** [Teams Platform Developer Announcements](https://learn.microsoft.com/en-us/microsoftteams/platform/developer-announcements)
+
+Agents built for Teams can now stream their reply while it is generated, in every conversation type. Users see informative updates under the message the agent is replying to. Developers update to the latest Teams SDK, or set `replyToId` when using the REST API outside one-on-one chats.
 
 ### Copilot Chat after a call in Queues
 - **Status:** Rolling out
