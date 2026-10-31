@@ -1,6 +1,6 @@
 # Copilot Studio
 
-Last updated: 2026-10-24
+Last updated: 2026-10-31
 
 ## Current features
 
@@ -59,6 +59,13 @@ Agent operations analytics shows per-agent, over-time metrics, with health repor
 - **More info:** [Review agent readiness and status in Microsoft Copilot Studio (GitHub Copilot)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/authoring-agent-status)
 
 The Review panel in the top menu bar lists blocking issues and warnings while a maker builds an agent, such as data policy blocks or missing sign-in. Each issue has an explanation and an action, and shows when an organization policy causes the restriction.
+
+### Work IQ MCP server
+- **Status:** Preview
+- **Last change:** 2026-10-31, announced at PPCC 2026
+- **More info:** [Add Work IQ to an agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/add-work-iq)
+
+Makers add the Work IQ MCP server to an agent so it can use business context from Dynamics 365 and Power Apps.
 
 ## Retired / replaced
 

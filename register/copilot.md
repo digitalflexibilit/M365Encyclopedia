@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-10-29
+Last updated: 2026-10-31
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-10-29
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Autopilot (previously called Scout) is a persistent, cloud-hosted agent that an end user configures with a name, a role and a goal. It watches channels, follows up on threads and runs recurring work without waiting for a prompt, and can be @mentioned in Teams, Outlook, chats and documents. Runs on usage-based billing.
+
+### Business Apps in Work IQ
+- **Status:** Preview
+- **Last change:** 2026-10-31, announced at PPCC 2026
+- **More info:** [Business apps in Work IQ](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/business-applications-work-iq)
+
+Brings business context from Dynamics 365 and Power Apps into Copilot and agents, with governed actions. Used by makers and admins who want agents to act on business data.
 
 ### Code in Copilot
 - **Status:** Preview

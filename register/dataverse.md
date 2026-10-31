@@ -1,8 +1,15 @@
 # Dataverse
 
-Last updated: 2026-10-22
+Last updated: 2026-10-31
 
 ## Current features
+
+### Dataverse Ask API
+- **Status:** Preview
+- **Last change:** 2026-10-31, announced at PPCC 2026
+- **More info:** [Dataverse Ask API](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/ask/)
+
+Lets developers define semantic models over Dataverse data and ask natural-language questions through the Web API or the Dataverse connector. It has several modes that trade performance against answer quality.
 
 ### Dataverse for Teams environment creation ends
 - **Status:** Retiring

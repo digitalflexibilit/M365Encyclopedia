@@ -1,15 +1,8 @@
 # SharePoint
 
-Last updated: 2026-10-25
+Last updated: 2026-10-31
 
 ## Current features
-
-### Everyone except external users permissions report
-- **Status:** GA
-- **Last change:** 2026-10-06, released on web
-- **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
-
-Gives SharePoint Advanced Management admins an item-level report of content shared with the Everyone and Everyone except external users groups. Admins use it to find oversharing, for example before rolling out Copilot.
 
 ### Copilot in SharePoint PDF, version history and Advanced Autofill
 - **Status:** Rolling out
@@ -24,6 +17,20 @@ Copilot can work with PDFs at page and section level, such as extracting section
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 When a SharePoint document library or folder is attached to Microsoft 365 Copilot, or its URL is given, Copilot now uses the column metadata of that library. This makes answers about the documents more accurate. End users use it in Copilot on the web with a Microsoft 365 Copilot license.
+
+### Everyone except external users permissions report
+- **Status:** GA
+- **Last change:** 2026-10-06, released on web
+- **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
+
+Gives SharePoint Advanced Management admins an item-level report of content shared with the Everyone and Everyone except external users groups. Admins use it to find oversharing, for example before rolling out Copilot.
+
+### HTML pages with Copilot
+- **Status:** Preview
+- **Last change:** 2026-10-31, public preview from early October, general availability planned mid-November to late December 2026
+- **More info:** [Create, edit and publish HTML pages in SharePoint](https://support.microsoft.com/en-us/sharepoint/create-edit-publish-html-pages)
+
+Authors create an HTML page with Copilot or upload their own HTML to the Site Pages library, then edit, publish and share it alongside ASPX pages. Creating or editing with Copilot needs a Microsoft 365 Copilot license. Site owners can control it with the Allow HTML files setting.
 
 ## Retired / replaced
 
