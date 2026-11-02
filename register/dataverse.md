@@ -1,6 +1,6 @@
 # Dataverse
 
-Last updated: 2026-10-31
+Last updated: 2026-11-02
 
 ## Current features
 
@@ -17,6 +17,13 @@ Lets developers define semantic models over Dataverse data and ask natural-langu
 - **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
 
 New Dataverse for Teams environments cannot be created from 15 November 2026. Environments not upgraded to Dataverse are suspended on 15 September 2027 and decommissioned on 30 October 2027. Admins upgrade needed environments to Dataverse, which needs enough capacity and Power Apps, Power Automate or Copilot Studio licenses for users.
+
+### Power Platform dataflows in Dataverse for Teams
+- **Status:** Retiring
+- **Last change:** 2026-11-02, creation disabled 2026-09-01, refresh stops 2026-12-01, entry points removed from 2027-01-01
+- **More info:** [Power Platform dataflows in Microsoft Teams (deprecated)](https://learn.microsoft.com/en-us/power-query/dataflows/dataflows-teams)
+
+The preview dataflows integration with Dataverse for Teams is retiring in phases. New dataflows can no longer be created, refresh of existing dataflows stops on 1 December 2026, and the entry points in Teams and Power Apps are removed from 1 January 2027. Existing dataflows are not deleted. Dataflows in Power BI, Power Automate, Dynamics 365 and Power Apps outside Dataverse for Teams are not affected.
 
 ### Restore deleted records
 - **Status:** GA
