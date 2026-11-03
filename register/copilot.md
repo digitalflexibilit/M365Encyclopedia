@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-10-31
+Last updated: 2026-11-03
 
 ## Current features
 
@@ -66,6 +66,20 @@ The Copilot Dashboard and Viva Insights Advanced Analysis show new usage metrics
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Home is the new starting point in the Copilot app. Chat handles quick questions and drafts, and Cowork runs delegated tasks end to end and returns a finished result. Rolling out through the Frontier program.
+
+### Cowork event-driven triggers for non-Microsoft connectors
+- **Status:** Rolling out
+- **Last change:** 2026-10, tasks can start from events in supported non-Microsoft connectors and plugins
+- **More info:** [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new)
+
+Besides scheduled prompts and Microsoft 365 events such as a matching email, Cowork tasks can now start from events in supported non-Microsoft connectors and plugins, for example a new case in a customer relationship management system. Users set this up by describing what to watch for, and Cowork proposes the automation to confirm. Power Platform and Copilot connectors can also be used to reach more external systems.
+
+### Cowork projects
+- **Status:** Rolling out
+- **Last change:** 2026-10, projects added to Copilot Cowork
+- **More info:** [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new)
+
+Projects keep related Cowork tasks, instructions and context together. Users start tasks from a project, return to related chats and review the files those tasks produced. Cowork also lets users reference a past chat or task from the context picker.
 
 ### Fabric IQ grounding for Copilot
 - **Status:** GA

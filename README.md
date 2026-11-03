@@ -8,7 +8,7 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 
 | App | Features | Last updated |
 |---|---|---|
-| [Microsoft 365 Copilot](register/copilot.md) | 18 | 2026-10-31 |
+| [Microsoft 365 Copilot](register/copilot.md) | 20 | 2026-11-03 |
 | [Copilot Studio](register/copilot-studio.md) | 9 | 2026-10-31 |
 | [Teams](register/teams.md) | 5 | 2026-10-30 |
 | [Outlook](register/outlook.md) | 3 | 2026-10-28 |
@@ -19,7 +19,7 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | [SharePoint](register/sharepoint.md) | 4 | 2026-10-31 |
 | [OneDrive](register/onedrive.md) | 2 | 2026-10-25 |
 | [Loop](register/loop.md) | 0 | never |
-| [Planner](register/planner.md) | 1 | 2026-10-21 |
+| [Planner](register/planner.md) | 2 | 2026-11-03 |
 | [Other Microsoft 365 apps](register/other-m365.md) | 1 | 2026-10-25 |
 | [Power Apps](register/power-apps.md) | 4 | 2026-11-02 |
 | [Power Automate](register/power-automate.md) | 1 | 2026-10-21 |
