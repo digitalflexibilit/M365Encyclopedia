@@ -23,7 +23,7 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | [Other Microsoft 365 apps](register/other-m365.md) | 1 | 2026-10-25 |
 | [Power Apps](register/power-apps.md) | 4 | 2026-11-02 |
 | [Power Automate](register/power-automate.md) | 1 | 2026-10-21 |
-| [Power BI](register/power-bi.md) | 2 | 2026-11-01 |
+| [Power BI](register/power-bi.md) | 5 | 2026-11-04 |
 | [Power Pages](register/power-pages.md) | 1 | 2026-10-21 |
 | [Dataverse](register/dataverse.md) | 4 | 2026-11-02 |
 | [AI Builder](register/ai-builder.md) | 1 | 2026-10-21 |

@@ -1,8 +1,22 @@
 # Power BI
 
-Last updated: 2026-11-01
+Last updated: 2026-11-04
 
 ## Current features
+
+### Gantt chart visual
+- **Status:** Preview
+- **Last change:** 2026-11-04, a new core visual for task durations, progress and milestones (October 2026 update)
+- **More info:** [Gantt visual in Power BI](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-gantt)
+
+The Gantt chart shows task durations, progress and milestones on a time axis. Report creators can set axis ranges, category colors, extra task columns and a zoom axis. Enable it under Preview features in Power BI Desktop and restart Desktop.
+
+### List slicer dropdown mode
+- **Status:** Preview
+- **Last change:** 2026-11-04, dropdown mode and Show selected first (October 2026 update)
+- **More info:** [Create and use a list slicer](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-list-slicer)
+
+List slicers can show as a dropdown with dismissible selection pills, configurable drawer size and search formatting. Show selected first pins active selections to the top of list and button slicers. Report creators use it to save space on a page.
 
 ### Power BI Q&A
 - **Status:** Retiring
@@ -10,6 +24,13 @@ Last updated: 2026-11-01
 - **More info:** [Introduction: Use natural language to explore data with Power BI Q&A](https://learn.microsoft.com/en-us/power-bi/natural-language/q-and-a-intro)
 
 Q&A is the legacy natural language tool that answers questions about a semantic model as charts, on dashboards and in Q&A visuals. It is used by business users and report designers. Microsoft recommends Copilot for Power BI instead.
+
+### Power BI Report skill: custom visuals
+- **Status:** GA
+- **Last change:** 2026-11-04, can add and format custom visuals (October 2026 update)
+- **More info:** [Power BI Report skill](https://learn.microsoft.com/en-us/power-bi/developer/agentic/power-bi-report-skill-overview)
+
+The Power BI Report skill in Skills for Fabric can add supported custom visuals to a report, bind them to report data, apply formatting and validate the result. It can use visuals already imported or help find an AppSource visual. Report creators use it through an AI agent.
 
 ### Power BI semantic models in Copilot via Fabric IQ
 - **Status:** GA
