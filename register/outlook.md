@@ -1,8 +1,15 @@
 # Outlook
 
-Last updated: 2026-10-28
+Last updated: 2026-11-05
 
 ## Current features
+
+### Account selector in the Copilot side pane
+- **Status:** Rolling out
+- **Last change:** 2026-11-05, 2026-11-04, account dropdown in the Calendar Copilot side pane of new Outlook
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+When several Copilot-enabled accounts are added to new Outlook, the Calendar Copilot side pane shows an account dropdown. End users use it to see and switch the active account.
 
 ### Copilot email triage actions
 - **Status:** Rolling out

@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-03
+Last updated: 2026-11-05
 
 ## Current features
 
@@ -46,6 +46,13 @@ A Microsoft Graph API that lets admins manage spending policies, configure servi
 
 Hosting infrastructure that runs apps built in Cowork, Code and Copilot Studio inside the organization's Microsoft 365 environment. IT governs it, and makers share apps with teammates and connect them to live data. Consumes Copilot Credits.
 
+### Copilot New Tab Page in Microsoft Edge
+- **Status:** Rolling out
+- **Last change:** 2026-11-05, 2026-11-04, refreshed new tab page with search, chat and suggested actions
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+The refreshed Edge new tab page combines search, chat, Copilot-suggested actions, curated work content, news and activities in one search box. End users use it on the web.
+
 ### Copilot Search with embedded chat
 - **Status:** Rolling out
 - **Last change:** 2026-10-06, chat embedded in Copilot Search results on Windows and web (Roadmap ID 512429)
@@ -87,6 +94,13 @@ Projects keep related Cowork tasks, instructions and context together. Users sta
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Fabric IQ grounds Copilot Chat and Cowork in trusted business data, including Power BI semantic models. Business users get answers based on governed data without leaving Copilot.
+
+### HubSpot connector in Researcher
+- **Status:** Rolling out
+- **Last change:** 2026-11-05, 2026-11-04, Researcher can use the HubSpot connector
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Researcher can add HubSpot data to its responses through the HubSpot connector. End users use it for research that needs CRM data.
 
 ### Learning agent in Microsoft 365 Copilot
 - **Status:** Rolling out

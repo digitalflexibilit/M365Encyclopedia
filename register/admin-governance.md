@@ -1,8 +1,22 @@
 # Admin and governance
 
-Last updated: 2026-10-28
+Last updated: 2026-11-05
 
 ## Current features
+
+### Agents usage report
+- **Status:** Rolling out
+- **Last change:** 2026-11-05, 2026-11-04, new report in the Microsoft 365 admin center
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Shows active agent users and agents for Microsoft 365 Copilot and Copilot Chat, split by licensed and unlicensed users and publisher type, with per-user, per-agent and user-agent detail. Admins use it to track agent adoption.
+
+### Authoritative content management for Copilot Search
+- **Status:** Rolling out
+- **Last change:** 2026-11-05, 2026-11-04, designate up to 100 authoritative SharePoint sites
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Admins designate up to 100 SharePoint sites as authoritative under Copilot, Search, Authoritative content, with bulk import and export. Before this there was no central management for these sources.
 
 ### Copilot connector rule editing
 - **Status:** Rolling out

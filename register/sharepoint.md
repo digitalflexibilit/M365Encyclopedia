@@ -1,6 +1,6 @@
 # SharePoint
 
-Last updated: 2026-10-31
+Last updated: 2026-11-05
 
 ## Current features
 
@@ -31,6 +31,13 @@ Gives SharePoint Advanced Management admins an item-level report of content shar
 - **More info:** [Create, edit and publish HTML pages in SharePoint](https://support.microsoft.com/en-us/sharepoint/create-edit-publish-html-pages)
 
 Authors create an HTML page with Copilot or upload their own HTML to the Site Pages library, then edit, publish and share it alongside ASPX pages. Creating or editing with Copilot needs a Microsoft 365 Copilot license. Site owners can control it with the Allow HTML files setting.
+
+### SharePoint list agent
+- **Status:** Rolling out
+- **Last change:** 2026-11-05, 2026-11-04, create Microsoft Lists from natural-language prompts
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+The list agent creates a Microsoft List from a natural-language prompt and generates the list schema and setup. End users use it on the web instead of building columns by hand.
 
 ## Retired / replaced
 

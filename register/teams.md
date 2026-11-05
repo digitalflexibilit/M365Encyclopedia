@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-10-30
+Last updated: 2026-11-05
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-10-30
 - **More info:** [Teams Platform Developer Announcements](https://learn.microsoft.com/en-us/microsoftteams/platform/developer-announcements)
 
 Agents built for Teams can now stream their reply while it is generated, in every conversation type. Users see informative updates under the message the agent is replying to. Developers update to the latest Teams SDK, or set `replyToId` when using the REST API outside one-on-one chats.
+
+### AI Workflows in the Workflows app
+- **Status:** Rolling out
+- **Last change:** 2026-11-05, 2026-11-04, Copilot-powered scheduled prompt templates in Workflows
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Users get Copilot-powered scheduled prompt templates in the Workflows app on Windows and Mac. Admins control access in Teams app management settings, and the feature is off unless the Workflows app is enabled.
 
 ### Copilot Chat after a call in Queues
 - **Status:** Rolling out
