@@ -1,8 +1,15 @@
 # Power BI
 
-Last updated: 2026-11-04
+Last updated: 2026-11-06
 
 ## Current features
+
+### Artifact info header for Power BI tabs in Teams
+- **Status:** GA
+- **Last change:** 2026-11-06, included in the October 2026 Power BI update
+- **More info:** [Embed Power BI content in Microsoft Teams](https://learn.microsoft.com/en-us/power-bi/collaborate-share/office-integration/service-embed-report-microsoft-teams)
+
+Power BI tabs in Teams show a header with the content name, most recent data refresh time and sensitivity label. It covers reports, dashboards, scorecards, apps and org apps, and helps viewers judge how current the data is.
 
 ### Gantt chart visual
 - **Status:** Preview

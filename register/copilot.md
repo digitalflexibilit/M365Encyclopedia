@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-05
+Last updated: 2026-11-06
 
 ## Current features
 
@@ -73,6 +73,13 @@ The Copilot Dashboard and Viva Insights Advanced Analysis show new usage metrics
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Home is the new starting point in the Copilot app. Chat handles quick questions and drafts, and Cowork runs delegated tasks end to end and returns a finished result. Rolling out through the Frontier program.
+
+### Cowork local Microsoft Edge browser use
+- **Status:** Rolling out
+- **Last change:** 2026-11-06, released in the November 4 update
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Lets Cowork use the end user's local Microsoft Edge browser to complete web steps, including on sites the user is already signed in to. Cowork works in a separate Edge tab, and credentials, cookies and session tokens stay on the device.
 
 ### Cowork event-driven triggers for non-Microsoft connectors
 - **Status:** Rolling out
