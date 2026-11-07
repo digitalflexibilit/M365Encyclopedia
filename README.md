@@ -15,7 +15,7 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | [Word](register/word.md) | 1 | 2026-10-21 |
 | [Excel](register/excel.md) | 2 | 2026-11-05 |
 | [PowerPoint](register/powerpoint.md) | 4 | 2026-10-28 |
-| [OneNote](register/onenote.md) | 1 | 2026-10-29 |
+| [OneNote](register/onenote.md) | 2 | 2026-11-07 |
 | [SharePoint](register/sharepoint.md) | 5 | 2026-11-05 |
 | [OneDrive](register/onedrive.md) | 2 | 2026-10-25 |
 | [Loop](register/loop.md) | 0 | never |
