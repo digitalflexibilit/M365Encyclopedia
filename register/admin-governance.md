@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-05
+Last updated: 2026-11-11
 
 ## Current features
 
@@ -17,6 +17,20 @@ Shows active agent users and agents for Microsoft 365 Copilot and Copilot Chat, 
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 Admins designate up to 100 SharePoint sites as authoritative under Copilot, Search, Authoritative content, with bulk import and export. Before this there was no central management for these sources.
+
+### Claude models in the EU Data Boundary
+- **Status:** Roadmap
+- **Last change:** 2026-11-05, announced: processing moves into the EU Data Boundary by the end of 2026
+- **More info:** [Bringing Claude models in Microsoft Copilot into the EU Data Boundary](https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/)
+
+Anthropic Claude models in Copilot, including Copilot Cowork, will be processed inside the EU Data Boundary for organizations in the EU and EFTA by the end of 2026. Organizations that already use Claude need to do nothing, because processing moves automatically once available. The admin setting for Claude stays off by default in the EU and EFTA, and admins can turn it on for all users or for selected users and groups in the Microsoft 365 admin center.
+
+### Copilot Chat fair use limits for unlicensed users
+- **Status:** Rolling out
+- **Last change:** 2026-11-09, rollout to organizations with more than 2,000 seats; 2026-11-02, rollout to organizations with 2,000 or fewer seats
+- **More info:** [Limits for features in Microsoft Copilot Chat](https://support.microsoft.com/microsoft-365-copilot/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat)
+
+Users without a Microsoft 365 Copilot license get fair use limits on more Copilot Chat features, not only image generation. When a user hits a limit, Copilot shows when the feature is available again and can offer to request a Microsoft 365 Copilot license from the admin. Admins cannot view or change the limits, and Microsoft does not publish the numbers. Copilot Chat stays included in Microsoft 365 subscriptions.
 
 ### Copilot connector rule editing
 - **Status:** Rolling out

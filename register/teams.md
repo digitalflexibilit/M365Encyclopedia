@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-05
+Last updated: 2026-11-11
 
 ## Current features
 
@@ -32,12 +32,33 @@ In the Recap tab of a recorded call queue call in the Queues app, users can open
 
 The new GitHub app in Teams brings GitHub notifications and GitHub Copilot into Teams so developers can act on notifications from chat. Replaces GitHub (deprecated), the legacy app, which is retired on 16 November 2026.
 
+### Keep calls visible in a separate window on the web
+- **Status:** Rolling out
+- **Last change:** 2026-11-04, listed in Teams release notes
+- **More info:** [Release notes for Microsoft Teams](https://learn.microsoft.com/en-us/officeupdates/teams-admin)
+
+In Teams for the web and the Teams PWA, a call can open in a simplified window that stays on top of other content when the user leaves or hides the browser tab. End users can keep an eye on the call while they work in other tabs.
+
 ### Pause all notifications
 - **Status:** Rolling out
 - **Last change:** 2026-10-07, feature listed
 - **More info:** [Release notes for Microsoft Teams](https://learn.microsoft.com/en-us/officeupdates/teams-admin)
 
 Users can temporarily pause all notifications without changing saved notification settings.
+
+### Profanity filtering control for meeting transcripts
+- **Status:** Rolling out
+- **Last change:** 2026-11-04, new meeting policy setting
+- **More info:** [Release notes for Microsoft Teams](https://learn.microsoft.com/en-us/officeupdates/teams-admin)
+
+Admins use a meeting policy to decide whether profane words are masked in live transcription and saved meeting transcripts. Masking is on by default, and the meeting organizer's policy decides the behavior. Live captions keep following each participant's own profanity setting.
+
+### Require consent before joining meetings
+- **Status:** Rolling out
+- **Last change:** 2026-11-04, new setting in the Teams admin center
+- **More info:** [Release notes for Microsoft Teams](https://learn.microsoft.com/en-us/officeupdates/teams-admin)
+
+Admins can require every participant to give explicit consent, for example to the organization's own terms and conditions, before joining any meeting hosted in the organization. The setting is configured in the Teams admin center.
 
 ### Town hall optimization for VDI attendees
 - **Status:** Rolling out
