@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-11
+Last updated: 2026-11-12
 
 ## Current features
 
@@ -52,6 +52,13 @@ Admins configure spending policies, set user and organization limits, route cred
 - **More info:** [Set up custom federated connectors](https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/set-up-custom-federated-connectors)
 
 Admins create a connector to their own Model Context Protocol (MCP) server in the Microsoft 365 admin center (Copilot, Connectors) and deploy it across the organization. Microsoft 365 Copilot can then read and act on internal data with user-scoped sign-in. Needs the Global Administrator or AI Administrator role.
+
+### DLP for Copilot Cowork
+- **Status:** GA
+- **Last change:** 2026-11-12, roadmap status Launched, general availability October 2026
+- **More info:** [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot, Copilot Chat, and Cowork](https://learn.microsoft.com/purview/dlp-microsoft365-copilot-location-learn-about)
+
+The Purview DLP policy location for Microsoft Copilot and Copilot Chat now also covers Copilot Cowork, so one policy applies to all three. Admins can stop Cowork from processing labeled files and emails, block prompts that contain sensitive information types and stop such prompts from going to web search. Blocking external email and custom policy tip links are not yet supported for Cowork.
 
 ### Managed developer environment requirement
 - **Status:** Retiring

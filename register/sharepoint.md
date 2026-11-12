@@ -1,6 +1,6 @@
 # SharePoint
 
-Last updated: 2026-11-05
+Last updated: 2026-11-12
 
 ## Current features
 
@@ -31,6 +31,13 @@ Gives SharePoint Advanced Management admins an item-level report of content shar
 - **More info:** [Create, edit and publish HTML pages in SharePoint](https://support.microsoft.com/en-us/sharepoint/create-edit-publish-html-pages)
 
 Authors create an HTML page with Copilot or upload their own HTML to the Site Pages library, then edit, publish and share it alongside ASPX pages. Creating or editing with Copilot needs a Microsoft 365 Copilot license. Site owners can control it with the Allow HTML files setting.
+
+### Permission report for a group
+- **Status:** Rolling out
+- **Last change:** 2026-11-12, roadmap status changed to rolling out, date moved from June to November 2026
+- **More info:** [Microsoft 365 Roadmap item 561039](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=561039)
+
+A new data access governance report in the SharePoint admin center shows every site a given group can access and the level of that access. Admins use it to find broad or vendor groups that expose sensitive content.
 
 ### SharePoint list agent
 - **Status:** Rolling out

@@ -1,8 +1,15 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-06
+Last updated: 2026-11-12
 
 ## Current features
+
+### App Blocks
+- **Status:** Rolling out
+- **Last change:** 2026-11-12, roadmap status changed to rolling out, November 2026
+- **More info:** [Microsoft 365 Roadmap item 577743](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=577743)
+
+App Blocks turns a Copilot Chat request and its data into an interactive element inside the conversation, such as a calculator, dashboard, form, planner, comparison tool or simulation. Users can change inputs and see the result in place instead of reading a static answer. It can also retrieve current information first and then show it in the interactive element.
 
 ### Autopilot
 - **Status:** Preview
@@ -74,19 +81,19 @@ The Copilot Dashboard and Viva Insights Advanced Analysis show new usage metrics
 
 Home is the new starting point in the Copilot app. Chat handles quick questions and drafts, and Cowork runs delegated tasks end to end and returns a finished result. Rolling out through the Frontier program.
 
-### Cowork local Microsoft Edge browser use
-- **Status:** Rolling out
-- **Last change:** 2026-11-06, released in the November 4 update
-- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
-
-Lets Cowork use the end user's local Microsoft Edge browser to complete web steps, including on sites the user is already signed in to. Cowork works in a separate Edge tab, and credentials, cookies and session tokens stay on the device.
-
 ### Cowork event-driven triggers for non-Microsoft connectors
 - **Status:** Rolling out
 - **Last change:** 2026-10, tasks can start from events in supported non-Microsoft connectors and plugins
 - **More info:** [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new)
 
 Besides scheduled prompts and Microsoft 365 events such as a matching email, Cowork tasks can now start from events in supported non-Microsoft connectors and plugins, for example a new case in a customer relationship management system. Users set this up by describing what to watch for, and Cowork proposes the automation to confirm. Power Platform and Copilot connectors can also be used to reach more external systems.
+
+### Cowork local Microsoft Edge browser use
+- **Status:** Rolling out
+- **Last change:** 2026-11-06, released in the November 4 update
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Lets Cowork use the end user's local Microsoft Edge browser to complete web steps, including on sites the user is already signed in to. Cowork works in a separate Edge tab, and credentials, cookies and session tokens stay on the device.
 
 ### Cowork projects
 - **Status:** Rolling out
