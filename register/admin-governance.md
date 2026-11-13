@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-12
+Last updated: 2026-11-13
 
 ## Current features
 
@@ -81,12 +81,26 @@ From 16 October 2026 the Copilot offers that need a base subscription carry (add
 
 A control plane for AI agents with governance, observability and security for the agents an organization runs. Used by admins and security teams.
 
+### Monitor alert routing to connector destinations
+- **Status:** Preview
+- **Last change:** 2026-11-10, public preview announced in the October/November feature update
+- **More info:** [Create alerts for your resources](https://learn.microsoft.com/en-us/power-platform/admin/monitoring/alerts)
+
+A "When an alert fires" trigger in the Power Platform for Admins V2 connector lets admins route Power Platform Monitor alerts through Power Automate to any connector-backed destination, such as a Teams channel or a ticketing system. Used by admins who watch the health of critical apps and flows.
+
 ### Office LTSC 2021 end of support
 - **Status:** Retiring
 - **Last change:** 2026-10-13, feature listed
 - **More info:** [October 2026 announcements - Partner Center](https://learn.microsoft.com/en-us/partner-center/announcements/2026-october)
 
 Office, Project and Visio LTSC 2021 no longer receive updates or security fixes. Copilot works only on cloud-backed Microsoft 365 apps.
+
+### Power Platform Admin in Cowork
+- **Status:** Preview
+- **Last change:** 2026-11-10, public preview highlighted in the October/November feature update
+- **More info:** [Power Platform Admin in Cowork (preview)](https://learn.microsoft.com/en-us/power-platform/admin/power-platform-admin-cowork)
+
+A plugin for Copilot Cowork that lets Power Platform, Dynamics 365 and Global admins ask plain-language questions about environments, inventory, usage, ownership, capacity and licensing. Cowork can turn answers into reports, draft emails to owners or repeat a question on a schedule. The plugin is read-only, and questions consume Copilot Credits.
 
 ## Retired / replaced
 

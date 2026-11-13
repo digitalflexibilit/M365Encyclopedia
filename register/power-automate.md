@@ -1,6 +1,6 @@
 # Power Automate
 
-Last updated: 2026-11-11
+Last updated: 2026-11-13
 
 ## Current features
 
@@ -17,6 +17,27 @@ Makers compare two versions of a desktop flow side by side, with color-coded add
 - **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
 
 Describe it to design it lets makers create a cloud flow by describing in plain language what they want to automate. From 30 November 2026 makers can no longer create new flows this way. Existing flows are not deleted or moved, and makers can still use the visual designer and templates. Microsoft points to the Power Automate plugin in an approved AI assistant, such as GitHub Copilot, for creating flows from descriptions.
+
+### Desktop flow templates
+- **Status:** GA
+- **Last change:** 2026-11-10, highlighted in the October/November feature update
+- **More info:** [Create desktop flow templates in Power Automate](https://learn.microsoft.com/en-us/power-automate/desktop-flows/create-desktop-flow-templates)
+
+Makers save a desktop flow as a template, for example with standard error handling and logging, publish it and share it from the Power Automate portal. Others create new desktop flows from it in Power Automate for desktop 2.72 or later. A flow created from a template is an independent copy and does not receive later template changes.
+
+### Flowchart mode for desktop flows
+- **Status:** Preview
+- **Last change:** 2026-11-10, public preview announced in the October/November feature update
+- **More info:** [Use flowchart mode in Power Automate for desktop (preview)](https://learn.microsoft.com/en-us/power-automate/desktop-flows/flowchart-flow-designer)
+
+A visual canvas with nodes and connections for building and debugging desktop flows in Power Automate for desktop. During debugging the active step is highlighted and makers can jump to errors. Used by makers who prefer a visual view over the action list.
+
+### Scheduled triggers for desktop flows
+- **Status:** Preview
+- **Last change:** 2026-11-10, public preview rolling out by region
+- **More info:** [Schedule desktop flows with Scheduled triggers (preview)](https://learn.microsoft.com/en-us/power-automate/schedule-desktop-flows)
+
+Makers run a desktop flow on a recurring schedule from the Automation center, without building a separate cloud flow to start it. Rollout is gradual by region.
 
 ## Retired / replaced
 

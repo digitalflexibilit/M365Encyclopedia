@@ -21,10 +21,10 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | [Loop](register/loop.md) | 1 | 2026-11-11 |
 | [Planner](register/planner.md) | 2 | 2026-11-12 |
 | [Other Microsoft 365 apps](register/other-m365.md) | 1 | 2026-10-25 |
-| [Power Apps](register/power-apps.md) | 8 | 2026-11-11 |
-| [Power Automate](register/power-automate.md) | 2 | 2026-11-11 |
+| [Power Apps](register/power-apps.md) | 13 | 2026-11-13 |
+| [Power Automate](register/power-automate.md) | 5 | 2026-11-13 |
 | [Power BI](register/power-bi.md) | 11 | 2026-11-08 |
-| [Power Pages](register/power-pages.md) | 1 | 2026-10-21 |
+| [Power Pages](register/power-pages.md) | 3 | 2026-11-13 |
 | [Dataverse](register/dataverse.md) | 4 | 2026-11-02 |
 | [AI Builder](register/ai-builder.md) | 1 | 2026-10-21 |
-| [Admin & governance](register/admin-governance.md) | 12 | 2026-11-12 |
+| [Admin & governance](register/admin-governance.md) | 14 | 2026-11-13 |

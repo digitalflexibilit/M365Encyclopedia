@@ -1,8 +1,15 @@
 # Power Apps
 
-Last updated: 2026-11-11
+Last updated: 2026-11-13
 
 ## Current features
+
+### AI row summaries in the modern Data Grid control
+- **Status:** Preview
+- **Last change:** 2026-11-10, public preview announced in the October/November feature update
+- **More info:** [Data Grid modern control in canvas apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/modern-controls/modern-control-data-grid#ai-row-summaries)
+
+Makers set the ShowAIRowSummary property on a canvas app Data Grid so users can open a short AI summary of a Dataverse row without leaving the grid. The grid reuses the row summary configured on the Dataverse table. An admin must allow "Summary in canvas data grid" for the environment in the Copilot settings of the Power Platform admin center. It is off by default.
 
 ### AI-generated descriptions for model-driven apps
 - **Status:** Retiring
@@ -17,6 +24,13 @@ After 30 November 2026 the "Create descriptions using AI" option is no longer av
 - **More info:** [Attachments modern control in canvas apps (preview)](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/modern-controls/modern-control-attachments)
 
 Makers add a modern Attachments control to a canvas app so users can add, download and remove files on a record, with a file picker and drag-and-drop on the web. Unlike the classic control it works outside a form, and its output can go straight to Patch for SharePoint or Dataverse attachments or a Dataverse file column. Makers set limits for file count, file size and file types. Modern controls and themes must be turned on in the app.
+
+### Authoring agent in canvas studio
+- **Status:** Preview
+- **Last change:** 2026-11-10, public preview announced in the October/November feature update
+- **More info:** [Build canvas apps with the authoring agent in Power Apps canvas studio (preview)](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/canvas-authoring-agent)
+
+An agent pane in Power Apps Studio builds or edits a canvas app from a plain-language description. The agent shows a plan for approval, then creates screens, controls and Power Fx formulas in the open app. Makers sign in with a GitHub account, and GitHub bills that account for usage. A tenant admin must turn on "Agentic Coauthoring in Power Apps using GitHub". The preview is limited to the United States and English.
 
 ### Canvas authoring agent plugin
 - **Status:** GA
@@ -38,6 +52,27 @@ After 30 November 2026 plans in Power Apps no longer show which other authors ar
 - **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
 
 After 31 December 2026 makers can no longer use the dedicated action to import and export comments between environments in the Power Platform component designers, including the model-driven app designer. Comments inside an environment keep working and existing comments are not removed. Microsoft suggests keeping collaboration notes in source-controlled documentation or ALM pipelines.
+
+### Data Grid pagination in canvas apps
+- **Status:** Rolling out
+- **Last change:** 2026-11-10, announced in the October/November feature update
+- **More info:** [Data Grid modern control in canvas apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/modern-controls/modern-control-data-grid#pagination)
+
+The modern Data Grid control can load more records as users scroll or show numbered pages with an adjustable page size. Makers set the Pagination and PageSize properties. Pagination is off by default, so existing apps keep their behavior, and it does not bypass delegation limits.
+
+### Dataverse.Unmask function
+- **Status:** Preview
+- **Last change:** 2026-11-10, preview listed in the October/November feature update
+- **More info:** [Dataverse.Unmask function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-dataverse-unmask)
+
+A Power Fx function that requests the unmasked value of one masked (secured) Dataverse column for a single record, on demand. Makers use it in canvas apps so sensitive values stay masked until a user needs them. Dataverse column security and permissions still decide whether the value is returned.
+
+### Generative pages: custom APIs and Application Insights telemetry
+- **Status:** Preview
+- **Last change:** 2026-11-10, both capabilities in public preview
+- **More info:** [Generate a page using natural language with model-driven apps in Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/generative-pages)
+
+Generative pages in model-driven apps can call Dataverse custom APIs to run server-side business logic, such as approvals or price calculations, as the signed-in user. When an admin sets up Application Insights data export for the environment, page load performance, errors, data operations and navigation telemetry are exported automatically. Used by makers and admins.
 
 ### Power Apps Ideas and formula generation in canvas apps
 - **Status:** Retiring
