@@ -1,8 +1,15 @@
 # Dataverse
 
-Last updated: 2026-11-02
+Last updated: 2026-11-14
 
 ## Current features
+
+### Column-based record security
+- **Status:** Roadmap
+- **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, preview from October 2026 and GA planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 577860](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=577860)
+
+Security admins can secure Dataverse records based on column values, such as region or department, instead of record ownership. This suits data without a natural owner, such as reporting and aggregated tables, and avoids artificial ownership or complex sharing setups.
 
 ### Dataverse Ask API
 - **Status:** Preview

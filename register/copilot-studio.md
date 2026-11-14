@@ -1,6 +1,6 @@
 # Copilot Studio
 
-Last updated: 2026-11-12
+Last updated: 2026-11-14
 
 ## Current features
 
@@ -31,6 +31,13 @@ Makers describe an app in natural language and Copilot Studio generates a draft 
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Makers can select Anthropic Claude Fable 5.1 as a model for agents in Copilot Studio, next to other frontier models.
+
+### Copilot Studio MCP
+- **Status:** GA
+- **Last change:** 2026-11-14, listed in the October 2026 Copilot Studio release notes
+- **More info:** [Connect to Microsoft Copilot Studio with MCP](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/copilot-studio-mcp)
+
+Copilot Studio MCP brings Copilot Studio tools into MCP-compatible clients such as Visual Studio Code and GitHub Copilot CLI. The client starts the Microsoft-published @microsoft/copilot-studio-mcp npm package, the maker signs in and picks an environment, and can then create, test, deploy and monitor agents and workflows from that tool. Used by makers and developers.
 
 ### Customer Conversation harness
 - **Status:** Preview
@@ -81,6 +88,13 @@ A published agent can be exposed as a remote Model Context Protocol (MCP) server
 
 Agent operations analytics shows per-agent, over-time metrics, with health reported as error rate. Makers and admins use it to monitor agents.
 
+### Privacy statement link for agents
+- **Status:** Preview
+- **Last change:** 2026-11-14, listed in the October 2026 Copilot Studio release notes
+- **More info:** [Configure a privacy statement link for Microsoft Copilot Studio agents (preview)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configure-privacy-statement-link)
+
+A Power Platform admin sets a link to the organization's privacy policy per environment, and it is shown at the start of agent conversations. The URL can be set, but the message shown to users cannot be changed. Applies to agents on the standard harness.
+
 ### Review panel
 - **Status:** GA
 - **Last change:** 2026-10-07, generally available
@@ -88,12 +102,33 @@ Agent operations analytics shows per-agent, over-time metrics, with health repor
 
 The Review panel in the top menu bar lists blocking issues and warnings while a maker builds an agent, such as data policy blocks or missing sign-in. Each issue has an explanation and an action, and shows when an organization policy causes the restriction.
 
+### Shared skills marketplace
+- **Status:** Preview
+- **Last change:** 2026-11-14, listed in the October 2026 Copilot Studio release notes
+- **More info:** [Manage and delete skills in an agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/skills-manage)
+
+Makers can browse and add skills that admins or skill owners shared through the marketplace, and share their own skills with specific people, groups or the whole organization. Recipients are notified when a shared skill is updated and can choose to move to the new version. Applies to agents on the Microsoft Copilot harness.
+
 ### Triggers for autonomous agents
 - **Status:** Preview
 - **Last change:** 2026-11-12, listed in What's new in Copilot Studio for October 2026
 - **More info:** [Add triggers to an agent (GitHub Copilot) (preview)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/authoring-add-event-trigger)
 
 Makers add triggers so an agent built on the GitHub Copilot harness runs on its own when an event happens, such as a new SharePoint item, an incoming email or a scheduled time. After publishing, the maker activates the agent for themselves or shares it so others run it with their own credentials and edit only the trigger options the maker allows. Usage is billed in Copilot Credits through the hosting environment.
+
+### Upgrade agents to the Microsoft Copilot harness
+- **Status:** Preview
+- **Last change:** 2026-11-14, listed in the October 2026 Copilot Studio release notes
+- **More info:** [Upgrade agents to the Microsoft Copilot harness (preview)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/upgrade-to-github-copilot-from-standard-harness)
+
+Makers can ask Copilot Studio to move an existing agent from the standard harness to the Microsoft Copilot harness. Instructions, tools and prompts are carried over, topics are rebuilt as skills or workflows, and a migration report shows what came over, what needs attention and what was skipped. Agents on the new harness use usage-based billing in Copilot Credits.
+
+### WhatsApp channel through Azure Communication Services
+- **Status:** Retiring
+- **Last change:** 2026-11-14, new connections closed since 2026-10-23
+- **More info:** [Publish an agent to WhatsApp](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-whatsapp)
+
+Publishes a Copilot Studio agent to WhatsApp through Azure Communication Services. Since 23 October 2026 no new WhatsApp connections can be made through this channel, whatever the agent's creation date. Agents connected before that date keep working.
 
 ### Work IQ in Copilot Studio
 - **Status:** GA

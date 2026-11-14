@@ -1,6 +1,6 @@
 # Outlook
 
-Last updated: 2026-11-05
+Last updated: 2026-11-14
 
 ## Current features
 
@@ -24,6 +24,13 @@ Users ask Copilot in plain language to archive, delete, move, copy, flag or cate
 - **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 Copilot settings are available directly in classic Outlook for Windows under File, Copilot settings. The settings respect existing Outlook client security policies. Used by end users with Copilot.
+
+### Folder sharing follows organization policy
+- **Status:** Roadmap
+- **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 579185](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579185)
+
+In new Outlook for Windows, folder sharing will respect the organization's restrictions on Default and Anonymous permissions. When the restrictions are on, users cannot change those two settings. Permissions given directly to individual users are not affected.
 
 ### Schedule with Copilot in classic Outlook
 - **Status:** Rolling out

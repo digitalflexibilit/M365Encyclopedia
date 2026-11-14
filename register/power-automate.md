@@ -1,6 +1,6 @@
 # Power Automate
 
-Last updated: 2026-11-13
+Last updated: 2026-11-14
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-11-13
 - **More info:** [Compare flow versions](https://learn.microsoft.com/en-us/power-platform/release-plan/2026wave1/power-automate/compare-versions)
 
 Makers compare two versions of a desktop flow side by side, with color-coded added, changed and removed steps, variables and properties. Uses version snapshots stored in Dataverse.
+
+### Copilot in the designer for cloud and agent flows
+- **Status:** Retiring
+- **Last change:** 2026-11-14, retirement on 2026-11-30 announced
+- **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
+
+The Copilot pane in the flow designer lets makers build and edit cloud flows and agent flows by chatting, ask about a flow, get help with expressions and troubleshoot errors. From 30 November 2026 it can no longer be opened. Existing flows are not changed, and Microsoft points makers to the Power Automate plugin in an approved AI assistant such as GitHub Copilot.
 
 ### Describe it to design it
 - **Status:** Retiring
@@ -24,6 +31,13 @@ Describe it to design it lets makers create a cloud flow by describing in plain 
 - **More info:** [Create desktop flow templates in Power Automate](https://learn.microsoft.com/en-us/power-automate/desktop-flows/create-desktop-flow-templates)
 
 Makers save a desktop flow as a template, for example with standard error handling and logging, publish it and share it from the Power Automate portal. Others create new desktop flows from it in Power Automate for desktop 2.72 or later. A flow created from a template is an independent copy and does not receive later template changes.
+
+### Direct triggers for desktop flows
+- **Status:** Roadmap
+- **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, preview planned for January 2027 and GA for March 2027
+- **More info:** [Microsoft 365 Roadmap item 579975](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579975)
+
+Desktop flows will start directly when a supported event happens, without an intermediate cloud flow. This simplifies connecting desktop automation to business processes.
 
 ### Flowchart mode for desktop flows
 - **Status:** Preview

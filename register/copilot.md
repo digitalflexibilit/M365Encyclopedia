@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-12
+Last updated: 2026-11-14
 
 ## Current features
 
@@ -20,10 +20,17 @@ Autopilot (previously called Scout) is a persistent, cloud-hosted agent that an 
 
 ### Business Apps in Work IQ
 - **Status:** Preview
-- **Last change:** 2026-10-31, announced at PPCC 2026
+- **Last change:** 2026-11-14, Microsoft 365 Roadmap item 573293 adds access from Copilot Cowork, planned for December 2026
 - **More info:** [Business apps in Work IQ](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/business-applications-work-iq)
 
-Brings business context from Dynamics 365 and Power Apps into Copilot and agents, with governed actions. Used by makers and admins who want agents to act on business data.
+Brings business context from Dynamics 365 and Power Apps into Copilot and agents, with governed actions. Used by makers and admins who want agents to act on business data. Copilot Cowork users will also be able to reach business applications through Work IQ and use business skills to complete business processes.
+
+### Business skills in Work IQ MCP
+- **Status:** Roadmap
+- **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, planned for November 2026
+- **More info:** [Microsoft 365 Roadmap item 573290](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=573290)
+
+Business skills are plain-language instructions that describe how an organization does a type of work: the steps, the information needed and the business rules. Agents find the skills they have access to through the Work IQ MCP server and follow them at runtime, so several agents handle the same process in the same way. Used by makers and admins who want agents to follow company processes.
 
 ### Code in Copilot
 - **Status:** Preview

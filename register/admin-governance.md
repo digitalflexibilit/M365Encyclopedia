@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-13
+Last updated: 2026-11-14
 
 ## Current features
 
@@ -45,6 +45,13 @@ Admins can edit the query string and user identity mapping rules of a Copilot co
 - **More info:** [Understand usage-based billing and cost management for Copilot Credits](https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-overview-copilot-credits)
 
 Admins configure spending policies, set user and organization limits, route credit requests and review consumption by user, group, agent and service. Covers Cowork, Code, Copilot Managed Runtime, Work IQ API and more.
+
+### Cross-tenant orchestrated migration
+- **Status:** Roadmap
+- **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 576273](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=576273)
+
+From the Microsoft 365 admin center, admins can move data from one Microsoft 365 tenant to another. User data migration covers mailboxes, OneDrive, Teams chats and meetings. Shared data migration covers Microsoft 365 Groups, SharePoint sites, group mailboxes, and teams and channels.
 
 ### Custom MCP connectors
 - **Status:** Rolling out

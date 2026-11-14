@@ -1,6 +1,6 @@
 # Power Apps
 
-Last updated: 2026-11-13
+Last updated: 2026-11-14
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-11-13
 - **More info:** [Data Grid modern control in canvas apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/controls/modern-controls/modern-control-data-grid#ai-row-summaries)
 
 Makers set the ShowAIRowSummary property on a canvas app Data Grid so users can open a short AI summary of a Dataverse row without leaving the grid. The grid reuses the row summary configured on the Dataverse table. An admin must allow "Summary in canvas data grid" for the environment in the Copilot settings of the Power Platform admin center. It is off by default.
+
+### AI-generated descriptions for canvas apps
+- **Status:** Retiring
+- **Last change:** 2026-11-14, removal after 2026-11-30 announced
+- **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
+
+After 30 November 2026 the "Create descriptions using AI" option is no longer available for canvas apps in the Publish dialog or the app designer Settings panel. Existing descriptions stay, and makers can still write or edit them by hand.
 
 ### AI-generated descriptions for model-driven apps
 - **Status:** Retiring
@@ -31,6 +38,13 @@ Makers add a modern Attachments control to a canvas app so users can add, downlo
 - **More info:** [Build canvas apps with the authoring agent in Power Apps canvas studio (preview)](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/canvas-authoring-agent)
 
 An agent pane in Power Apps Studio builds or edits a canvas app from a plain-language description. The agent shows a plan for approval, then creates screens, controls and Power Fx formulas in the open app. Makers sign in with a GitHub account, and GitHub bills that account for usage. A tenant admin must turn on "Agentic Coauthoring in Power Apps using GitHub". The preview is limited to the United States and English.
+
+### Calendar and card view layouts in model-driven apps
+- **Status:** Roadmap
+- **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, preview planned for December 2026 and GA for February 2027
+- **More info:** [Microsoft 365 Roadmap item 575294](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=575294)
+
+Makers can show a view as a calendar or as a stack of cards instead of the default grid. They set the layout in the model-driven app designer, and users get a different way to see and work with the records.
 
 ### Canvas authoring agent plugin
 - **Status:** GA
@@ -73,6 +87,13 @@ A Power Fx function that requests the unmasked value of one masked (secured) Dat
 - **More info:** [Generate a page using natural language with model-driven apps in Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/generative-pages)
 
 Generative pages in model-driven apps can call Dataverse custom APIs to run server-side business logic, such as approvals or price calculations, as the signed-in user. When an admin sets up Application Insights data export for the environment, page load performance, errors, data operations and navigation telemetry are exported automatically. Used by makers and admins.
+
+### Modernized Personal settings in model-driven apps
+- **Status:** Roadmap
+- **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 579899](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579899)
+
+The Personal settings page in model-driven apps gets clearer organization, updated navigation and a more consistent design. It is on by default, and users can switch back to the classic page with a button.
 
 ### Power Apps Ideas and formula generation in canvas apps
 - **Status:** Retiring
