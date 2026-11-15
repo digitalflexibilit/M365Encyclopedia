@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-14
+Last updated: 2026-11-15
 
 ## Current features
 
@@ -52,6 +52,20 @@ In the Recap tab of a recorded call queue call in the Queues app, users can open
 - **More info:** [Microsoft 365 Roadmap item 576609](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=576609)
 
 Admins set meeting settings, including protection settings, that apply automatically when users schedule a Teams meeting from Outlook or the Teams calendar. Organizers then do not need to set meeting options by hand. Only organizers with a Teams Premium license can use default meeting templates.
+
+### Express face enrollment
+- **Status:** Roadmap
+- **Last change:** 2026-11-13, roadmap item updated, planned for February 2027
+- **More info:** [Microsoft 365 Roadmap item 570846](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=570846)
+
+Users who opt in can create a face profile with their camera during eligible Teams meetings. Teams Rooms can then recognize them in the room, which improves recaps and Copilot. Admins can turn the feature on or off for the organization.
+
+### Facilitator answers open questions
+- **Status:** Roadmap
+- **Last change:** 2026-11-13, roadmap item updated, planned for February 2027
+- **More info:** [Microsoft 365 Roadmap item 558341](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=558341)
+
+Facilitator, the Copilot agent in Teams meetings, detects questions that nobody answers and offers to look them up with web search. A participant selects Yes and Facilitator shares the answer in the meeting.
 
 ### Facilitator follow-up mode
 - **Status:** Roadmap
@@ -143,6 +157,13 @@ Admins use meeting policies to decide who can start recording and transcription:
 - **More info:** [Release notes for Microsoft Teams](https://learn.microsoft.com/en-us/officeupdates/teams-admin)
 
 Admins use a meeting policy to decide whether profane words are masked in live transcription and saved meeting transcripts. Masking is on by default, and the meeting organizer's policy decides the behavior. Live captions keep following each participant's own profanity setting.
+
+### Real-time queue metrics in the Queues app on mobile
+- **Status:** Roadmap
+- **Last change:** 2026-11-11, added to roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 579859](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579859)
+
+Call queue agents and supervisors see live call queue metrics in the Queues app on iOS and Android. They can check queue activity and decide on their availability without switching to the desktop app.
 
 ### Require consent before joining meetings
 - **Status:** Rolling out

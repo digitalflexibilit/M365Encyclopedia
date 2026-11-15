@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-14
+Last updated: 2026-11-15
 
 ## Current features
 
@@ -67,6 +67,20 @@ Admins create a connector to their own Model Context Protocol (MCP) server in th
 
 The Purview DLP policy location for Microsoft Copilot and Copilot Chat now also covers Copilot Cowork, so one policy applies to all three. Admins can stop Cowork from processing labeled files and emails, block prompts that contain sensitive information types and stop such prompts from going to web search. Blocking external email and custom policy tip links are not yet supported for Cowork.
 
+### Expanded DLP enforcement in Edge for Business
+- **Status:** Roadmap
+- **Last change:** 2026-11-11, added to roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 579894](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579894)
+
+Microsoft Edge for Business extends its Data Loss Prevention enterprise connectors. Admins can enforce policy consistently on download, upload, paste and print, require a justification to bypass a block and show their own guidance to users.
+
+### Low-latency Monitor alerts
+- **Status:** Preview
+- **Last change:** 2026-11-11, public preview in all commercial clouds by 2026-11-20
+- **More info:** [Alerts in Monitor](https://learn.microsoft.com/en-us/power-platform/admin/monitoring/alerts#monitor-critical-resources-with-low-latency-alerts-preview)
+
+Admins set an alert rule's data review period to 1 hour, so Monitor evaluates the metric every hour instead of once a day. It covers metrics for canvas, code, model-driven and Copilot Managed Runtime apps, cloud flows and agents, with a 24-hour hourly chart. Up to 10 hourly rules per admin center, and Managed Environments requirements apply.
+
 ### Managed developer environment requirement
 - **Status:** Retiring
 - **Last change:** 2026-11-15, creation of unmanaged developer environments ends; suspended 2026-12-15, deleted 2027-01-15
@@ -94,6 +108,13 @@ A control plane for AI agents with governance, observability and security for th
 - **More info:** [Create alerts for your resources](https://learn.microsoft.com/en-us/power-platform/admin/monitoring/alerts)
 
 A "When an alert fires" trigger in the Power Platform for Admins V2 connector lets admins route Power Platform Monitor alerts through Power Automate to any connector-backed destination, such as a Teams channel or a ticketing system. Used by admins who watch the health of critical apps and flows.
+
+### Monitor metrics export API
+- **Status:** Preview
+- **Last change:** 2026-11-10, announced in the October/November feature update
+- **More info:** [Export Monitor metrics by using the API](https://learn.microsoft.com/en-us/power-platform/admin/monitoring/monitor-data-export)
+
+A REST API returns Monitor's daily metric aggregates for Power Platform resources in OpenTelemetry (OTLP JSON) format. Admins store the data themselves to keep it beyond Monitor's 30-day window, share it with colleagues or combine it with other operational data in tools such as Datadog or Splunk.
 
 ### Office LTSC 2021 end of support
 - **Status:** Retiring

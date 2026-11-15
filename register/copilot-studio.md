@@ -1,6 +1,6 @@
 # Copilot Studio
 
-Last updated: 2026-11-14
+Last updated: 2026-11-15
 
 ## Current features
 
@@ -31,6 +31,20 @@ Makers describe an app in natural language and Copilot Studio generates a draft 
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Makers can select Anthropic Claude Fable 5.1 as a model for agents in Copilot Studio, next to other frontier models.
+
+### Connected agents
+- **Status:** Preview
+- **Last change:** 2026-10, Foundry and Microsoft 365 Agents SDK agents added, A2A agents in preview
+- **More info:** [Connected agents overview (Microsoft Copilot)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/authoring-add-other-agents)
+
+A primary agent on the Microsoft Copilot harness can delegate requests to connected agents: other Copilot Studio agents, Microsoft Foundry agents, Microsoft 365 Agents SDK agents and, in preview, remote agents over the Agent2Agent (A2A) protocol. Makers add them from the Add a connected agent dialog on the Build tab, and the orchestrator routes requests based on each agent's name and description. Usage consumes Copilot Credits.
+
+### Continue using retired models
+- **Status:** GA
+- **Last change:** 2026-10, up to 30 days on the retired model after an automatic upgrade
+- **More info:** [Continue using a retired AI model](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-retired-model)
+
+When Copilot Studio upgrades the default model, makers can keep an agent on the retired model for up to 30 days. They turn on Continue using retired models under Settings, Model, and can switch between the retired and upgraded model during that period. It applies to agents on the standard harness and gives makers time to test before support for the old model ends.
 
 ### Copilot Studio MCP
 - **Status:** GA

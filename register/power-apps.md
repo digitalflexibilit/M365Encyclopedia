@@ -1,6 +1,6 @@
 # Power Apps
 
-Last updated: 2026-11-14
+Last updated: 2026-11-15
 
 ## Current features
 
@@ -115,6 +115,20 @@ After 30 November 2026 users of model-driven apps no longer see who else is work
 - **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
 
 After 11 December 2026 Copilot no longer suggests names for canvas app controls or applies suggested names to several controls at once. Makers rename controls by hand in Tree view, and Power Apps updates references automatically.
+
+### Responsive SharePoint list form template
+- **Status:** Rolling out
+- **Last change:** 2026-11-10, announced in the October/November feature update
+- **More info:** [Understand SharePoint forms integration](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint-form-integration)
+
+When a maker customizes a SharePoint list form with Power Apps, the new template uses a flexible canvas with layout containers and a multi-column form that adapts to the available width. The old template used a phone-sized single-column form. Existing customized forms keep their layout.
+
+### Updated template for apps created from SharePoint lists
+- **Status:** Rolling out
+- **Last change:** 2026-11-10, announced in the October/November feature update
+- **More info:** [Create a canvas app with data from a SharePoint list](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/app-from-sharepoint)
+
+Apps that makers generate from a SharePoint list get a responsive records screen with grid and list views built on the modern Data Grid and modern forms, plus separate screens to create and edit items. The template that is used depends on the environment.
 
 ## Retired / replaced
 

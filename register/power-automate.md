@@ -1,6 +1,6 @@
 # Power Automate
 
-Last updated: 2026-11-14
+Last updated: 2026-11-15
 
 ## Current features
 
@@ -17,6 +17,13 @@ Makers compare two versions of a desktop flow side by side, with color-coded add
 - **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
 
 The Copilot pane in the flow designer lets makers build and edit cloud flows and agent flows by chatting, ask about a flow, get help with expressions and troubleshoot errors. From 30 November 2026 it can no longer be opened. Existing flows are not changed, and Microsoft points makers to the Power Automate plugin in an approved AI assistant such as GitHub Copilot.
+
+### Delinea Secret Server credentials for desktop flows
+- **Status:** Roadmap
+- **Last change:** 2026-11-12, added to roadmap, planned for March 2027
+- **More info:** [Microsoft 365 Roadmap item 579974](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579974)
+
+Power Automate will support Delinea Secret Server as an external credential provider for desktop flows. Organizations can use credentials kept in Delinea for machine sign-in and credential retrieval in attended and unattended runs.
 
 ### Describe it to design it
 - **Status:** Retiring

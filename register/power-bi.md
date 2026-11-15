@@ -1,6 +1,6 @@
 # Power BI
 
-Last updated: 2026-11-08
+Last updated: 2026-11-15
 
 ## Current features
 
@@ -80,6 +80,13 @@ The Power BI Report skill in Skills for Fabric can add supported custom visuals 
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Fabric IQ brings governed Power BI semantic models into Copilot Chat and Cowork, so users get answers grounded in existing reports and models.
+
+### R and Python visuals
+- **Status:** Retiring
+- **Last change:** 2026-11-09, retirement in May 2027 announced
+- **More info:** [What are script visuals in Power BI?](https://learn.microsoft.com/en-us/power-bi/create-reports/script-visuals-overview#retirement-of-r-and-python-visuals)
+
+R and Python visuals, including R-powered custom visuals, retire in May 2027. After that they stop working in published reports in the Power BI service, and new Power BI Desktop versions no longer offer them. Report creators should replace them with built-in or custom visuals or move the analysis to a Fabric notebook. Python and R scripts in Power Query are not affected.
 
 ## Retired / replaced
 

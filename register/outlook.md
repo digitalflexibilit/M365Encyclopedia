@@ -1,6 +1,6 @@
 # Outlook
 
-Last updated: 2026-11-14
+Last updated: 2026-11-15
 
 ## Current features
 
@@ -25,6 +25,13 @@ Users ask Copilot in plain language to archive, delete, move, copy, flag or cate
 
 Copilot settings are available directly in classic Outlook for Windows under File, Copilot settings. The settings respect existing Outlook client security policies. Used by end users with Copilot.
 
+### Folder pane remembers expanded folders
+- **Status:** Roadmap
+- **Last change:** 2026-11-11, added to roadmap, planned for February 2027
+- **More info:** [Microsoft 365 Roadmap item 579187](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579187)
+
+New Outlook for Windows and Outlook on the web remember which folders, shared mailboxes and online archives are expanded or collapsed, also after a restart. A related change lets users expand or collapse all accounts in the folder pane at once.
+
 ### Folder sharing follows organization policy
 - **Status:** Roadmap
 - **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, planned for January 2027
@@ -32,12 +39,33 @@ Copilot settings are available directly in classic Outlook for Windows under Fil
 
 In new Outlook for Windows, folder sharing will respect the organization's restrictions on Default and Anonymous permissions. When the restrictions are on, users cannot change those two settings. Permissions given directly to individual users are not affected.
 
+### Recoverable items storage usage
+- **Status:** Roadmap
+- **Last change:** 2026-11-11, added to roadmap, planned for February 2027
+- **More info:** [Microsoft 365 Roadmap item 579190](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579190)
+
+New Outlook for Windows and Outlook on the web show how much mailbox storage recoverable items use. Users can see this before they reach a limit and decide how to manage their mailbox.
+
 ### Schedule with Copilot in classic Outlook
 - **Status:** Rolling out
 - **Last change:** 2026-08-25, feature listed
 - **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 In classic Outlook for Windows, users can ask Copilot in chat, or use the Schedule with Copilot button, to find times, book rooms, draft an agenda and send the invite. Needs a Microsoft 365 Copilot license and is rolling out in phases.
+
+### Sort subfolders from A to Z
+- **Status:** Roadmap
+- **Last change:** 2026-11-11, added to roadmap, planned for February 2027
+- **More info:** [Microsoft 365 Roadmap item 579186](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579186)
+
+Users sort all subfolders of a folder alphabetically from the parent folder in new Outlook for Windows and Outlook on the web, instead of moving them one by one.
+
+### Updated Copilot Chat sheet in Outlook mobile
+- **Status:** Roadmap
+- **Last change:** 2026-11-12, added to roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 579897](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579897)
+
+Copilot Chat in Outlook for iOS and Android gets smoother animations, clearer text and a simpler header. The new chat and temporary chat button moves behind the "..." menu.
 
 ## Retired / replaced
 

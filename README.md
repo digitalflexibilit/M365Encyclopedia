@@ -9,9 +9,9 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | App | Features | Last updated |
 |---|---|---|
 | [Microsoft 365 Copilot](register/copilot.md) | 25 | 2026-11-14 |
-| [Copilot Studio](register/copilot-studio.md) | 19 | 2026-11-14 |
-| [Teams](register/teams.md) | 24 | 2026-11-14 |
-| [Outlook](register/outlook.md) | 5 | 2026-11-14 |
+| [Copilot Studio](register/copilot-studio.md) | 21 | 2026-11-15 |
+| [Teams](register/teams.md) | 27 | 2026-11-15 |
+| [Outlook](register/outlook.md) | 9 | 2026-11-15 |
 | [Word](register/word.md) | 1 | 2026-10-21 |
 | [Excel](register/excel.md) | 2 | 2026-11-05 |
 | [PowerPoint](register/powerpoint.md) | 4 | 2026-10-28 |
@@ -21,10 +21,10 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | [Loop](register/loop.md) | 1 | 2026-11-11 |
 | [Planner](register/planner.md) | 2 | 2026-11-12 |
 | [Other Microsoft 365 apps](register/other-m365.md) | 1 | 2026-10-25 |
-| [Power Apps](register/power-apps.md) | 16 | 2026-11-14 |
-| [Power Automate](register/power-automate.md) | 7 | 2026-11-14 |
-| [Power BI](register/power-bi.md) | 11 | 2026-11-08 |
+| [Power Apps](register/power-apps.md) | 18 | 2026-11-15 |
+| [Power Automate](register/power-automate.md) | 8 | 2026-11-15 |
+| [Power BI](register/power-bi.md) | 12 | 2026-11-15 |
 | [Power Pages](register/power-pages.md) | 3 | 2026-11-13 |
 | [Dataverse](register/dataverse.md) | 5 | 2026-11-14 |
 | [AI Builder](register/ai-builder.md) | 1 | 2026-10-21 |
-| [Admin & governance](register/admin-governance.md) | 15 | 2026-11-14 |
+| [Admin & governance](register/admin-governance.md) | 18 | 2026-11-15 |
