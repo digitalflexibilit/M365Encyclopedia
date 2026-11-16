@@ -1,6 +1,6 @@
 # Power Apps
 
-Last updated: 2026-11-15
+Last updated: 2026-11-16
 
 ## Current features
 
@@ -80,6 +80,13 @@ The modern Data Grid control can load more records as users scroll or show numbe
 - **More info:** [Dataverse.Unmask function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-dataverse-unmask)
 
 A Power Fx function that requests the unmasked value of one masked (secured) Dataverse column for a single record, on demand. Makers use it in canvas apps so sensitive values stay masked until a user needs them. Dataverse column security and permissions still decide whether the value is returned.
+
+### Display density in model-driven apps
+- **Status:** Preview
+- **Last change:** 2026-11-16, public preview announced in the October/November 2026 Power Platform feature update
+- **More info:** [Appearance settings for model-driven apps (preview)](https://learn.microsoft.com/en-us/power-apps/user/appearance-settings)
+
+Users pick Comfortable, Cozy or Compact spacing in the Appearance tab of Personal settings, so data-heavy work fits more information on screen. Admins can set an environment default and makers an app default, or turn the option off for an app. Requires the header and navigation refresh (wave 2) on the app.
 
 ### Generative pages: custom APIs and Application Insights telemetry
 - **Status:** Preview

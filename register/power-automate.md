@@ -1,6 +1,6 @@
 # Power Automate
 
-Last updated: 2026-11-15
+Last updated: 2026-11-16
 
 ## Current features
 
@@ -52,6 +52,13 @@ Desktop flows will start directly when a supported event happens, without an int
 - **More info:** [Use flowchart mode in Power Automate for desktop (preview)](https://learn.microsoft.com/en-us/power-automate/desktop-flows/flowchart-flow-designer)
 
 A visual canvas with nodes and connections for building and debugging desktop flows in Power Automate for desktop. During debugging the active step is highlighted and makers can jump to errors. Used by makers who prefer a visual view over the action list.
+
+### Power Automate plugin for GitHub Copilot CLI and Claude Code
+- **Status:** GA
+- **Last change:** 2026-11-16, announced in the October/November 2026 Power Platform feature update
+- **More info:** [Get started with the Power Automate plugin for GitHub Copilot CLI and Claude Code](https://learn.microsoft.com/en-us/power-automate/power-automate-plugin-external-tools)
+
+Makers create, edit, run, debug and manage cloud flows from a terminal coding agent by describing the task in natural language. The plugin also lists and runs desktop flows and checks environment routing. It is installed from the Power Platform Skills marketplace and acts with the signed-in user's permissions, licenses and data policies.
 
 ### Scheduled triggers for desktop flows
 - **Status:** Preview

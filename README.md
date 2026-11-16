@@ -12,7 +12,7 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | [Copilot Studio](register/copilot-studio.md) | 21 | 2026-11-15 |
 | [Teams](register/teams.md) | 27 | 2026-11-15 |
 | [Outlook](register/outlook.md) | 9 | 2026-11-15 |
-| [Word](register/word.md) | 1 | 2026-10-21 |
+| [Word](register/word.md) | 2 | 2026-11-16 |
 | [Excel](register/excel.md) | 2 | 2026-11-05 |
 | [PowerPoint](register/powerpoint.md) | 4 | 2026-10-28 |
 | [OneNote](register/onenote.md) | 2 | 2026-11-07 |
@@ -21,10 +21,10 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | [Loop](register/loop.md) | 1 | 2026-11-11 |
 | [Planner](register/planner.md) | 2 | 2026-11-12 |
 | [Other Microsoft 365 apps](register/other-m365.md) | 1 | 2026-10-25 |
-| [Power Apps](register/power-apps.md) | 18 | 2026-11-15 |
-| [Power Automate](register/power-automate.md) | 8 | 2026-11-15 |
+| [Power Apps](register/power-apps.md) | 19 | 2026-11-16 |
+| [Power Automate](register/power-automate.md) | 9 | 2026-11-16 |
 | [Power BI](register/power-bi.md) | 12 | 2026-11-15 |
-| [Power Pages](register/power-pages.md) | 3 | 2026-11-13 |
-| [Dataverse](register/dataverse.md) | 5 | 2026-11-14 |
+| [Power Pages](register/power-pages.md) | 5 | 2026-11-16 |
+| [Dataverse](register/dataverse.md) | 7 | 2026-11-16 |
 | [AI Builder](register/ai-builder.md) | 1 | 2026-10-21 |
-| [Admin & governance](register/admin-governance.md) | 18 | 2026-11-15 |
+| [Admin & governance](register/admin-governance.md) | 21 | 2026-11-16 |

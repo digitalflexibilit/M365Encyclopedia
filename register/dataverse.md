@@ -1,6 +1,6 @@
 # Dataverse
 
-Last updated: 2026-11-14
+Last updated: 2026-11-16
 
 ## Current features
 
@@ -24,6 +24,20 @@ Lets developers define semantic models over Dataverse data and ask natural-langu
 - **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
 
 New Dataverse for Teams environments cannot be created from 15 November 2026. Environments not upgraded to Dataverse are suspended on 15 September 2027 and decommissioned on 30 October 2027. Admins upgrade needed environments to Dataverse, which needs enough capacity and Power Apps, Power Automate or Copilot Studio licenses for users.
+
+### Dataverse governance policies
+- **Status:** GA
+- **Last change:** 2026-11-16, announced in the October/November 2026 Power Platform feature update
+- **More info:** [Manage data with governance policies in Dataverse](https://learn.microsoft.com/en-us/power-platform/admin/dataverse-governance-policies)
+
+Admins review Dataverse storage in the Power Platform admin center under Manage, Dataverse, and then choose bulk deletion for data with no remaining value or long-term retention for inactive data that must be kept read-only. Cleanup recommendations come from the storage advisor (preview). Long-term retention policies need a Managed Environment.
+
+### Filter-based security
+- **Status:** Preview
+- **Last change:** 2026-11-16, public preview announced in the October/November 2026 Power Platform feature update
+- **More info:** [Filter-based security in Microsoft Dataverse (preview)](https://learn.microsoft.com/en-us/power-platform/admin/filter-based-security)
+
+Admins grant row-level access based on record data, such as a territory or city, instead of ownership. FetchXML record filters linked to a table create filter privileges that are assigned through security roles. A new Filtered ownership type uses only these filters, and on user, team or organization owned tables they add access on top of the existing model.
 
 ### Power Platform dataflows in Dataverse for Teams
 - **Status:** Retiring

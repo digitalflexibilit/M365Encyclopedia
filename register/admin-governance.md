@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-15
+Last updated: 2026-11-16
 
 ## Current features
 
@@ -67,6 +67,13 @@ Admins create a connector to their own Model Context Protocol (MCP) server in th
 
 The Purview DLP policy location for Microsoft Copilot and Copilot Chat now also covers Copilot Cowork, so one policy applies to all three. Admins can stop Cowork from processing labeled files and emails, block prompts that contain sensitive information types and stop such prompts from going to web search. Blocking external email and custom policy tip links are not yet supported for Cowork.
 
+### Environment routing for Copilot Managed Runtime
+- **Status:** GA
+- **Last change:** 2026-11-16, listed in the October/November 2026 Power Platform feature update; documentation updated 2026-11-13
+- **More info:** [Environment routing for Microsoft Copilot Managed Runtime](https://learn.microsoft.com/en-us/power-platform/admin/default-environment-routing-copilot-managed-runtime)
+
+Environment routing for Copilot Managed Runtime is on in every tenant and admins cannot turn it off. If a tenant has no routing rules, an Everyone rule and a default environment group are created, and makers get personal managed environments without Dataverse. If routing rules already exist, only makers in the rule security groups can build apps on Copilot Managed Runtime until admins add an Everyone rule. Admins can limit app creation in the Microsoft 365 admin center under Set up app creation spaces.
+
 ### Expanded DLP enforcement in Edge for Business
 - **Status:** Roadmap
 - **Last change:** 2026-11-11, added to roadmap, planned for December 2026
@@ -80,6 +87,13 @@ Microsoft Edge for Business extends its Data Loss Prevention enterprise connecto
 - **More info:** [Alerts in Monitor](https://learn.microsoft.com/en-us/power-platform/admin/monitoring/alerts#monitor-critical-resources-with-low-latency-alerts-preview)
 
 Admins set an alert rule's data review period to 1 hour, so Monitor evaluates the metric every hour instead of once a day. It covers metrics for canvas, code, model-driven and Copilot Managed Runtime apps, cloud flows and agents, with a 24-hour hourly chart. Up to 10 hourly rules per admin center, and Managed Environments requirements apply.
+
+### Maker guidelines for Copilot Studio
+- **Status:** Preview
+- **Last change:** 2026-11-16, public preview announced in the October/November 2026 Power Platform feature update
+- **More info:** [Configure maker guidelines for Copilot Studio (preview)](https://learn.microsoft.com/en-us/power-platform/admin/maker-guidelines)
+
+Power Platform admins can write a short message (up to 400 characters), with an optional link button and contact email, that Copilot Studio makers see in the Review pane of an agent. It points makers to internal guidance, request processes or support while they build. Admins set it per environment or environment group in the Power Platform admin center under Copilot, Settings. Available only in Managed Environments.
 
 ### Managed developer environment requirement
 - **Status:** Retiring
@@ -129,6 +143,13 @@ Office, Project and Visio LTSC 2021 no longer receive updates or security fixes.
 - **More info:** [Power Platform Admin in Cowork (preview)](https://learn.microsoft.com/en-us/power-platform/admin/power-platform-admin-cowork)
 
 A plugin for Copilot Cowork that lets Power Platform, Dynamics 365 and Global admins ask plain-language questions about environments, inventory, usage, ownership, capacity and licensing. Cowork can turn answers into reports, draft emails to owners or repeat a question on a schedule. The plugin is read-only, and questions consume Copilot Credits.
+
+### Skills in Copilot Studio setting
+- **Status:** GA
+- **Last change:** 2026-11-16, announced in the October/November 2026 Power Platform feature update
+- **More info:** [Configure skills in the Power Platform admin center](https://learn.microsoft.com/en-us/power-platform/admin/skills-copilot-studio-rule)
+
+Admins choose which types of skills Copilot Studio agents can reference, per environment (Security, Data and privacy) or per environment group (Rules tab) in the Power Platform admin center. It gives environment-level governance and observability for skills. Advanced connector policies do not support this rule. Replaces Copilot Studio virtual connectors in classic data policies.
 
 ## Retired / replaced
 
