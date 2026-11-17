@@ -8,14 +8,14 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 
 | App | Features | Last updated |
 |---|---|---|
-| [Microsoft 365 Copilot](register/copilot.md) | 25 | 2026-11-14 |
+| [Microsoft 365 Copilot](register/copilot.md) | 25 | 2026-11-17 |
 | [Copilot Studio](register/copilot-studio.md) | 21 | 2026-11-15 |
-| [Teams](register/teams.md) | 27 | 2026-11-15 |
+| [Teams](register/teams.md) | 28 | 2026-11-17 |
 | [Outlook](register/outlook.md) | 9 | 2026-11-15 |
 | [Word](register/word.md) | 2 | 2026-11-16 |
 | [Excel](register/excel.md) | 2 | 2026-11-05 |
 | [PowerPoint](register/powerpoint.md) | 4 | 2026-10-28 |
-| [OneNote](register/onenote.md) | 2 | 2026-11-07 |
+| [OneNote](register/onenote.md) | 2 | 2026-11-17 |
 | [SharePoint](register/sharepoint.md) | 6 | 2026-11-12 |
 | [OneDrive](register/onedrive.md) | 2 | 2026-10-25 |
 | [Loop](register/loop.md) | 1 | 2026-11-11 |

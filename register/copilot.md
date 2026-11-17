@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-14
+Last updated: 2026-11-17
 
 ## Current features
 
@@ -81,6 +81,13 @@ Microsoft 365 Chat is built into Copilot Search results. End users can ask follo
 
 The Copilot Dashboard and Viva Insights Advanced Analysis show new usage metrics for Copilot in the Copilot app, Edge, OneNote, Outlook, Word, Excel and PowerPoint. Admins and analysts use them to track adoption.
 
+### Copilot Workspaces
+- **Status:** Rolling out
+- **Last change:** 2026-11-17, Copilot Notebooks renamed to Copilot Workspaces, with team collaboration added; phased rollout started late October 2026
+- **More info:** [Copilot Notebooks is now Copilot Workspaces](https://support.microsoft.com/en-us/microsoft-365-copilot/copilot-notebooks-to-copilot-workspaces)
+
+Workspaces are a shared place where a team collects files, pages and Copilot chats and works on them together with Copilot. Members can see who else is in the workspace, work across several documents at once and invite people from the Invite button. Personal work stays in Projects on the Home tab, and items can be moved from a project into a workspace to share them. Existing notebooks convert automatically with their content and sharing, and no features are removed. Replaces Notebooks in Microsoft 365 Copilot.
+
 ### Cowork and Chat in Home
 - **Status:** Rolling out
 - **Last change:** 2026-09-25, Home combines Chat and Cowork in the Copilot app
@@ -130,13 +137,6 @@ Researcher can add HubSpot data to its responses through the HubSpot connector. 
 
 An agent in Microsoft Copilot that gives employees personalized microlearning and structured learning paths, including Copilot upskilling tips, plans and assessments. End users add it from the agent store, and admins deploy it in the Microsoft 365 admin center. A Microsoft Copilot license is needed, and Viva Learning Premium unlocks advanced features.
 
-### Notebooks in Microsoft 365 Copilot
-- **Status:** Rolling out
-- **Last change:** 2026-10-27, web links as sources and new Notebooks design in the Copilot app on iOS; 2026-10-12, Frontier features added (Office editing on the canvas, interactive reports, PDF creation, delegating simple work, model choice); scheduled automations and new audio overviews announced for the next few weeks
-- **More info:** [What’s New in Notebooks: October 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-notebooks--october-2026/4559105)
-
-Notebooks let end users collect sources and chat over them in one place. Markdown, TXT and RTF files can now be added next to the existing source types, and the navigation pane was refreshed. Web links can also be added as reference sources, and the Copilot app on iOS has a new Notebooks design. Suggested artifacts are GA. In the Frontier program, users can edit Word, Excel and PowerPoint files on the Notebooks canvas, create interactive reports and PDFs, delegate simple work to Copilot and choose a model.
-
 ### Office in Copilot
 - **Status:** Rolling out
 - **Last change:** 2026-10-09, rolling out to Frontier customers in Chat and Cowork
@@ -183,3 +183,4 @@ Developers can call Work IQ endpoints (A2A, MCP and REST) from their own agents 
 
 | Feature | Date | Successor | More info |
 |---|---|---|---|
+| Notebooks in Microsoft 365 Copilot | 2026-11-17 | Copilot Workspaces | [Copilot Notebooks is now Copilot Workspaces](https://support.microsoft.com/en-us/microsoft-365-copilot/copilot-notebooks-to-copilot-workspaces) |

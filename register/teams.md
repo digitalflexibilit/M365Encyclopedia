@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-15
+Last updated: 2026-11-17
 
 ## Current features
 
@@ -115,6 +115,13 @@ Organizers can choose in meeting options, before or during the meeting, to gener
 - **More info:** [Release notes for Microsoft Teams](https://learn.microsoft.com/en-us/officeupdates/teams-admin)
 
 In Teams for the web and the Teams PWA, a call can open in a simplified window that stays on top of other content when the user leaves or hides the browser tab. End users can keep an eye on the call while they work in other tabs.
+
+### Malicious URL protection
+- **Status:** Rolling out
+- **Last change:** 2026-11-17, near-real-time detection of malicious QR codes in messages rolling out
+- **More info:** [Malicious URL protection in Microsoft Teams](https://learn.microsoft.com/microsoftteams/malicious-url-protection-teams)
+
+Teams checks URLs in chats, channels and meeting messages, including URLs embedded in QR codes, against threat intelligence and shows a warning to the sender and all recipients when a link looks malicious. It warns but does not block links on click. It is part of Teams baseline protection with no extra license, and admins of existing tenants can turn it off or on under Messaging settings in the Teams admin center.
 
 ### Pause all notifications
 - **Status:** Rolling out
