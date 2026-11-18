@@ -1,6 +1,6 @@
 # Other Microsoft 365 apps
 
-Last updated: 2026-10-25
+Last updated: 2026-11-18
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-10-25
 - **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 Adds expanded Cowork adoption and impact metrics to the Copilot and Consumption dashboards in Viva Insights, with export and advanced-insights queries. Admins and analysts use it to see how Cowork is used.
+
+### Viva Engage plugin for Cowork
+- **Status:** GA
+- **Last change:** 2026-11-17, generally available
+- **More info:** [What's new in Copilot Cowork at Ignite 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-copilot-cowork-at-ignite-2026/4572242)
+
+A plugin that lets Copilot Cowork summarize Viva Engage community conversations and draft community announcements. Used by community managers and communicators with a Copilot license.
 
 ## Retired / replaced
 

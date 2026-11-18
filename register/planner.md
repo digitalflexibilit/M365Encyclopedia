@@ -1,6 +1,6 @@
 # Planner
 
-Last updated: 2026-11-12
+Last updated: 2026-11-18
 
 ## Current features
 
@@ -12,8 +12,8 @@ Last updated: 2026-11-12
 Planner Agent automates plan creation, task execution and status reporting for teams, and is available in basic and premium group-based plans. Planner Agent chat in premium plans lets users ask questions and update tasks in natural language. Users can ask Planner Agent for a status report on overall status, progress, risks and next steps, and set the audience, tone, length and sections. Users need a Microsoft Copilot license, and admins control access with Set-PlannerConfiguration -AllowPlannerCopilot. Replaces Copilot in Planner.
 
 ### Planner Plugin for Copilot Cowork
-- **Status:** Rolling out
-- **Last change:** 2026-11, listed in What's new in Copilot Cowork
+- **Status:** GA
+- **Last change:** 2026-11-17, generally available
 - **More info:** [What is the Planner Plugin?](https://support.microsoft.com/planner/planner-plugin-overview)
 
 The Planner Plugin connects Planner to Copilot Cowork so users can manage plans and tasks in one conversation. Cowork can list assigned tasks, build plan reports, turn goals, Excel sheets, Word documents or meeting notes into plans, and update or complete tasks after the user approves. Users need a Microsoft 365 Copilot license and Cowork access, and an admin must make the plugin available.

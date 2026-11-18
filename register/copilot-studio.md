@@ -1,6 +1,6 @@
 # Copilot Studio
 
-Last updated: 2026-11-15
+Last updated: 2026-11-18
 
 ## Current features
 
@@ -87,6 +87,13 @@ A hook runs a workflow every time a lifecycle event fires, such as session start
 - **More info:** [Choose knowledge sources for agents built in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/choose-knowledge-sources)
 
 Admins use the Knowledge sources for agents setting in the Power Platform admin center to decide which knowledge sources makers can add: uploaded documents, SharePoint and OneDrive, and public websites, each on its own. Blocking document uploads does not block files from SharePoint or OneDrive. Endpoint filtering can allow or deny specific SharePoint sites or websites.
+
+### Local development and CLI publishing
+- **Status:** Preview
+- **Last change:** 2026-11-17, public preview
+- **More info:** [Copilot Managed Runtime is now generally available](https://techcommunity.microsoft.com/blog/copilot-managed-runtime-blog/copilot-managed-runtime-is-now-generally-available-with-additional-new-preview-f/4571846)
+
+Makers build Copilot Studio agents and workflows locally with their own development tools, keep them under version control in GitHub and publish them to Copilot Studio with the Copilot Studio CLI. It is the first iteration of pro-code authoring on Copilot Managed Runtime.
 
 ### MCP and A2A client channels
 - **Status:** Preview

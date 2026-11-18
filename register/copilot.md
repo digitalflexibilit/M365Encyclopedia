@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-17
+Last updated: 2026-11-18
 
 ## Current features
 
@@ -11,12 +11,26 @@ Last updated: 2026-11-17
 
 App Blocks turns a Copilot Chat request and its data into an interactive element inside the conversation, such as a calculator, dashboard, form, planner, comparison tool or simulation. Users can change inputs and see the result in place instead of reading a static answer. It can also retrieve current information first and then show it in the interactive element.
 
+### Auto model routing
+- **Status:** Preview
+- **Last change:** 2026-11-17, Auto in Cowork rolling out to Frontier, chat-to-Cowork recommendations GA
+- **More info:** [Home: your starting place for work in the Microsoft Copilot app](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/4573945)
+
+Auto chooses the model and reasoning effort for each task or step, balancing quality, speed and cost. In Cowork it uses Microsoft-Decision-1.1 and splits large tasks across subagents that run side by side, which can use models from different providers. End users no longer need to pick a model by hand.
+
 ### Autopilot
 - **Status:** Preview
-- **Last change:** 2026-09-25, expanding to private preview at the end of September 2026
-- **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
+- **Last change:** 2026-11-17, rolling out to Frontier program customers
+- **More info:** [Autopilot (Frontier) overview](https://learn.microsoft.com/en-us/copilot/autopilot/overview)
 
-Autopilot (previously called Scout) is a persistent, cloud-hosted agent that an end user configures with a name, a role and a goal. It watches channels, follows up on threads and runs recurring work without waiting for a prompt, and can be @mentioned in Teams, Outlook, chats and documents. Runs on usage-based billing.
+Autopilot is a persistent, cloud-based agent in the Copilot app with its own Entra identity, mailbox, calendar, memory and workspace. An end user describes an outcome, sources and boundaries, and Autopilot prepares documents, follows up on work and runs routines on a schedule or on events, asking for approval before actions that don't match the request. Colleagues can @mention it in Teams channels and group chats. Needs Frontier enrollment and runs on usage-based billing. Replaces Scout.
+
+### Brand Kit in Cowork
+- **Status:** Rolling out
+- **Last change:** 2026-11-17, rolling out
+- **More info:** [What's new in Copilot Cowork at Ignite 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-copilot-cowork-at-ignite-2026/4572242)
+
+Cowork applies an organization's named brand kit, with colors, fonts and brand voice, when it builds content. It helps end users produce on-brand documents and decks without manual formatting.
 
 ### Business Apps in Work IQ
 - **Status:** Preview
@@ -32,10 +46,17 @@ Brings business context from Dynamics 365 and Power Apps into Copilot and agents
 
 Business skills are plain-language instructions that describe how an organization does a type of work: the steps, the information needed and the business rules. Agents find the skills they have access to through the Work IQ MCP server and follow them at runtime, so several agents handle the same process in the same way. Used by makers and admins who want agents to follow company processes.
 
+### Claude Fable 5.2 model in Cowork
+- **Status:** GA
+- **Last change:** 2026-11, available in the Cowork model selector for select customers, replacing Fable 5.1
+- **More info:** [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new)
+
+End users can select Anthropic Claude Fable 5.2 in the Cowork model selector. It replaces Fable 5.1 in Cowork and requires data retention by the model provider.
+
 ### Code in Copilot
 - **Status:** Preview
-- **Last change:** 2026-09-25, rolling out in the Frontier program
-- **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
+- **Last change:** 2026-11-17, general availability planned for December 2026, local sandbox on Windows
+- **More info:** [Use Copilot Code (Frontier)](https://learn.microsoft.com/en-us/copilot/code/use-code)
 
 Code lets users describe an app, tracker, dashboard or automation in natural language and have Copilot build it in a sandbox, using the same technology as GitHub Copilot. Results can be hosted inside the tenant. Needs a Copilot license and runs on usage-based billing.
 
@@ -54,11 +75,11 @@ The Regenerate action gives an alternative answer to the latest prompt, with Try
 A Microsoft Graph API that lets admins manage spending policies, configure service access and notifications, and read tenant and user level Copilot Credit consumption. It reports credits only, not prices or invoices.
 
 ### Copilot Managed Runtime
-- **Status:** Preview
-- **Last change:** 2026-09-25, now in preview
-- **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
+- **Status:** GA
+- **Last change:** 2026-11-17, generally available, Fabric storage option in Frontier preview
+- **More info:** [Copilot Managed Runtime is now generally available](https://techcommunity.microsoft.com/blog/copilot-managed-runtime-blog/copilot-managed-runtime-is-now-generally-available-with-additional-new-preview-f/4571846)
 
-Hosting infrastructure that runs apps built in Cowork, Code and Copilot Studio inside the organization's Microsoft 365 environment. IT governs it, and makers share apps with teammates and connect them to live data. Consumes Copilot Credits.
+Microsoft-operated hosting for apps built in Copilot Code, Cowork, Copilot Studio, GitHub Copilot, VS Code or third-party tools. Apps run inside the tenant with Entra identity, governed data and connector access, policy enforcement and audit logging, and stay editable and Git-backed. Admins see an app inventory and monitoring in the Microsoft 365 admin center. Consumes Copilot Credits.
 
 ### Copilot New Tab Page in Microsoft Edge
 - **Status:** Rolling out
@@ -89,11 +110,11 @@ The Copilot Dashboard and Viva Insights Advanced Analysis show new usage metrics
 Workspaces are a shared place where a team collects files, pages and Copilot chats and works on them together with Copilot. Members can see who else is in the workspace, work across several documents at once and invite people from the Invite button. Personal work stays in Projects on the Home tab, and items can be moved from a project into a workspace to share them. Existing notebooks convert automatically with their content and sharing, and no features are removed. Replaces Notebooks in Microsoft 365 Copilot.
 
 ### Cowork and Chat in Home
-- **Status:** Rolling out
-- **Last change:** 2026-09-25, Home combines Chat and Cowork in the Copilot app
-- **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
+- **Status:** GA
+- **Last change:** 2026-11-17, Chat and Cowork in Home generally available, Home rolling out worldwide
+- **More info:** [Home: your starting place for work in the Microsoft Copilot app](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/4573945)
 
-Home is the new starting point in the Copilot app. Chat handles quick questions and drafts, and Cowork runs delegated tasks end to end and returns a finished result. Rolling out through the Frontier program.
+Home is the starting point in the Copilot app, with one prompt box and a shared conversation history. Chat handles quick questions and drafts, and Cowork runs delegated, multistep tasks end to end. When a request is complex, Copilot can recommend switching from Chat to Cowork and carries the prompt and context over.
 
 ### Cowork event-driven triggers for non-Microsoft connectors
 - **Status:** Rolling out
@@ -110,11 +131,18 @@ Besides scheduled prompts and Microsoft 365 events such as a matching email, Cow
 Lets Cowork use the end user's local Microsoft Edge browser to complete web steps, including on sites the user is already signed in to. Cowork works in a separate Edge tab, and credentials, cookies and session tokens stay on the device.
 
 ### Cowork projects
-- **Status:** Rolling out
-- **Last change:** 2026-10, projects added to Copilot Cowork
-- **More info:** [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new)
+- **Status:** GA
+- **Last change:** 2026-11-17, Projects generally available across Chat and Cowork
+- **More info:** [Home: your starting place for work in the Microsoft Copilot app](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/4573945)
 
-Projects keep related Cowork tasks, instructions and context together. Users start tasks from a project, return to related chats and review the files those tasks produced. Cowork also lets users reference a past chat or task from the context picker.
+Projects keep related Chat conversations, Cowork tasks, saved instructions, sources and outputs together. Users start tasks from a project, return to related chats and review the files the tasks produced, which are stored in OneDrive.
+
+### Dynamics 365 plugins in Copilot
+- **Status:** GA
+- **Last change:** 2026-11-17, Sales and ERP plugins generally available
+- **More info:** [What's new in Copilot Cowork at Ignite 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-copilot-cowork-at-ignite-2026/4572242)
+
+Plugins that bring Dynamics 365 Sales, Customer Service and finance and operations skills into Copilot Cowork, PowerPoint and Excel. The Sales plugin covers account briefs, pitch decks, business reviews, proposals and pipeline insights, and the ERP plugin adds finance skills such as month-end close support. Users need a Copilot license and access to the Dynamics 365 data.
 
 ### Fabric IQ grounding for Copilot
 - **Status:** GA
@@ -138,11 +166,11 @@ Researcher can add HubSpot data to its responses through the HubSpot connector. 
 An agent in Microsoft Copilot that gives employees personalized microlearning and structured learning paths, including Copilot upskilling tips, plans and assessments. End users add it from the agent store, and admins deploy it in the Microsoft 365 admin center. A Microsoft Copilot license is needed, and Viva Learning Premium unlocks advanced features.
 
 ### Office in Copilot
-- **Status:** Rolling out
-- **Last change:** 2026-10-09, rolling out to Frontier customers in Chat and Cowork
-- **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
+- **Status:** GA
+- **Last change:** 2026-11-17, generally available in Chat and Cowork in the Copilot app
+- **More info:** [Home: your starting place for work in the Microsoft Copilot app](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/4573945)
 
-Word, Excel and PowerPoint are built into the Copilot app, so Copilot creates or updates real, editable documents, workbooks and presentations that stay in sync with the Office apps. Used by end users with a Copilot license.
+Word, Excel and PowerPoint are built into the Copilot app, so Copilot creates or updates real, editable documents, workbooks and presentations that people can coauthor and share. Files save to OneDrive and keep Microsoft 365 permissions, sensitivity labels and compliance controls. Used by end users with a Copilot license, with no metered usage for creating decks or spreadsheets.
 
 ### Plugin registry
 - **Status:** Rolling out
@@ -157,6 +185,20 @@ A unified catalog of Microsoft, partner and custom plugins for Copilot. IT appro
 - **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 Results from Copilot connectors in Search appear as entity cards with metadata instead of plain text links. End users can see more about an item before opening it.
+
+### Salesforce in Copilot
+- **Status:** Preview
+- **Last change:** 2026-11-17, public preview announced
+- **More info:** [What's new in Copilot Cowork at Ignite 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-copilot-cowork-at-ignite-2026/4572242)
+
+A plugin that brings Salesforce account, opportunity and pipeline context into Copilot Cowork, with more than 38 prebuilt sales skills. Sales users work with Salesforce data without leaving Copilot. Admins control which plugins are available.
+
+### Today
+- **Status:** Preview
+- **Last change:** 2026-11-17, private preview through the Frontier program
+- **More info:** [Home: your starting place for work in the Microsoft Copilot app](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/4573945)
+
+Today surfaces an end user's priorities across mail, calendar, Teams chats, meetings and Cowork tasks, in the Copilot app and in Outlook. It prepares drafts and scheduling changes for the user to review and approve. Today Brief is included with a Microsoft 365 Copilot license, and Today Feed uses Copilot Credits.
 
 ### Usage-based billing default for Copilot Business
 - **Status:** Roadmap

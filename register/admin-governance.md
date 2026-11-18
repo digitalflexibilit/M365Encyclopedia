@@ -1,8 +1,22 @@
 # Admin and governance
 
-Last updated: 2026-11-16
+Last updated: 2026-11-18
 
 ## Current features
+
+### Agent 365 Business Analytics
+- **Status:** Preview
+- **Last change:** 2026-11-17, rolling out in the Frontier program
+- **More info:** [How to use the Agent 365 Business Analytics Overview page (Frontier)](https://learn.microsoft.com/en-us/a365-business-analytics/overview)
+
+An app that connects AI spend, usage and value across Microsoft and non-Microsoft AI services, with cost forecasts, budget tracking and top cost drivers. Business leaders and IT see metrics such as success rate, satisfaction and estimated assisted hours. Insights for Microsoft services need at least one Microsoft 365 Copilot license in the tenant, and insights for non-Microsoft services need Agent 365 or Microsoft 365 E7.
+
+### Agent 365 usage insights for Microsoft agents
+- **Status:** GA
+- **Last change:** 2026-11-17, generally available without an Agent 365 license
+- **More info:** [What's new in Microsoft Agent 365: Ignite 2026](https://techcommunity.microsoft.com/blog/agent-365-blog/whats-new-in-microsoft-agent-365-ignite-2026/4571753)
+
+Admins see agent overview, active users and usage metrics for Microsoft-built and Microsoft-platform agents in the Microsoft 365 admin center with a qualifying Microsoft 365 subscription. Insights for non-Microsoft agents and advanced governance and security still need Agent 365 or Microsoft 365 E7.
 
 ### Agents usage report
 - **Status:** Rolling out
@@ -17,6 +31,13 @@ Shows active agent users and agents for Microsoft 365 Copilot and Copilot Chat, 
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 Admins designate up to 100 SharePoint sites as authoritative under Copilot, Search, Authoritative content, with bulk import and export. Before this there was no central management for these sources.
+
+### Baseline Security Mode 2026
+- **Status:** GA
+- **Last change:** 2026-11-17, generally available with phased rollout, adds Intune, Purview and Dynamics 365
+- **More info:** [Announcing Microsoft Baseline security mode 2026 general availability](https://techcommunity.microsoft.com/blog/microsoft_365blog/ignite%E2%80%9926-spotlight-announcing-microsoft-baseline-security-mode-2026-general-ava/4572694)
+
+A set of Microsoft-recommended security settings that a Global Administrator applies or simulates from Microsoft 365 admin center > Org settings > Security & privacy > Baseline security mode. The 2026 version adds controls such as making external users wait in the Teams lobby, blocking guests from eDiscovery roles and requiring MFA for guests. Azure and Windows settings are in private preview.
 
 ### Claude models in the EU Data Boundary
 - **Status:** Roadmap
@@ -66,6 +87,13 @@ Admins create a connector to their own Model Context Protocol (MCP) server in th
 - **More info:** [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot, Copilot Chat, and Cowork](https://learn.microsoft.com/purview/dlp-microsoft365-copilot-location-learn-about)
 
 The Purview DLP policy location for Microsoft Copilot and Copilot Chat now also covers Copilot Cowork, so one policy applies to all three. Admins can stop Cowork from processing labeled files and emails, block prompts that contain sensitive information types and stop such prompts from going to web search. Blocking external email and custom policy tip links are not yet supported for Cowork.
+
+### DLP for sensitive files in Copilot grounding
+- **Status:** Preview
+- **Last change:** 2026-11-17, public preview planned for January 2027
+- **More info:** [Secure the data that fuels AI with Microsoft Purview](https://techcommunity.microsoft.com/blog/microsoft-security-blog/secure-the-data-that-fuels-ai-with-microsoft-purview/4573266)
+
+Purview DLP policies can stop Copilot from grounding responses on files that contain sensitive information, even when the files have no sensitivity label. Prompt protection also covers sensitive data in attachments and linked files. Used by compliance admins.
 
 ### Environment routing for Copilot Managed Runtime
 - **Status:** GA
@@ -136,6 +164,13 @@ A REST API returns Monitor's daily metric aggregates for Power Platform resource
 - **More info:** [October 2026 announcements - Partner Center](https://learn.microsoft.com/en-us/partner-center/announcements/2026-october)
 
 Office, Project and Visio LTSC 2021 no longer receive updates or security fixes. Copilot works only on cloud-backed Microsoft 365 apps.
+
+### Plugin and skill governance
+- **Status:** GA
+- **Last change:** 2026-11-17, plugins and skills governance generally available, gateway support in preview
+- **More info:** [Overview of the Tools page in Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-tools-overview)
+
+Admins use the Tools page in the Microsoft 365 admin center to see and block plugins, skills, MCP servers and connectors, and to assign plugins and skills to users and groups for Copilot and Cowork. Before blocking an MCP server, admins can see which agents and plugins depend on it. Azure AI Gateway and LiteLLM support is in preview.
 
 ### Power Platform Admin in Cowork
 - **Status:** Preview
