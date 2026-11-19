@@ -1,6 +1,6 @@
 # Copilot Studio
 
-Last updated: 2026-11-18
+Last updated: 2026-11-19
 
 ## Current features
 
@@ -18,10 +18,17 @@ A maker gives an agent its own Microsoft Entra account, mailbox and presence in 
 
 New Power Platform API endpoints let admins and developers create, update, list, get and delete agents and read agent components. Authorization failures now return HTTP 403.
 
+### Agent node in workflows
+- **Status:** Rolling out
+- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes (roadmap items 562222 and 566998)
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Makers add an agent node to a workflow so one step can reason over data, call tools and return a response. It is useful when a workflow needs judgment, for example classifying or summarizing input before the next action.
+
 ### Apps in Copilot Studio
-- **Status:** Preview
-- **Last change:** 2026-10-07, public preview
-- **More info:** [New and improved: Build apps, extend agents, and transform business processes in Microsoft Copilot Studio](https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio/)
+- **Status:** GA
+- **Last change:** 2026-11-19, app creation generally available, announced at Ignite 2026; 2026-10-07, public preview
+- **More info:** [Microsoft Ignite 2026: Introducing Dynamics 365 in Copilot](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/17/microsoft-ignite-2026-introducing-dynamics-365-in-copilot/)
 
 Makers describe an app in natural language and Copilot Studio generates a draft that they refine in conversation, with access to the underlying code. Apps sit next to workflows and agents so one solution can combine an interface, repeatable steps and an agent. Apps run on Copilot Managed Runtime.
 

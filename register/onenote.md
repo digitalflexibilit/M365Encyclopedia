@@ -1,6 +1,6 @@
 # OneNote
 
-Last updated: 2026-11-17
+Last updated: 2026-11-19
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-11-17
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 Copilot Notebooks bring notes, Office files and Copilot chats into one workspace that Copilot uses as context. End users can create them in OneNote on Windows, the web, iPhone and iPad, and OneNote on iPhone, iPad and Android can capture audio, images and typed notes in one session. A Microsoft 365 Copilot license is needed. The lighter Notebooks design in the Microsoft 365 Copilot app (September 2026) sits next to the fuller OneNote experience. In the Copilot app, Notebooks are now Copilot Workspaces, and Microsoft says Workspaces will come to OneNote over time.
+
+### Copilot turns notes into Office drafts
+- **Status:** Preview
+- **Last change:** 2026-11-19, announced at Ignite 2026 in Frontier public preview
+- **More info:** [Office at Ignite 2026: From apps to agentic system of work](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/4572226)
+
+Copilot in OneNote can turn a set of notes into a first-draft Word document, an Excel timeline or a PowerPoint proposal. End users in the Frontier program use it to move from meeting or project notes to a shareable file. A Microsoft 365 Copilot license is needed.
 
 ### OneNote support in Copilot Cowork
 - **Status:** Rolling out

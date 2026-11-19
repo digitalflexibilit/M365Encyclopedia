@@ -1,6 +1,6 @@
 # Outlook
 
-Last updated: 2026-11-15
+Last updated: 2026-11-19
 
 ## Current features
 
@@ -25,6 +25,13 @@ Users ask Copilot in plain language to archive, delete, move, copy, flag or cate
 
 Copilot settings are available directly in classic Outlook for Windows under File, Copilot settings. The settings respect existing Outlook client security policies. Used by end users with Copilot.
 
+### Custom engine agents in Outlook
+- **Status:** Rolling out
+- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Users can run custom engine agents from the agent pane in Outlook on the web to automate email tasks such as sorting or summarizing messages. Developers build the agents and admins make them available.
+
 ### Folder pane remembers expanded folders
 - **Status:** Roadmap
 - **Last change:** 2026-11-11, added to roadmap, planned for February 2027
@@ -38,6 +45,13 @@ New Outlook for Windows and Outlook on the web remember which folders, shared ma
 - **More info:** [Microsoft 365 Roadmap item 579185](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579185)
 
 In new Outlook for Windows, folder sharing will respect the organization's restrictions on Default and Anonymous permissions. When the restrictions are on, users cannot change those two settings. Permissions given directly to individual users are not affected.
+
+### Message list sort improvements
+- **Status:** Rolling out
+- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes (roadmap item 564803)
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+When users sort the message list by a field other than From, Subject or Date Received, Outlook on Windows shows a column with the sort value. Sorting by Flag Due Date is also supported.
 
 ### Recoverable items storage usage
 - **Status:** Roadmap

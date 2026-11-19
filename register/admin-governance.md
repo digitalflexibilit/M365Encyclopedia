@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-18
+Last updated: 2026-11-19
 
 ## Current features
 
@@ -31,6 +31,13 @@ Shows active agent users and agents for Microsoft 365 Copilot and Copilot Chat, 
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 Admins designate up to 100 SharePoint sites as authoritative under Copilot, Search, Authoritative content, with bulk import and export. Before this there was no central management for these sources.
+
+### Auto-labeling scalability improvements
+- **Status:** GA
+- **Last change:** 2026-11-19, announced as generally available at Ignite 2026
+- **More info:** [Secure the data that fuels AI with Microsoft Purview](https://techcommunity.microsoft.com/blog/microsoft-security-blog/secure-the-data-that-fuels-ai-with-microsoft-purview/4573266)
+
+Microsoft Purview auto-labeling can now label up to 500,000 SharePoint and OneDrive files per tenant per day, up from 100,000, and simulation preview covers up to 20 million items. Admins can target sites by attribute with no cap on matching sites.
 
 ### Baseline Security Mode 2026
 - **Status:** GA
@@ -81,12 +88,26 @@ From the Microsoft 365 admin center, admins can move data from one Microsoft 365
 
 Admins create a connector to their own Model Context Protocol (MCP) server in the Microsoft 365 admin center (Copilot, Connectors) and deploy it across the organization. Microsoft 365 Copilot can then read and act on internal data with user-scoped sign-in. Needs the Global Administrator or AI Administrator role.
 
+### Default library labels for existing files
+- **Status:** Preview
+- **Last change:** 2026-11-19, public preview announced at Ignite 2026
+- **More info:** [Secure the data that fuels AI with Microsoft Purview](https://techcommunity.microsoft.com/blog/microsoft-security-blog/secure-the-data-that-fuels-ai-with-microsoft-purview/4573266)
+
+Extends a SharePoint document library's default sensitivity label to files already in the library, without anyone opening or editing them. Compliance admins use it to protect data at rest.
+
 ### DLP for Copilot Cowork
 - **Status:** GA
 - **Last change:** 2026-11-12, roadmap status Launched, general availability October 2026
 - **More info:** [Learn about using Microsoft Purview Data Loss Prevention to protect interactions with Microsoft 365 Copilot, Copilot Chat, and Cowork](https://learn.microsoft.com/purview/dlp-microsoft365-copilot-location-learn-about)
 
 The Purview DLP policy location for Microsoft Copilot and Copilot Chat now also covers Copilot Cowork, so one policy applies to all three. Admins can stop Cowork from processing labeled files and emails, block prompts that contain sensitive information types and stop such prompts from going to web search. Blocking external email and custom policy tip links are not yet supported for Cowork.
+
+### DLP for local AI agents on Windows
+- **Status:** Roadmap
+- **Last change:** 2026-11-19, public preview planned for January 2027
+- **More info:** [Secure the data that fuels AI with Microsoft Purview](https://techcommunity.microsoft.com/blog/microsoft-security-blog/secure-the-data-that-fuels-ai-with-microsoft-purview/4573266)
+
+Microsoft Purview will show the activity of local agents on Windows, such as Claude Code, GitHub CLI, the GitHub Copilot app and Claude Desktop, and DLP can block prompts and tool calls that contain sensitive information. Policies can be scoped to specific agents.
 
 ### DLP for sensitive files in Copilot grounding
 - **Status:** Preview
@@ -178,6 +199,13 @@ Admins use the Tools page in the Microsoft 365 admin center to see and block plu
 - **More info:** [Power Platform Admin in Cowork (preview)](https://learn.microsoft.com/en-us/power-platform/admin/power-platform-admin-cowork)
 
 A plugin for Copilot Cowork that lets Power Platform, Dynamics 365 and Global admins ask plain-language questions about environments, inventory, usage, ownership, capacity and licensing. Cowork can turn answers into reports, draft emails to owners or repeat a question on a schedule. The plugin is read-only, and questions consume Copilot Credits.
+
+### Share custom organizational attributes with people experiences
+- **Status:** Rolling out
+- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Admins choose custom organizational attributes in the Microsoft 365 Organizational Data Service to share with the Microsoft 365 people store. Shared attributes are visible to all users and guests in the tenant. The setting is off by default.
 
 ### Skills in Copilot Studio setting
 - **Status:** GA

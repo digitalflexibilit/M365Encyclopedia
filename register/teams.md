@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-17
+Last updated: 2026-11-19
 
 ## Current features
 
@@ -46,6 +46,13 @@ In Meeting options, organizers only see the automatic recording and transcriptio
 
 In the Recap tab of a recorded call queue call in the Queues app, users can open Copilot Chat to summarize the call and ask questions about it. Available on Windows and Mac, and the user needs Copilot.
 
+### Custom recording and transcription notifications for calls
+- **Status:** Rolling out
+- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes (roadmap item 567302)
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Admins can customize part of the notification text that users see when a call is recorded or transcribed. Organizations use it to add their own privacy or compliance wording. Available on Windows and Mac.
+
 ### Default meeting templates
 - **Status:** Rolling out
 - **Last change:** 2026-11-12, roadmap status changed to rolling out, November 2026
@@ -59,6 +66,13 @@ Admins set meeting settings, including protection settings, that apply automatic
 - **More info:** [Microsoft 365 Roadmap item 570846](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=570846)
 
 Users who opt in can create a face profile with their camera during eligible Teams meetings. Teams Rooms can then recognize them in the room, which improves recaps and Copilot. Admins can turn the feature on or off for the organization.
+
+### Express voice enrollment
+- **Status:** Rolling out
+- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes (roadmap item 537269)
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Users can opt in to create a voice profile from audio captured in their Teams meetings, from the Recognition tab in Teams settings, instead of recording a separate enrollment. The voice profile helps Teams identify speakers in transcripts and recaps. Admins can turn the feature on or off. Available on Windows and Mac.
 
 ### Facilitator answers open questions
 - **Status:** Roadmap

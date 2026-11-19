@@ -1,6 +1,6 @@
 # SharePoint
 
-Last updated: 2026-11-12
+Last updated: 2026-11-19
 
 ## Current features
 
@@ -45,6 +45,13 @@ A new data access governance report in the SharePoint admin center shows every s
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 The list agent creates a Microsoft List from a natural-language prompt and generates the list schema and setup. End users use it on the web instead of building columns by hand.
+
+### SharePoint tools in Work IQ
+- **Status:** Preview
+- **Last change:** 2026-11-19, public preview, highlighted at Ignite 2026
+- **More info:** [SharePoint Tools for Work IQ](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/sharepoint-iq)
+
+Gives Copilot and agents more than 60 SharePoint operations, such as working with lists and libraries, organizing files, approvals, version history and knowledge bases. Developers and makers use them through the Work IQ MCP interface with the WorkIQ.Read or WorkIQ.Act permission, and admins must enable Work IQ. Users' own SharePoint permissions and tenant policies still apply. Usage is billed in Copilot Credits.
 
 ## Retired / replaced
 

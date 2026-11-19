@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-18
+Last updated: 2026-11-19
 
 ## Current features
 
@@ -59,6 +59,13 @@ End users can select Anthropic Claude Fable 5.2 in the Cowork model selector. It
 - **More info:** [Use Copilot Code (Frontier)](https://learn.microsoft.com/en-us/copilot/code/use-code)
 
 Code lets users describe an app, tracker, dashboard or automation in natural language and have Copilot build it in a sandbox, using the same technology as GitHub Copilot. Results can be hosted inside the tenant. Needs a Copilot license and runs on usage-based billing.
+
+### Confluence Cloud connector query filters
+- **Status:** Rolling out
+- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+Admins can include or exclude specific Confluence spaces and use CQL query strings to limit which Confluence Cloud pages the Copilot connector syncs. This keeps irrelevant or sensitive pages out of Copilot answers.
 
 ### Copilot Chat regenerate response
 - **Status:** Rolling out
@@ -193,6 +200,13 @@ Results from Copilot connectors in Search appear as entity cards with metadata i
 
 A plugin that brings Salesforce account, opportunity and pipeline context into Copilot Cowork, with more than 38 prebuilt sales skills. Sales users work with Salesforce data without leaving Copilot. Admins control which plugins are available.
 
+### Tableau Copilot connector
+- **Status:** Rolling out
+- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes
+- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+
+A Copilot connector for Tableau lets end users ask Copilot about Tableau dashboards and visualizations and get explanations of the data. Permissions from Tableau still apply, so users only see content they can already access. Admins set up the connector.
+
 ### Today
 - **Status:** Preview
 - **Last change:** 2026-11-17, private preview through the Frontier program
@@ -220,6 +234,13 @@ Developers get programmatic access to first-party and tenant-defined declarative
 - **More info:** [Work IQ overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/)
 
 Developers can call Work IQ endpoints (A2A, MCP and REST) from their own agents and apps without a pre-assigned Microsoft 365 Copilot license. Usage is billed in Copilot Credits per request, based on the agents and models invoked. Admins manage the cost in the Microsoft 365 admin center.
+
+### Work IQ plugin for ChatGPT
+- **Status:** GA
+- **Last change:** 2026-11-19, available in the ChatGPT plugin directory, announced at Ignite 2026
+- **More info:** [What's new in Work IQ at Ignite 2026: agents that get work done](https://techcommunity.microsoft.com/blog/microsoft_365blog/whats-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/4572219)
+
+A Work IQ plugin brings Microsoft 365 work context, such as mail, meetings and files, into ChatGPT for ChatGPT Business and Enterprise customers. Users install it from the ChatGPT plugin directory, and Work IQ permissions and tenant policies still apply. A similar plugin for Anthropic is announced as coming soon.
 
 ## Retired / replaced
 
