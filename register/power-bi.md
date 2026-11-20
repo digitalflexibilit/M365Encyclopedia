@@ -1,6 +1,6 @@
 # Power BI
 
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 ## Current features
 
@@ -52,6 +52,13 @@ Semantic models now report capacity unit usage continuously during long-running 
 - **More info:** [See What's New in the November 2026 Power BI Update](https://learn.microsoft.com/en-us/power-bi/fundamentals/whats-new)
 
 Report creators can embed a whole Power BI workspace app, including its navigation, sections and content, in a SharePoint page by using the app URL or a workspace picker. Existing Power BI permissions and audiences still apply.
+
+### Fabric IQ connectors for ChatGPT and Claude
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026, preview
+- **More info:** [Introducing the new Microsoft IQ: putting your organization's intelligence to work in every agent](https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent)
+
+Connectors let users query Power BI semantic models from ChatGPT and Claude through Fabric IQ. Answers are grounded in the organization's governed models instead of exported data.
 
 ### Gantt chart visual
 - **Status:** Preview

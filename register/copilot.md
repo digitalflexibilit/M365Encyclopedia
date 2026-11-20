@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 ## Current features
 
@@ -95,6 +95,13 @@ Microsoft-operated hosting for apps built in Copilot Code, Cowork, Copilot Studi
 
 The refreshed Edge new tab page combines search, chat, Copilot-suggested actions, curated work content, news and activities in one search box. End users use it on the web.
 
+### Copilot Pages
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026, Frontier public preview
+- **More info:** [Office at Ignite 2026: From apps to agentic system of work](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/4572226)
+
+Copilot turns a prompt and source material into an interactive report, brief, dashboard or animation. Agents can keep the data in the page up to date in the background. End users with Microsoft 365 Copilot get it through the Frontier program.
+
 ### Copilot Search with embedded chat
 - **Status:** Rolling out
 - **Last change:** 2026-10-06, chat embedded in Copilot Search results on Windows and web (Roadmap ID 512429)
@@ -143,6 +150,13 @@ Lets Cowork use the end user's local Microsoft Edge browser to complete web step
 - **More info:** [Home: your starting place for work in the Microsoft Copilot app](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/4573945)
 
 Projects keep related Chat conversations, Cowork tasks, saved instructions, sources and outputs together. Users start tasks from a project, return to related chats and review the files the tasks produced, which are stored in OneDrive.
+
+### Declarative agents in Copilot Cowork
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026, private preview through the Frontier program
+- **More info:** [Microsoft Ignite 2026 Book of News](https://news.microsoft.com/events/ignite/2026/book-of-news/)
+
+Cowork can suggest tasks for and call declarative agents that an organization has built, so company agents become part of Cowork tasks. End users with a Microsoft 365 Copilot license get it through the Frontier program while it is in private preview.
 
 ### Dynamics 365 plugins in Copilot
 - **Status:** GA
@@ -234,6 +248,13 @@ Developers get programmatic access to first-party and tenant-defined declarative
 - **More info:** [Work IQ overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/)
 
 Developers can call Work IQ endpoints (A2A, MCP and REST) from their own agents and apps without a pre-assigned Microsoft 365 Copilot license. Usage is billed in Copilot Credits per request, based on the agents and models invoked. Admins manage the cost in the Microsoft 365 admin center.
+
+### Work IQ listen capability
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026
+- **More info:** [What's new in Work IQ at Ignite 2026: agents that get work done](https://techcommunity.microsoft.com/blog/microsoft_365blog/whats-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/4572219)
+
+Agents that use Work IQ can react to events, such as a new message or a business event, without a person starting the conversation and without polling for updates. Makers and developers use it to build proactive agents.
 
 ### Work IQ plugin for ChatGPT
 - **Status:** GA

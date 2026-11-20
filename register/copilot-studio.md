@@ -1,6 +1,6 @@
 # Copilot Studio
 
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 ## Current features
 
@@ -109,6 +109,13 @@ Makers build Copilot Studio agents and workflows locally with their own developm
 
 A published agent can be exposed as a remote Model Context Protocol (MCP) server or as an Agent2Agent (A2A) agent, so IDEs, tools and other orchestrators can call it. Clients sign in with Microsoft Entra ID on behalf of the user, and Copilot Studio checks that the user has access to the agent. An admin or maker creates an app registration with the Copilot Studio delegated permissions first.
 
+### Microsoft Copilot harness
+- **Status:** GA
+- **Last change:** 2026-11-17, generally available, announced at Ignite 2026
+- **More info:** [Harnesses in Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/harnesses-overview)
+
+The Microsoft Copilot harness is the runtime for reasoning-heavy agents and workflows in Copilot Studio. It breaks a goal into steps, calls connectors, knowledge, MCP tools and connected agents, recovers when a step fails, and creates and edits Word, Excel, PowerPoint and PDF files in a sandbox. Makers choose it when they create an agent, and usage is billed in Copilot Credits.
+
 ### Per-agent operations analytics
 - **Status:** GA
 - **Last change:** 2026-06, build 2026.6.3
@@ -157,6 +164,13 @@ Makers can ask Copilot Studio to move an existing agent from the standard harnes
 - **More info:** [Publish an agent to WhatsApp](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-whatsapp)
 
 Publishes a Copilot Studio agent to WhatsApp through Azure Communication Services. Since 23 October 2026 no new WhatsApp connections can be made through this channel, whatever the agent's creation date. Agents connected before that date keep working.
+
+### Windows 365 for Agents in the Microsoft Copilot harness
+- **Status:** Roadmap
+- **Last change:** 2026-11-17, preview in the Microsoft Copilot harness planned for December 2026; Windows 365 for Agents becomes eligible for Copilot Credits
+- **More info:** [Windows 365 at Ignite 2026: Introducing new Cloud PC capabilities for people, agents and IT](https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-365-at-ignite-2026-introducing-new-cloud-pc-capabilities-for-people-agen/4570006)
+
+Makers can give an agent a Windows 365 Cloud PC as a computer-use tool, so it can work in apps and websites that have no API. It already works in the standard harness, and a preview for the Microsoft Copilot harness starts in December 2026. Usage can be billed through Copilot Credits.
 
 ### Work IQ in Copilot Studio
 - **Status:** GA

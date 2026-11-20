@@ -1,8 +1,15 @@
 # Admin and governance
 
-Last updated: 2026-11-19
+Last updated: 2026-11-20
 
 ## Current features
+
+### Action center for agents
+- **Status:** Roadmap
+- **Last change:** 2026-11-17, announced at Ignite 2026, preview planned for December 2026
+- **More info:** [What's new in Microsoft Agent 365: Ignite 2026](https://techcommunity.microsoft.com/blog/agent-365-blog/whats-new-in-microsoft-agent-365-ignite-2026/4571753)
+
+A place in the Microsoft 365 admin center that lists governance tasks, such as inactive or ownerless agents, so admins can review and clean them up.
 
 ### Agent 365 Business Analytics
 - **Status:** Preview
@@ -17,6 +24,13 @@ An app that connects AI spend, usage and value across Microsoft and non-Microsof
 - **More info:** [What's new in Microsoft Agent 365: Ignite 2026](https://techcommunity.microsoft.com/blog/agent-365-blog/whats-new-in-microsoft-agent-365-ignite-2026/4571753)
 
 Admins see agent overview, active users and usage metrics for Microsoft-built and Microsoft-platform agents in the Microsoft 365 admin center with a qualifying Microsoft 365 subscription. Insights for non-Microsoft agents and advanced governance and security still need Agent 365 or Microsoft 365 E7.
+
+### Agent use case classification
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026, Frontier preview
+- **More info:** [Understand use case classification in Microsoft Cowork and Agent 365 (Frontier)](https://learn.microsoft.com/microsoft-agent-365/admin/business-use-case-for-agents)
+
+Classifies agent sessions and Cowork activity against a built-in taxonomy of use cases and shows the result in Agent Map, the Registry and an agent's Activity tab. Admins use it to see what agents do, find agents doing similar work and link AI costs to use cases. It is on by default, can be turned off, and needs a Frontier tenant with at least 50 Copilot licenses.
 
 ### Agents usage report
 - **Status:** Rolling out
@@ -116,6 +130,13 @@ Microsoft Purview will show the activity of local agents on Windows, such as Cla
 
 Purview DLP policies can stop Copilot from grounding responses on files that contain sensitive information, even when the files have no sensitivity label. Prompt protection also covers sensitive data in attachments and linked files. Used by compliance admins.
 
+### Dynamic agent risk
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026, preview
+- **More info:** [What's new in Microsoft Agent 365: Ignite 2026](https://techcommunity.microsoft.com/blog/agent-365-blog/whats-new-in-microsoft-agent-365-ignite-2026/4571753)
+
+Gives each agent one continuously updated risk level based on identity, access, data and activity signals. The same risk level is shown in the Microsoft 365 admin center, Defender, Entra and Purview, so admins and security teams work from one assessment.
+
 ### Environment routing for Copilot Managed Runtime
 - **Status:** GA
 - **Last change:** 2026-11-16, listed in the October/November 2026 Power Platform feature update; documentation updated 2026-11-13
@@ -179,6 +200,13 @@ A "When an alert fires" trigger in the Power Platform for Admins V2 connector le
 
 A REST API returns Monitor's daily metric aggregates for Power Platform resources in OpenTelemetry (OTLP JSON) format. Admins store the data themselves to keep it beyond Monitor's 30-day window, share it with colleagues or combine it with other operational data in tools such as Datadog or Splunk.
 
+### Multi-tenant agent management
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026, public preview
+- **More info:** [What's new in Microsoft Agent 365: Ignite 2026](https://techcommunity.microsoft.com/blog/agent-365-blog/whats-new-in-microsoft-agent-365-ignite-2026/4571753)
+
+Partners and organizations with several tenants get one view to deploy, compare and approve or block agents across tenants, instead of managing each tenant separately.
+
 ### Office LTSC 2021 end of support
 - **Status:** Retiring
 - **Last change:** 2026-10-13, feature listed
@@ -200,6 +228,13 @@ Admins use the Tools page in the Microsoft 365 admin center to see and block plu
 
 A plugin for Copilot Cowork that lets Power Platform, Dynamics 365 and Global admins ask plain-language questions about environments, inventory, usage, ownership, capacity and licensing. Cowork can turn answers into reports, draft emails to owners or repeat a question on a schedule. The plugin is read-only, and questions consume Copilot Credits.
 
+### Shadow AI in the Microsoft 365 admin center
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026, Frontier public preview
+- **More info:** [Shadow AI in Microsoft 365 admin center (Preview)](https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-shadow-ai)
+
+A Shadow AI page lists unmanaged AI apps and agents found on devices, such as ChatGPT Desktop, Claude Desktop, Ollama and OpenClaw, with device, user and network details. Admins can block OpenClaw on Intune-managed Windows devices. It needs the Frontier program, Defender for Endpoint, Intune and a Microsoft 365 E5 license.
+
 ### Share custom organizational attributes with people experiences
 - **Status:** Rolling out
 - **Last change:** 2026-11-19, listed in the November 17, 2026 release notes
@@ -213,6 +248,13 @@ Admins choose custom organizational attributes in the Microsoft 365 Organization
 - **More info:** [Configure skills in the Power Platform admin center](https://learn.microsoft.com/en-us/power-platform/admin/skills-copilot-studio-rule)
 
 Admins choose which types of skills Copilot Studio agents can reference, per environment (Security, Data and privacy) or per environment group (Rules tab) in the Power Platform admin center. It gives environment-level governance and observability for skills. Advanced connector policies do not support this rule. Replaces Copilot Studio virtual connectors in classic data policies.
+
+### Work IQ enterprise controls
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026, preview
+- **More info:** [What's new in Work IQ at Ignite 2026: agents that get work done](https://techcommunity.microsoft.com/blog/microsoft_365blog/whats-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/4572219)
+
+Admins can set a tenant-wide ceiling for agent actions in Work IQ, for example read, create and update but not delete, that per-agent policies cannot exceed. Separate WorkIQ.Read and WorkIQ.Act permissions let policies allow, block or require a person's approval for an action.
 
 ## Retired / replaced
 
