@@ -1,15 +1,15 @@
 # Copilot Studio
 
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 ## Current features
 
 ### Agent accounts
 - **Status:** Preview
-- **Last change:** 2026-11-12, Frontier preview listed in What's new in Copilot Studio for October 2026
+- **Last change:** 2026-11-21, public preview planned for December 2026, after the Frontier preview
 - **More info:** [Give your agent an account (Frontier)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/authoring-agent-account)
 
-A maker gives an agent its own Microsoft Entra account, mailbox and presence in Teams and the directory, so people can email, chat with and @mention it like a colleague. The agent keeps one shared memory across everyone it works with. It needs an early release cycle environment, admin activation in the Microsoft 365 admin center and the Power Platform admin center, Frontier enrollment and one Microsoft 365 Frontier for AI Teammates license per agent. Makers need Microsoft 365 E5 with Agent 365 or Microsoft 365 E7.
+A maker gives an agent its own Microsoft Entra account, mailbox and presence in Teams and the directory, so people can email, chat with and @mention it like a colleague. The agent keeps one shared memory across everyone it works with. During the Frontier preview it needs an early release cycle environment, admin activation in the Microsoft 365 admin center and the Power Platform admin center, Frontier enrollment and one Microsoft 365 Frontier for AI Teammates license per agent. Makers need Microsoft 365 E5 with Agent 365 or Microsoft 365 E7.
 
 ### Agent management Power Platform API
 - **Status:** GA

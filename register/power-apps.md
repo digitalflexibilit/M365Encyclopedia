@@ -1,6 +1,6 @@
 # Power Apps
 
-Last updated: 2026-11-16
+Last updated: 2026-11-21
 
 ## Current features
 
@@ -95,6 +95,13 @@ Users pick Comfortable, Cozy or Compact spacing in the Appearance tab of Persona
 
 Generative pages in model-driven apps can call Dataverse custom APIs to run server-side business logic, such as approvals or price calculations, as the signed-in user. When an admin sets up Application Insights data export for the environment, page load performance, errors, data operations and navigation telemetry are exported automatically. Used by makers and admins.
 
+### Microsoft Copilot in canvas apps
+- **Status:** Rolling out
+- **Last change:** 2026-11-21, general availability announced for November 2026 (documentation still says preview)
+- **More info:** [Add Microsoft Copilot Chat for app users in canvas apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/microsoft-365-copilot-canvas-app)
+
+App users open Copilot in a canvas app and ask questions in plain language about the app's Dataverse or SharePoint list data. Admins turn it on per environment in the Power Platform admin center, and makers enable it per app in Settings. Answers are read-only unless a maker customizes Copilot with an agent. Users need a Microsoft 365 Copilot license, and the feature uses Dataverse Search. Replaces Copilot control in canvas apps.
+
 ### Modernized Personal settings in model-driven apps
 - **Status:** Roadmap
 - **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, planned for December 2026
@@ -141,3 +148,4 @@ Apps that makers generate from a SharePoint list get a responsive records screen
 
 | Feature | Date | Successor | More info |
 |---|---|---|---|
+| Copilot control in canvas apps | 2026-02-02 | Microsoft Copilot in canvas apps | [Add a Copilot control to a canvas app](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/add-ai-copilot) |

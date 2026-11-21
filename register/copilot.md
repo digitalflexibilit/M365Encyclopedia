@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 ## Current features
 
@@ -88,6 +88,13 @@ A Microsoft Graph API that lets admins manage spending policies, configure servi
 
 Microsoft-operated hosting for apps built in Copilot Code, Cowork, Copilot Studio, GitHub Copilot, VS Code or third-party tools. Apps run inside the tenant with Entra identity, governed data and connector access, policy enforcement and audit logging, and stay editable and Git-backed. Admins see an app inventory and monitoring in the Microsoft 365 admin center. Consumes Copilot Credits.
 
+### Copilot memory
+- **Status:** Rolling out
+- **Last change:** 2026-11-21, memory expanding to Word, Excel, PowerPoint, Workspaces, Pages, Outlook and Teams; memory citations GA; email writing style and Work IQ MCP memory access rolling out (announced 2026-11-18)
+- **More info:** [The End of Starting Over: How Work IQ helps Copilot understand you and your work](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/the-end-of-starting-over-how-work-iq-helps-copilot-understand-you-and-your-work/4571169)
+
+Copilot remembers custom instructions, saved memories and details from chat history so users do not have to repeat context. Memory now also learns formatting, tone and work structure across Word, Excel, PowerPoint, Workspaces, Pages, Outlook and Teams, and learns a user's email writing style for drafts. Memory citations under a response show which instructions, memories and past chats were used, and users can delete memories from there. Authorized agents can read the memory profile through a Work IQ MCP tool. Admins control it with the Enhanced personalization setting, which is on by default and can be turned off for the tenant or an Entra group.
+
 ### Copilot New Tab Page in Microsoft Edge
 - **Status:** Rolling out
 - **Last change:** 2026-11-05, 2026-11-04, refreshed new tab page with search, chat and suggested actions
@@ -172,6 +179,13 @@ Plugins that bring Dynamics 365 Sales, Customer Service and finance and operatio
 
 Fabric IQ grounds Copilot Chat and Cowork in trusted business data, including Power BI semantic models. Business users get answers based on governed data without leaving Copilot.
 
+### GPT-6.2 Sol and GPT-6.2 Astra models
+- **Status:** Rolling out
+- **Last change:** 2026-11-21, rolling out worldwide from 2026-11-20
+- **More info:** [Available today: OpenAI's GPT-6.2 Sol and GPT-6.2 Astra in Microsoft Copilot](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/available-today-openais-gpt-6-2-sol-and-gpt-6-2-astra-in-microsoft-copilot/4574229)
+
+Two new OpenAI models for Copilot. GPT-6.2 Sol is rolling out to eligible users in Copilot Chat, Copilot Cowork, Copilot Studio and Copilot in Word, Excel and PowerPoint. GPT-6.2 Astra is rolling out in Cowork and Copilot Studio, and Frontier users also get it in Copilot Chat and the Office apps. Admins manage model availability in the Microsoft 365 admin center.
+
 ### HubSpot connector in Researcher
 - **Status:** Rolling out
 - **Last change:** 2026-11-05, 2026-11-04, Researcher can use the HubSpot connector
@@ -181,10 +195,10 @@ Researcher can add HubSpot data to its responses through the HubSpot connector. 
 
 ### Learning agent in Microsoft 365 Copilot
 - **Status:** Rolling out
-- **Last change:** 2026-10-27, listed in Copilot release notes (Roadmap ID 490154)
+- **Last change:** 2026-11-21, AI upskilling tab, AI Skills Navigator playlists, starter prompts, prompt coaching and admin AI policy (Frontier) announced 2026-11-17
 - **More info:** [Overview of Learning agent](https://learn.microsoft.com/en-us/viva/learning/learning-agent-overview)
 
-An agent in Microsoft Copilot that gives employees personalized microlearning and structured learning paths, including Copilot upskilling tips, plans and assessments. End users add it from the agent store, and admins deploy it in the Microsoft 365 admin center. A Microsoft Copilot license is needed, and Viva Learning Premium unlocks advanced features.
+An agent in Microsoft Copilot that gives employees personalized microlearning and structured learning paths, including Copilot upskilling tips, plans and assessments. An AI upskilling tab, AI Skills Navigator playlists and prompt coaching help users practice Copilot in their own work, personalized with Work IQ memory. End users add it from the agent store, and admins deploy it in the Microsoft 365 admin center, assign training and, in Frontier, add their AI usage policy. A Microsoft Copilot license is needed, and Viva Learning Premium unlocks advanced features.
 
 ### Office in Copilot
 - **Status:** GA
@@ -192,6 +206,13 @@ An agent in Microsoft Copilot that gives employees personalized microlearning an
 - **More info:** [Home: your starting place for work in the Microsoft Copilot app](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/4573945)
 
 Word, Excel and PowerPoint are built into the Copilot app, so Copilot creates or updates real, editable documents, workbooks and presentations that people can coauthor and share. Files save to OneDrive and keep Microsoft 365 permissions, sensitivity labels and compliance controls. Used by end users with a Copilot license, with no metered usage for creating decks or spreadsheets.
+
+### People and organizational context in Work IQ
+- **Status:** Rolling out
+- **Last change:** 2026-11-21, people and org data, analytical reasoning and skills insights rolling out to GA through December 2026; organizational context in Frontier (announced 2026-11-16)
+- **More info:** [Copilot that understands your organization: Introducing people and org context in Work IQ](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/copilot-that-understands-your-organization-introducing-people-and-org-context-in/4573356)
+
+Copilot can answer questions about people and organizational structure using authoritative HR data, including standard and custom attributes, and can calculate counts, ratios, averages and rankings. Organizational skills insights show how skills are spread across teams. Admins bring in HR data through the Microsoft 365 Organizational Data Service or Copilot connectors. In Frontier, admins and HR specialists can add company terminology, attribute definitions and guidelines in the Workforce Insights Agent, which needs Microsoft 365 Copilot licenses.
 
 ### Plugin registry
 - **Status:** Rolling out
@@ -248,6 +269,13 @@ Developers get programmatic access to first-party and tenant-defined declarative
 - **More info:** [Work IQ overview](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/work-iq/)
 
 Developers can call Work IQ endpoints (A2A, MCP and REST) from their own agents and apps without a pre-assigned Microsoft 365 Copilot license. Usage is billed in Copilot Credits per request, based on the agents and models invoked. Admins manage the cost in the Microsoft 365 admin center.
+
+### Work IQ context enhancements
+- **Status:** Preview
+- **Last change:** 2026-11-21, rolling out to public preview from November 2026 (announced 2026-11-17)
+- **More info:** [SharePoint and OneDrive at Microsoft Ignite 2026](https://techcommunity.microsoft.com/blog/spblog/sharepoint-and-onedrive-at-microsoft-ignite-2026-putting-ai-powered-content-to-w/4535416)
+
+Gives custom agents built on Work IQ the same document understanding that Copilot uses, including Markdown, images, thumbnails, summaries and lookups inside a file. Developers and makers get better answers from SharePoint and OneDrive content without building their own processing. Deeper context for sites, chats, meetings and email is planned later, without dates.
 
 ### Work IQ listen capability
 - **Status:** Preview

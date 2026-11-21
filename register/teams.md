@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 
 ## Current features
 
@@ -136,6 +136,13 @@ In Teams for the web and the Teams PWA, a call can open in a simplified window t
 - **More info:** [Malicious URL protection in Microsoft Teams](https://learn.microsoft.com/microsoftteams/malicious-url-protection-teams)
 
 Teams checks URLs in chats, channels and meeting messages, including URLs embedded in QR codes, against threat intelligence and shows a warning to the sender and all recipients when a link looks malicious. It warns but does not block links on click. It is part of Teams baseline protection with no extra license, and admins of existing tenants can turn it off or on under Messaging settings in the Teams admin center.
+
+### New meeting controls
+- **Status:** Rolling out
+- **Last change:** 2026-11-21, becoming broadly available (announced 2026-11-19)
+- **More info:** [New Teams meeting controls experience](https://adoption.microsoft.com/en-us/microsoft-teams/new-meeting-controls-experience/)
+
+A redesigned meeting toolbar keeps common actions within reach and separates Leave from the other controls. End users can pin, unpin and rearrange controls to personalize the toolbar, and the full set of controls is easier to browse.
 
 ### Pause all notifications
 - **Status:** Rolling out

@@ -1,8 +1,22 @@
 # SharePoint
 
-Last updated: 2026-11-19
+Last updated: 2026-11-21
 
 ## Current features
+
+### Agent access insights report
+- **Status:** GA
+- **Last change:** 2026-11-21, highlighted at Ignite 2026 together with a file-level Everyone except external users report
+- **More info:** [Monitor agent access to SharePoint and OneDrive](https://learn.microsoft.com/en-us/sharepoint/insights-on-agent-access)
+
+Shows SharePoint admins how agents, such as SharePoint agents, declarative agents and custom agents, read and search content across SharePoint and OneDrive, based on audit logs. Admins see the sites with the most agents and the top agents per site, and can apply Restricted access control or Restricted content discovery from the report. Found in the SharePoint admin center under Reports, Agent insights, or through PowerShell. Without SharePoint Advanced Management, admins must first enable data collection.
+
+### Catalog management
+- **Status:** GA
+- **Last change:** 2026-11-21, highlighted at Ignite 2026 for governance at scale
+- **More info:** [Catalog management in SharePoint Advanced Management](https://learn.microsoft.com/en-us/sharepoint/catalog-management)
+
+Groups SharePoint sites into categories and groups from existing metadata, such as department, region, custom site properties or Entra ID extension attributes. Admins use the groups to understand where content sits and to apply Restricted content discovery to up to 20,000 sites at once. Part of SharePoint Advanced Management, found under Reports in the SharePoint admin center.
 
 ### Copilot in SharePoint PDF, version history and Advanced Autofill
 - **Status:** Rolling out
@@ -38,6 +52,13 @@ Authors create an HTML page with Copilot or upload their own HTML to the Site Pa
 - **More info:** [Microsoft 365 Roadmap item 561039](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=561039)
 
 A new data access governance report in the SharePoint admin center shows every site a given group can access and the level of that access. Admins use it to find broad or vendor groups that expose sensitive content.
+
+### SharePoint Admin Agent
+- **Status:** GA
+- **Last change:** 2026-11-21, Content Governance Hub powered by the agent announced at Ignite 2026, no date given
+- **More info:** [SharePoint Admin Agent overview](https://learn.microsoft.com/en-us/sharepoint/content-governance-agent)
+
+An AI agent for SharePoint admins that answers natural-language questions about the tenant, such as oversharing, storage, inactive sites and agent access, and suggests remediation steps. Admins open it in the Copilot app, in Teams or through Copilot in the SharePoint admin center. A new Content Governance Hub will bring its assessments, findings, recommendations and tasks into one admin page. Needs SharePoint Advanced Management and the SharePoint Advanced Management Administrator role.
 
 ### SharePoint list agent
 - **Status:** Rolling out
