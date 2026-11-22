@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-11-21
 - **More info:** [Teams Platform Developer Announcements](https://learn.microsoft.com/en-us/microsoftteams/platform/developer-announcements)
 
 Agents built for Teams can now stream their reply while it is generated, in every conversation type. Users see informative updates under the message the agent is replying to. Developers update to the latest Teams SDK, or set `replyToId` when using the REST API outside one-on-one chats.
+
+### Agentic Users
+- **Status:** Preview
+- **Last change:** 2026-11-17, public preview announced at Ignite 2026
+- **More info:** [New Capabilities for Building Digital Teammates in Microsoft Teams](https://devblogs.microsoft.com/microsoft365dev/new-capabilities-for-building-digital-teammates-in-microsoft-teams/)
+
+Agents get their own Microsoft Entra account, so they join teams under their own name with an accountable owner. People can find them, add them to chats, channels and meetings, and @mention them like colleagues, and agents can contribute proactively within organizational limits. Admins approve agents, set their access, review their activity in Microsoft Agent 365 and can disable them. Developers build them with the Teams SDK from an agent blueprint.
 
 ### AI Workflows in the Workflows app
 - **Status:** Rolling out
@@ -59,6 +66,13 @@ Admins can customize part of the notification text that users see when a call is
 - **More info:** [Microsoft 365 Roadmap item 576609](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=576609)
 
 Admins set meeting settings, including protection settings, that apply automatically when users schedule a Teams meeting from Outlook or the Teams calendar. Organizers then do not need to set meeting options by hand. Only organizers with a Teams Premium license can use default meeting templates.
+
+### Explicit mode for Information Barriers in Teams
+- **Status:** Preview
+- **Last change:** 2026-11-17, public preview announced at Ignite 2026
+- **More info:** [Microsoft 365 Copilot and AI Agent readiness and resiliency with SharePoint Content Governance](https://techcommunity.microsoft.com/blog/spblog/microsoft-365-copilot-and-ai-agent-readiness-and-resiliency-with-sharepoint-cont/4573034)
+
+Admins can convert a team that uses Information Barriers in implicit mode to explicit mode. This gives admins direct control over which segments a team is associated with, instead of deriving them from team membership.
 
 ### Express face enrollment
 - **Status:** Roadmap
@@ -206,6 +220,20 @@ Admins can require every participant to give explicit consent, for example to th
 - **More info:** [Microsoft 365 Roadmap item 567314](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=567314)
 
 On mobile, a SharePoint page or news link selected in a Teams chat or channel opens in the SharePoint app in Teams, when the user has access to it, instead of the mobile browser.
+
+### Synthetic audio and video detection in meetings
+- **Status:** Preview
+- **Last change:** 2026-11-18, public preview documented
+- **More info:** [Certified third-party synthetic audio and video detection in Microsoft Teams meetings](https://learn.microsoft.com/en-us/microsoftteams/third-party-synthetic-audio-video-detection-meetings)
+
+Helps detect deepfake participants in Teams meetings. Admins pick a certified third-party detection provider, grant consent to its app and turn detection on in a meeting policy; the provider's bot then joins scheduled and recurring meetings to analyze audio and video. Organizers get an alert and can remove the flagged participant. Events, calls and end-to-end encrypted meetings are not supported, and the provider's own license is needed.
+
+### Threaded replies, plans and HTML widgets for agents
+- **Status:** Preview
+- **Last change:** 2026-11-17, public preview announced at Ignite 2026
+- **More info:** [New Capabilities for Building Digital Teammates in Microsoft Teams](https://devblogs.microsoft.com/microsoft365dev/new-capabilities-for-building-digital-teammates-in-microsoft-teams/)
+
+New building blocks for agents in Teams: each task in a one-on-one agent chat gets its own thread, agents can show plans and progress for multistep tasks, and responses can embed interactive HTML widgets. Extended Markdown with tables, code, checklists and citations is available now. Socket mode lets developers test an agent without a public HTTPS endpoint.
 
 ### Town hall optimization for VDI attendees
 - **Status:** Rolling out

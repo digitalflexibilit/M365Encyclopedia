@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 ## Current features
 
@@ -52,6 +52,13 @@ Business skills are plain-language instructions that describe how an organizatio
 - **More info:** [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new)
 
 End users can select Anthropic Claude Fable 5.2 in the Cowork model selector. It replaces Fable 5.1 in Cowork and requires data retention by the model provider.
+
+### Claude Opus 5.5 Fast option in Cowork
+- **Status:** GA
+- **Last change:** 2026-11, Fast option added to Claude Opus 5.5 in the Cowork model selector
+- **More info:** [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new)
+
+End users who pick Claude Opus 5.5 in the Copilot Cowork model selector can turn on a Fast option to get quicker responses. It is useful for tasks where speed matters more than the deepest reasoning.
 
 ### Code in Copilot
 - **Status:** Preview
@@ -296,3 +303,4 @@ A Work IQ plugin brings Microsoft 365 work context, such as mail, meetings and f
 | Feature | Date | Successor | More info |
 |---|---|---|---|
 | Notebooks in Microsoft 365 Copilot | 2026-11-17 | Copilot Workspaces | [Copilot Notebooks is now Copilot Workspaces](https://support.microsoft.com/en-us/microsoft-365-copilot/copilot-notebooks-to-copilot-workspaces) |
+| GPT 5.5 model in Cowork | 2026-11 | GPT 6.1 Sol | [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new) |

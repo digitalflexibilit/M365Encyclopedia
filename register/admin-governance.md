@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-20
+Last updated: 2026-11-22
 
 ## Current features
 
@@ -24,6 +24,13 @@ An app that connects AI spend, usage and value across Microsoft and non-Microsof
 - **More info:** [What's new in Microsoft Agent 365: Ignite 2026](https://techcommunity.microsoft.com/blog/agent-365-blog/whats-new-in-microsoft-agent-365-ignite-2026/4571753)
 
 Admins see agent overview, active users and usage metrics for Microsoft-built and Microsoft-platform agents in the Microsoft 365 admin center with a qualifying Microsoft 365 subscription. Insights for non-Microsoft agents and advanced governance and security still need Agent 365 or Microsoft 365 E7.
+
+### Agent Rewind
+- **Status:** Preview
+- **Last change:** 2026-11-17, private preview announced at Ignite 2026
+- **More info:** [Microsoft 365 Copilot and AI Agent readiness and resiliency with SharePoint Content Governance](https://techcommunity.microsoft.com/blog/spblog/microsoft-365-copilot-and-ai-agent-readiness-and-resiliency-with-sharepoint-cont/4573034)
+
+Lets admins roll Microsoft 365 resources back to a chosen point in time after harmful changes by an agent or attacker, with suggested timestamps. It comes with anomaly detection for ransomware or mass deletion and restores the most recently active content first. Part of Microsoft 365 Backup.
 
 ### Agent use case classification
 - **Status:** Preview
@@ -83,10 +90,10 @@ Admins can edit the query string and user identity mapping rules of a Copilot co
 
 ### Copilot Credits cost management
 - **Status:** GA
-- **Last change:** 2026-10, Cost management dashboard in the Microsoft 365 admin center
+- **Last change:** 2026-11-17, expanded as Agent 365 Cost Management (preview) with model access controls and delegated budgets
 - **More info:** [Understand usage-based billing and cost management for Copilot Credits](https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-overview-copilot-credits)
 
-Admins configure spending policies, set user and organization limits, route credit requests and review consumption by user, group, agent and service. Covers Cowork, Code, Copilot Managed Runtime, Work IQ API and more.
+Admins configure spending policies, set user and organization limits, route credit requests and review consumption by user, group, agent and service. Covers Cowork, Code, Copilot Managed Runtime, Work IQ API and more. Agent 365 Cost Management, in preview, adds limits at resource level, model access controls that reserve premium models for chosen teams, delegated budget management for business leaders, and export to Fabric for chargeback.
 
 ### Cross-tenant orchestrated migration
 - **Status:** Roadmap
@@ -172,6 +179,13 @@ Power Platform admins can write a short message (up to 400 characters), with an 
 
 From 15 November 2026 new developer environments must be managed, with one per user, and the Power Apps Developer Plan no longer creates one. Existing unmanaged developer environments are suspended on 15 December 2026 and deleted on 15 January 2027. Admins enable Managed Environments or move solutions, and makers export their solutions. Managed Environments use rights need a premium license.
 
+### Microsoft 365 Backup recovery window up to 10 years
+- **Status:** GA
+- **Last change:** 2026-11-17, configurable recovery window generally available
+- **More info:** [Create, view, and edit backup policies in Microsoft 365 Backup](https://learn.microsoft.com/en-us/microsoft-365/backup/backup-view-edit-policies?view=o365-worldwide#configure-the-backup-recovery-window)
+
+Admins set how long Microsoft 365 Backup keeps restore points per policy: from 3 months up to 10 years for SharePoint and OneDrive, and up to 2 years for Exchange. Existing policies default to 1 year. Shortening the window deletes older restore points only after a 30-day grace period.
+
 ### Microsoft 365 Copilot add-on SKU rename
 - **Status:** Rolling out
 - **Last change:** 2026-10-16, current offers renamed with (add-on); standalone offers from 2026-12-01
@@ -248,6 +262,13 @@ Admins choose custom organizational attributes in the Microsoft 365 Organization
 - **More info:** [Configure skills in the Power Platform admin center](https://learn.microsoft.com/en-us/power-platform/admin/skills-copilot-studio-rule)
 
 Admins choose which types of skills Copilot Studio agents can reference, per environment (Security, Data and privacy) or per environment group (Rules tab) in the Power Platform admin center. It gives environment-level governance and observability for skills. Advanced connector policies do not support this rule. Replaces Copilot Studio virtual connectors in classic data policies.
+
+### Teams channel backup
+- **Status:** Preview
+- **Last change:** 2026-11-17, private preview announced at Ignite 2026
+- **More info:** [Microsoft 365 Copilot and AI Agent readiness and resiliency with SharePoint Content Governance](https://techcommunity.microsoft.com/blog/spblog/microsoft-365-copilot-and-ai-agent-readiness-and-resiliency-with-sharepoint-cont/4573034)
+
+Microsoft 365 Backup can protect Teams channels, recover a channel together with its SharePoint content and restore deleted or edited channel messages within 30 days. New channels in a protected team are protected automatically. Hard deletion is not yet covered.
 
 ### Work IQ enterprise controls
 - **Status:** Preview

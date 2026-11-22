@@ -1,12 +1,12 @@
 # OneDrive
 
-Last updated: 2026-11-21
+Last updated: 2026-11-22
 
 ## Current features
 
 ### Archiving and sync controls
 - **Status:** Roadmap
-- **Last change:** 2026-11-21, announced at Ignite 2026, no dates given
+- **Last change:** 2026-11-22, file archive policies for OneDrive accounts in public preview through PowerShell, see File archive policies in the SharePoint register
 - **More info:** [SharePoint and OneDrive at Microsoft Ignite 2026](https://techcommunity.microsoft.com/blog/spblog/sharepoint-and-onedrive-at-microsoft-ignite-2026-putting-ai-powered-content-to-w/4535416)
 
 New lifecycle and sync controls for admins: policy-based archiving of inactive files with a what-if analysis, folder-level sync exclusions and a OneDrive Sync command-line tool. OneDrive sync also supports up to one million items on Windows and macOS.
