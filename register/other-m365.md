@@ -1,8 +1,15 @@
 # Other Microsoft 365 apps
 
-Last updated: 2026-11-20
+Last updated: 2026-11-23
 
 ## Current features
+
+### Access form controls with rounded corners
+- **Status:** Preview
+- **Last change:** 2026-11-21, Corner Radius property available in Beta Channel 2612 and Current Channel (Preview) 2611
+- **More info:** [Give your Access forms a fresh look with rounded corners](https://techcommunity.microsoft.com/blog/accessblog/give-your-access-forms-a-fresh-look-with-rounded-corners/4573058)
+
+A new Corner Radius property in Access for Microsoft 365 rounds the corners of form controls. Developers set it in the property sheet or with VBA. It works on ten form controls, including text boxes, combo boxes, list boxes, labels, images, charts and subforms. Report controls, lines, check boxes and tab controls are not supported yet.
 
 ### Agent insights in Viva Insights without an Agent 365 license
 - **Status:** Roadmap
@@ -24,6 +31,13 @@ Employees can discover and take part in Viva Engage communities from inside Team
 - **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 Adds expanded Cowork adoption and impact metrics to the Copilot and Consumption dashboards in Viva Insights, with export and advanced-insights queries. Admins and analysts use it to see how Cowork is used.
+
+### Microsoft To Do apps
+- **Status:** Retiring
+- **Last change:** 2026-11-18, To Do apps scheduled to retire on June 30, 2027
+- **More info:** [Introducing unified tasks and plans for Copilot and Microsoft 365](https://techcommunity.microsoft.com/blog/plannerblog/introducing-unified-tasks-and-plans-for-copilot-and-microsoft-365/4573958)
+
+The Microsoft To Do apps are scheduled to retire on June 30, 2027, as personal tasks move into Planner. New private tasks go to a private plan in Planner, and existing To Do tasks are visible in Planner but are not migrated. Users with a personal Microsoft account need to choose another app. Microsoft says a separate retirement notice will follow.
 
 ### Viva Engage plugin for Cowork
 - **Status:** GA

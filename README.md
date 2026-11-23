@@ -19,8 +19,8 @@ Maintained daily by a Claude Code routine. The rules are in [CLAUDE.md](CLAUDE.m
 | [SharePoint](register/sharepoint.md) | 18 | 2026-11-22 |
 | [OneDrive](register/onedrive.md) | 4 | 2026-11-22 |
 | [Loop](register/loop.md) | 1 | 2026-11-11 |
-| [Planner](register/planner.md) | 2 | 2026-11-18 |
-| [Other Microsoft 365 apps](register/other-m365.md) | 4 | 2026-11-20 |
+| [Planner](register/planner.md) | 3 | 2026-11-23 |
+| [Other Microsoft 365 apps](register/other-m365.md) | 6 | 2026-11-23 |
 | [Power Apps](register/power-apps.md) | 20 | 2026-11-21 |
 | [Power Automate](register/power-automate.md) | 9 | 2026-11-16 |
 | [Power BI](register/power-bi.md) | 21 | 2026-11-20 |
