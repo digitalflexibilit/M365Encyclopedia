@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-22
+Last updated: 2026-11-24
 
 ## Current features
 
@@ -157,6 +157,13 @@ Environment routing for Copilot Managed Runtime is on in every tenant and admins
 - **More info:** [Microsoft 365 Roadmap item 579894](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579894)
 
 Microsoft Edge for Business extends its Data Loss Prevention enterprise connectors. Admins can enforce policy consistently on download, upload, paste and print, require a justification to bypass a block and show their own guidance to users.
+
+### Local agents in the Microsoft 365 admin center
+- **Status:** Preview
+- **Last change:** 2026-11-17, announced at Ignite 2026 with Entra Agent ID for local agents and Intune controls, all in preview
+- **More info:** [Local agents in Microsoft 365 admin center (Preview)](https://learn.microsoft.com/en-us/microsoft-agent-365/admin/agent-local)
+
+A Local Agents page in the Microsoft 365 admin center shows developer AI tools found on managed Windows devices, such as Claude Code, GitHub Copilot CLI, Codex CLI and VS Code agent extensions, with the devices they run on. Admins can block some of them through an Intune policy. Supported local agents, starting with GitHub Copilot CLI and Claude Code, can also get their own Microsoft Entra Agent ID, and Intune can mark devices with unapproved agents as noncompliant. It needs the Frontier program, Intune enrollment and at least a Microsoft 365 E3 license.
 
 ### Low-latency Monitor alerts
 - **Status:** Preview

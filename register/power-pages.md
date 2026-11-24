@@ -1,6 +1,6 @@
 # Power Pages
 
-Last updated: 2026-11-16
+Last updated: 2026-11-24
 
 ## Current features
 
@@ -31,6 +31,13 @@ Lets AI agents such as Microsoft 365 Copilot create, read, update and delete Dat
 - **More info:** [Create and edit non-SPA Power Pages sites with Agentic Coding tools](https://www.microsoft.com/en-us/power-platform/blog/power-pages/create-and-edit-non-spa-power-pages-sites-with-agentic-coding-tools/)
 
 The Power Pages plugin (version 3.0.0 or later) for GitHub Copilot CLI or Claude Code can now create and edit traditional Power Pages sites built with web templates and Liquid, not only single-page app sites. Makers can add pages and navigation, edit content snippets, web templates, multilingual content and styling, and review a plan before deploying with PAC CLI. The site must use the enhanced data model.
+
+### Power Pages sites in Power Platform inventory
+- **Status:** Preview
+- **Last change:** 2026-11-19, public preview announced, rolling out gradually across regions
+- **More info:** [Power Pages sites in Power Platform inventory (preview)](https://learn.microsoft.com/en-us/power-pages/admin/power-pages-inventory)
+
+Power Pages sites now appear in the tenant-wide inventory in the Power Platform admin center (Manage > Inventory), next to apps, flows, agents and environments. Admins with the Global, Power Platform or Dynamics 365 administrator role can find sites, check owners, and review sites that allow anonymous access or public developer sites. Site data can also be queried through Azure Resource Graph, the Power Platform API or the Power Platform for Admins V2 connector.
 
 ### Transfer site ownership
 - **Status:** GA

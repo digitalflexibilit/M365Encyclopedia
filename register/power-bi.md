@@ -1,6 +1,6 @@
 # Power BI
 
-Last updated: 2026-11-20
+Last updated: 2026-11-24
 
 ## Current features
 
@@ -59,6 +59,13 @@ Report creators can embed a whole Power BI workspace app, including its navigati
 - **More info:** [Introducing the new Microsoft IQ: putting your organization's intelligence to work in every agent](https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent)
 
 Connectors let users query Power BI semantic models from ChatGPT and Claude through Fabric IQ. Answers are grounded in the organization's governed models instead of exported data.
+
+### Filter action button for tables and matrices
+- **Status:** Preview
+- **Last change:** 2026-11-17, preview in the November 2026 Power BI update
+- **More info:** [Add action buttons to Power BI visuals](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualizations-action-buttons)
+
+Report creators turn on Action buttons in the Format visual pane of a table or matrix visual. Report readers then select Filter on the visual to change its visual-level filters in an overlay, with the same filter cards as the Filters pane, even when the Filters pane is hidden. Page and report filters stay in the Filters pane, and locked or hidden filters can't be changed.
 
 ### Gantt chart visual
 - **Status:** Preview

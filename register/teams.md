@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-22
+Last updated: 2026-11-24
 
 ## Current features
 
@@ -206,6 +206,13 @@ Admins use a meeting policy to decide whether profane words are masked in live t
 - **More info:** [Microsoft 365 Roadmap item 579859](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579859)
 
 Call queue agents and supervisors see live call queue metrics in the Queues app on iOS and Android. They can check queue activity and decide on their availability without switching to the desktop app.
+
+### Report suspicious guest invitations
+- **Status:** Rolling out
+- **Last change:** 2026-11-18, rolling out worldwide between early and mid-November 2026 (MC1530615)
+- **More info:** [Coffee Corner: November 2026](https://techcommunity.microsoft.com/blog/microsoftmissioncriticalblog/coffee-corner-november-2026-%E2%80%93-ews-countdown-teams-versions-and-guest-invitation-/4574377)
+
+End users who decline an unexpected or suspicious invitation to join another organization as a guest can report it to their IT admin and to Microsoft. It works in Teams on Windows, Mac and the web. Admins control it with the existing Report a security concern setting in Teams messaging policies, and reported invitations appear in the User reported security submissions report in the Teams admin center.
 
 ### Require consent before joining meetings
 - **Status:** Rolling out
