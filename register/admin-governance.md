@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -13,10 +13,10 @@ A place in the Microsoft 365 admin center that lists governance tasks, such as i
 
 ### Agent 365 Business Analytics
 - **Status:** Preview
-- **Last change:** 2026-11-17, rolling out in the Frontier program
+- **Last change:** 2026-11-25, Interactive Insights (natural-language questions with summaries and charts) added to the Microsoft 365 Roadmap (item 577181): preview November 2026, general availability March 2027; general availability of the app planned for December 2026 (item 577548); 2026-11-17, rolling out in the Frontier program
 - **More info:** [How to use the Agent 365 Business Analytics Overview page (Frontier)](https://learn.microsoft.com/en-us/a365-business-analytics/overview)
 
-An app that connects AI spend, usage and value across Microsoft and non-Microsoft AI services, with cost forecasts, budget tracking and top cost drivers. Business leaders and IT see metrics such as success rate, satisfaction and estimated assisted hours. Insights for Microsoft services need at least one Microsoft 365 Copilot license in the tenant, and insights for non-Microsoft services need Agent 365 or Microsoft 365 E7.
+An app that connects AI spend, usage and value across Microsoft and non-Microsoft AI services, with cost forecasts, budget tracking and top cost drivers. Business leaders and IT see metrics such as success rate, satisfaction and estimated assisted hours. Interactive Insights lets users ask questions in natural language about AI adoption, engagement and consumption and get summaries, charts and reports. Insights for Microsoft services need at least one Microsoft 365 Copilot license in the tenant, and insights for non-Microsoft services need Agent 365 or Microsoft 365 E7.
 
 ### Agent 365 usage insights for Microsoft agents
 - **Status:** GA
@@ -94,6 +94,13 @@ Admins can edit the query string and user identity mapping rules of a Copilot co
 - **More info:** [Understand usage-based billing and cost management for Copilot Credits](https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-overview-copilot-credits)
 
 Admins configure spending policies, set user and organization limits, route credit requests and review consumption by user, group, agent and service. Covers Cowork, Code, Copilot Managed Runtime, Work IQ API and more. Agent 365 Cost Management, in preview, adds limits at resource level, model access controls that reserve premium models for chosen teams, delegated budget management for business leaders, and export to Fabric for chargeback.
+
+### Copilot Studio credits reporting API
+- **Status:** Preview
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap: preview November 2026, general availability January 2027
+- **More info:** [Microsoft 365 Roadmap item 579968](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579968)
+
+A Power Platform API that gives admins Copilot Credit usage from Copilot Studio by resource, environment, user and feature, beyond the reports in the Power Platform admin center. It can be combined with Power Platform API credit allocations to monitor and optimize consumption.
 
 ### Cross-tenant orchestrated migration
 - **Status:** Roadmap
@@ -248,6 +255,27 @@ Admins use the Tools page in the Microsoft 365 admin center to see and block plu
 - **More info:** [Power Platform Admin in Cowork (preview)](https://learn.microsoft.com/en-us/power-platform/admin/power-platform-admin-cowork)
 
 A plugin for Copilot Cowork that lets Power Platform, Dynamics 365 and Global admins ask plain-language questions about environments, inventory, usage, ownership, capacity and licensing. Cowork can turn answers into reports, draft emails to owners or repeat a question on a schedule. The plugin is read-only, and questions consume Copilot Credits.
+
+### Priority Cleanup permanent deletion
+- **Status:** Preview
+- **Last change:** 2026-11-25, timeline updated 2026-11-23: preview completes early December 2026, general availability early December 2026 to mid-January 2027
+- **More info:** [Permanently delete files with Microsoft Purview Priority Cleanup](https://learn.microsoft.com/purview/priority-cleanup-permanent-deletion)
+
+A Delete data permanently option in Purview Priority Cleanup lets admins hard-delete targeted SharePoint and OneDrive files, such as old Teams recordings and transcripts, even when retention policies or holds apply. Deleted files skip the recycle bins and disappear from SharePoint search, Microsoft 365 Copilot and eDiscovery. It needs simulation, a second Priority Cleanup admin and approvers, and eDiscovery approval for items under hold. It is off by default.
+
+### Purview DLP for network traffic through Azure Firewall
+- **Status:** Preview
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap: preview November 2026, general availability March 2027
+- **More info:** [Microsoft 365 Roadmap item 577828](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=577828)
+
+Microsoft Purview DLP policies can inspect supported network traffic through Azure Firewall, including text, files and AI interactions from servers, virtual machines and background services. This helps stop sensitive data going to cloud apps through browsers, apps and APIs, and sends signals to Insider Risk Management.
+
+### Sensitivity label inheritance for Teams meeting artifacts
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 581739](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581739)
+
+Teams meeting recordings, transcripts and Loop notes can be set to inherit the sensitivity label of the meeting automatically, so meeting content is protected without manual labeling.
 
 ### Shadow AI in the Microsoft 365 admin center
 - **Status:** Preview

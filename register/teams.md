@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-24
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -24,6 +24,13 @@ Agents get their own Microsoft Entra account, so they join teams under their own
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 Users get Copilot-powered scheduled prompt templates in the Workflows app on Windows and Mac. Admins control access in Teams app management settings, and the feature is off unless the Workflows app is enabled.
+
+### Allowed external meeting bots
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, allow list (item 580451) and bot detection and activity reports (item 582050) added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 580451](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580451)
+
+Admins can set a list of external meeting bots, such as notetakers, that may join meetings hosted in the organization, and block all other bots or send them to the lobby. Allowed bots are treated as regular external participants and meeting policies apply. A report in the Teams admin center will show detected external bots and their meeting access.
 
 ### Alternative text for images from OneDrive and SharePoint
 - **Status:** Rolling out
@@ -67,6 +74,13 @@ Admins can customize part of the notification text that users see when a call is
 
 Admins set meeting settings, including protection settings, that apply automatically when users schedule a Teams meeting from Outlook or the Teams calendar. Organizers then do not need to set meeting options by hand. Only organizers with a Teams Premium license can use default meeting templates.
 
+### Event registrations up to 20,000
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, timeline updated 2026-11-23: preview mid to late December 2026, general availability January 2027
+- **More info:** [Microsoft 365 Roadmap item 574110](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=574110)
+
+Registration capacity for town halls and webinars grows with the event's attendee capacity. Organizers with Teams Enterprise can allow up to 3,000 registrations and those with Attendee Capacity Packs up to 20,000. Large webinars with registration do not support broadcast-style streaming. Admins assign capacity packs in the Teams admin center.
+
 ### Explicit mode for Information Barriers in Teams
 - **Status:** Preview
 - **Last change:** 2026-11-17, public preview announced at Ignite 2026
@@ -101,6 +115,13 @@ Facilitator, the Copilot agent in Teams meetings, detects questions that nobody 
 - **More info:** [Microsoft 365 Roadmap item 566523](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=566523)
 
 Users can keep chatting with Facilitator in a meeting without @mentioning it in every message. Facilitator is the Copilot agent that takes notes and helps run Teams meetings.
+
+### Facilitator in Teams mobile with speaker attribution
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 579864](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579864)
+
+Users start Facilitator from their phone to take notes during an in-person conversation. Facilitator transcribes the discussion, shows who said what, and produces notes, a summary and follow-up actions.
 
 ### Facilitator scam alerts
 - **Status:** Rolling out
@@ -158,6 +179,13 @@ Teams checks URLs in chats, channels and meeting messages, including URLs embedd
 
 A redesigned meeting toolbar keeps common actions within reach and separates Leave from the other controls. End users can pin, unpin and rearrange controls to personalize the toolbar, and the full set of controls is easier to browse.
 
+### Open channels at last read message
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for February 2027
+- **More info:** [Microsoft 365 Roadmap item 579890](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579890)
+
+In Teams desktop, users can choose to open channels at the last message they read instead of the newest message. This makes it easier to catch up on busy channels without losing their place.
+
 ### Pause all notifications
 - **Status:** Rolling out
 - **Last change:** 2026-10-07, feature listed
@@ -199,6 +227,13 @@ Admins use meeting policies to decide who can start recording and transcription:
 - **More info:** [Release notes for Microsoft Teams](https://learn.microsoft.com/en-us/officeupdates/teams-admin)
 
 Admins use a meeting policy to decide whether profane words are masked in live transcription and saved meeting transcripts. Masking is on by default, and the meeting organizer's policy decides the behavior. Live captions keep following each participant's own profanity setting.
+
+### Raise hand and reactions in events with up to 100,000 attendees
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap (items 581720 and 581719), planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 581720](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581720)
+
+Attendees at Teams events with up to 100,000 people can send and see reactions and raise their hand. Organizers can let someone with a raised hand turn on their microphone and camera to ask a question.
 
 ### Real-time queue metrics in the Queues app on mobile
 - **Status:** Roadmap
@@ -255,6 +290,20 @@ Town hall attendees on Windows virtual desktops such as Azure Virtual Desktop, W
 - **More info:** [Microsoft 365 Roadmap item 80239](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=80239)
 
 Two presenters can share a screen or window at the same time in a Teams meeting, and participants see both streams side by side. This makes it easier to compare content from two people.
+
+### View files and conversations side by side
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, announced: general availability from late December 2026 to early January 2027
+- **More info:** [Microsoft 365 Roadmap item 574094](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=574094)
+
+When a user opens a PDF, Markdown or HTML file from a chat or channel message, the conversation opens next to the file at the message where it was shared. Users can read and reply without closing the preview. Available in Teams for Windows, Mac and the web, including GCC, GCC High and DoD.
+
+### Voice phishing detection for external calls
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap: preview December 2026, general availability January 2027
+- **More info:** [Microsoft 365 Roadmap item 580443](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580443)
+
+During one-to-one Teams calls with people outside the organization, AI analyzes the conversation for signs of social engineering and alerts the user when something looks suspicious, so they can decide how to proceed.
 
 ## Retired / replaced
 

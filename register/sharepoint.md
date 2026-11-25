@@ -1,6 +1,6 @@
 # SharePoint
 
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -38,6 +38,13 @@ Lets SharePoint admins decide which third-party apps and agents can reach a site
 - **More info:** [Catalog management in SharePoint Advanced Management](https://learn.microsoft.com/en-us/sharepoint/catalog-management)
 
 Groups SharePoint sites into categories and groups from existing metadata, such as department, region, custom site properties or Entra ID extension attributes. Admins use the groups to understand where content sits and to apply Restricted content discovery to up to 20,000 sites at once. Part of SharePoint Advanced Management, found under Reports in the SharePoint admin center.
+
+### Classic publishing sites and classic pages
+- **Status:** Retiring
+- **Last change:** 2026-11-25, follow-up notice: from March 1, 2027 classic publishing sites cannot be created; classic user-created pages become read-only from October 1, 2028
+- **More info:** [Upcoming changes to classic publishing sites, classic pages, and custom scripting in SharePoint Online](https://learn.microsoft.com/sharepoint/classic-user-created-page-deprecation)
+
+From March 1, 2027 no tenant can create classic publishing sites or turn on the publishing feature, and AllowClassicPublishingSiteCreation is locked to False. Tenants created from that date cannot create classic pages or add custom scripts. From October 1, 2028 classic wiki, Web Part, blog, publishing and custom ASPX pages become read-only in all tenants. Admins should inventory classic pages and move to modern pages.
 
 ### Copilot in SharePoint PDF, version history and Advanced Autofill
 - **Status:** Rolling out
@@ -81,12 +88,26 @@ Authors create an HTML page with Copilot or upload their own HTML to the Site Pa
 
 Customers with Multi-Geo can move their default SharePoint and OneDrive geo location to a more specific region, such as Germany or Korea. This helps meet data residency requirements for the central location.
 
+### Organization-wide page templates
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 581865](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581865)
+
+Organizations can publish approved page templates that authors can use on any site in the tenant. The templates are managed centrally in the SharePoint site linked to the organization's brand center, so pages start with consistent content and less setup.
+
 ### Permission report for a group
 - **Status:** Rolling out
 - **Last change:** 2026-11-12, roadmap status changed to rolling out, date moved from June to November 2026
 - **More info:** [Microsoft 365 Roadmap item 561039](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=561039)
 
 A new data access governance report in the SharePoint admin center shows every site a given group can access and the level of that access. Admins use it to find broad or vendor groups that expose sensitive content.
+
+### Refreshed Lists experience
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 578879](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=578879)
+
+SharePoint Lists gets a reorganized command bar, clearer breadcrumbs for lists with folders, more visible view selection and creation, filter pills that show active filters and consolidated view customization. The goal is to make everyday list tasks easier to find.
 
 ### Restrict collaboration by agentic users
 - **Status:** Roadmap

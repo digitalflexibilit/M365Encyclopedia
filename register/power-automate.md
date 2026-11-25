@@ -1,8 +1,15 @@
 # Power Automate
 
-Last updated: 2026-11-16
+Last updated: 2026-11-25
 
 ## Current features
+
+### Bring your own connection in cloud-triggered desktop flow runs
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for March 2027
+- **More info:** [Microsoft 365 Roadmap item 579907](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579907)
+
+Shared desktop flows that use connector actions can run attended or unattended from the cloud with the caller's own connections, instead of needing embedded connection references.
 
 ### Compare desktop flow versions
 - **Status:** GA
@@ -31,6 +38,13 @@ Power Automate will support Delinea Secret Server as an external credential prov
 - **More info:** [Important changes (deprecations) coming in Power Platform](https://learn.microsoft.com/en-us/power-platform/important-changes-coming)
 
 Describe it to design it lets makers create a cloud flow by describing in plain language what they want to automate. From 30 November 2026 makers can no longer create new flows this way. Existing flows are not deleted or moved, and makers can still use the visual designer and templates. Microsoft points to the Power Automate plugin in an approved AI assistant, such as GitHub Copilot, for creating flows from descriptions.
+
+### Desktop flow libraries
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap: preview January 2027, general availability March 2027
+- **More info:** [Microsoft 365 Roadmap item 579910](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579910)
+
+Makers publish libraries of reusable subflows, such as error handling or logging, and use them in many desktop flows. This reduces duplicated logic and keeps automation consistent.
 
 ### Desktop flow templates
 - **Status:** GA
@@ -66,6 +80,13 @@ Makers create, edit, run, debug and manage cloud flows from a terminal coding ag
 - **More info:** [Schedule desktop flows with Scheduled triggers (preview)](https://learn.microsoft.com/en-us/power-automate/schedule-desktop-flows)
 
 Makers run a desktop flow on a recurring schedule from the Automation center, without building a separate cloud flow to start it. Rollout is gradual by region.
+
+### Self-healing for desktop flows
+- **Status:** Preview
+- **Last change:** 2026-11-25, general availability added to the Microsoft 365 Roadmap, planned for March 2027
+- **More info:** [Microsoft 365 Roadmap item 579906](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579906)
+
+When a UI or web selector in a desktop flow no longer finds its element, Power Automate for desktop uses AI to find the element and create an alternative selector. In preview, makers opt in per action to recover automatically. At general availability a flow-level option will only log the working alternative selector without applying it at runtime.
 
 ## Retired / replaced
 

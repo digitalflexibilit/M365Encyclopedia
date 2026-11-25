@@ -1,6 +1,6 @@
 # Planner
 
-Last updated: 2026-11-23
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -17,6 +17,20 @@ Planner Agent automates plan creation, task execution and status reporting for t
 - **More info:** [What is the Planner Plugin?](https://support.microsoft.com/planner/planner-plugin-overview)
 
 The Planner Plugin connects Planner to Copilot Cowork so users can manage plans and tasks in one conversation. Cowork can list assigned tasks, build plan reports, turn goals, Excel sheets, Word documents or meeting notes into plans, and update or complete tasks after the user approves. Users need a Microsoft 365 Copilot license and Cowork access, and an admin must make the plugin available.
+
+### Sprints and backlogs in unified plans
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 581629](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581629)
+
+Teams keep a product backlog, plan time-boxed sprints and focus on the current sprint inside a unified plan. Sprint planning is separate from buckets, so buckets can still be used to organize work.
+
+### Task hierarchy in unified plans
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for March 2027
+- **More info:** [Microsoft 365 Roadmap item 580879](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580879)
+
+Users can nest tasks under other tasks in unified plans to break down complex work and make the plan structure clearer.
 
 ### Unified plans
 - **Status:** GA

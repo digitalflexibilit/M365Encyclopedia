@@ -1,6 +1,6 @@
 # Outlook
 
-Last updated: 2026-11-19
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -31,6 +31,13 @@ Copilot settings are available directly in classic Outlook for Windows under Fil
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 Users can run custom engine agents from the agent pane in Outlook on the web to automate email tasks such as sorting or summarizing messages. Developers build the agents and admins make them available.
+
+### Custom flag descriptions
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for February 2027
+- **More info:** [Microsoft 365 Roadmap item 580885](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580885)
+
+In new Outlook for Windows, users can add their own text to an email's follow-up flag to note the next step. This reminds them why they flagged the message.
 
 ### Folder pane remembers expanded folders
 - **Status:** Roadmap
@@ -66,6 +73,13 @@ New Outlook for Windows and Outlook on the web show how much mailbox storage rec
 - **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 In classic Outlook for Windows, users can ask Copilot in chat, or use the Schedule with Copilot button, to find times, book rooms, draft an agenda and send the invite. Needs a Microsoft 365 Copilot license and is rolling out in phases.
+
+### Share availability
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 580444](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580444)
+
+In new Outlook, users pick free time slots from their calendar, or while writing an email, and insert them into the message without typing dates and times. For one-on-one meetings, the recipient can book one of the proposed times with one click.
 
 ### Sort subfolders from A to Z
 - **Status:** Roadmap

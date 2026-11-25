@@ -1,6 +1,6 @@
 # PowerPoint
 
-Last updated: 2026-10-28
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -24,6 +24,13 @@ When creating a presentation, Copilot in PowerPoint can reference online sources
 - **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 Users can define their own commands and workflows through Create custom skill in the Copilot pane, so Copilot repeats a personal way of working. It is aimed at end users with a Microsoft 365 Copilot license.
+
+### Customizable Presenter view
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 579892](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579892)
+
+Presenters can move and resize the speaker notes, set a fixed notes text size and rearrange slides and notes in Presenter view. The current layout stays the default unless the user changes it.
 
 ### Reference SharePoint and OneDrive files in Copilot prompts
 - **Status:** Rolling out

@@ -1,6 +1,6 @@
 # Power Apps
 
-Last updated: 2026-11-21
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -39,6 +39,13 @@ Makers add a modern Attachments control to a canvas app so users can add, downlo
 
 An agent pane in Power Apps Studio builds or edits a canvas app from a plain-language description. The agent shows a plan for approval, then creates screens, controls and Power Fx formulas in the open app. Makers sign in with a GitHub account, and GitHub bills that account for usage. A tenant admin must turn on "Agentic Coauthoring in Power Apps using GitHub". The preview is limited to the United States and English.
 
+### Build model-driven apps with Copilot Cowork
+- **Status:** Preview
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap: preview November 2026, general availability January 2027
+- **More info:** [Microsoft 365 Roadmap item 579979](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579979)
+
+Makers and information workers describe a business scenario to Copilot Cowork, which uses the model-app-builder skill to draft an app specification and build plan for review, then creates the model-driven app with its Power Apps and Dataverse components. Makers keep refining in Cowork or open the app in Power Apps to customize it.
+
 ### Calendar and card view layouts in model-driven apps
 - **Status:** Roadmap
 - **Last change:** 2026-11-14, added to the Microsoft 365 Roadmap, preview planned for December 2026 and GA for February 2027
@@ -52,6 +59,13 @@ Makers can show a view as a calendar or as a stack of cards instead of the defau
 - **More info:** [Canvas authoring agent plugin now generally available](https://www.microsoft.com/en-us/power-platform/blog/power-apps/turbocharge-your-canvas-development-with-the-canvas-authoring-agent-plugin-now-generally-available/)
 
 Lets makers and coding agents such as GitHub Copilot or Claude Code coauthor the same canvas app. Agents use an MCP server to create screens, add controls, write Power Fx formulas and validate changes. Power Apps Studio must be open with coauthoring enabled.
+
+### Card gallery, Persona, Avatar group and Metrics card controls
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, general availability added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 580456](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580456)
+
+New modern controls for canvas apps: a card gallery for responsive record cards, Persona and Avatar group for people and presence, and a Metrics card for key figures. Makers supply data, presence and calculations through properties and Power Fx.
 
 ### Copresence in Power Apps plans
 - **Status:** Retiring

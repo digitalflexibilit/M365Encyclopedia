@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-22
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -111,10 +111,10 @@ The refreshed Edge new tab page combines search, chat, Copilot-suggested actions
 
 ### Copilot Pages
 - **Status:** Preview
-- **Last change:** 2026-11-17, announced at Ignite 2026, Frontier public preview
+- **Last change:** 2026-11-25, on-page Copilot edits through comments and interactive reports and dashboards added to the Microsoft 365 Roadmap (items 580449 and 580445): preview November 2026, general availability December 2026; 2026-11-17, announced at Ignite 2026, Frontier public preview
 - **More info:** [Office at Ignite 2026: From apps to agentic system of work](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/4572226)
 
-Copilot turns a prompt and source material into an interactive report, brief, dashboard or animation. Agents can keep the data in the page up to date in the background. End users with Microsoft 365 Copilot get it through the Frontier program.
+Copilot turns a prompt and source material into an interactive report, brief, dashboard or animation. Agents can keep the data in the page up to date in the background. Users can leave comments on a page to ask Copilot questions or request specific edits, and people and Copilot can work on the page at the same time with visible presence. End users with Microsoft 365 Copilot get it through the Frontier program.
 
 ### Copilot Search with embedded chat
 - **Status:** Rolling out
@@ -132,10 +132,10 @@ The Copilot Dashboard and Viva Insights Advanced Analysis show new usage metrics
 
 ### Copilot Workspaces
 - **Status:** Rolling out
-- **Last change:** 2026-11-17, Copilot Notebooks renamed to Copilot Workspaces, with team collaboration added; phased rollout started late October 2026
+- **Last change:** 2026-11-25, workspace suggestions, catch-up on changes and workspace memory added to the Microsoft 365 Roadmap (items 579889 and 580869): preview November 2026, general availability December 2026; 2026-11-17, Copilot Notebooks renamed to Copilot Workspaces, with team collaboration added; phased rollout started late October 2026
 - **More info:** [Copilot Notebooks is now Copilot Workspaces](https://support.microsoft.com/en-us/microsoft-365-copilot/copilot-notebooks-to-copilot-workspaces)
 
-Workspaces are a shared place where a team collects files, pages and Copilot chats and works on them together with Copilot. Members can see who else is in the workspace, work across several documents at once and invite people from the Invite button. Personal work stays in Projects on the Home tab, and items can be moved from a project into a workspace to share them. Existing notebooks convert automatically with their content and sharing, and no features are removed. Replaces Notebooks in Microsoft 365 Copilot.
+Workspaces are a shared place where a team collects files, pages and Copilot chats and works on them together with Copilot. Members can see who else is in the workspace, work across several documents at once and invite people from the Invite button. Personal work stays in Projects on the Home tab, and items can be moved from a project into a workspace to share them. Copilot will suggest relevant workspaces, show what changed and what is still open, and remember workspace details, preferences and recurring instructions across sessions. Existing notebooks convert automatically with their content and sharing, and no features are removed. Replaces Notebooks in Microsoft 365 Copilot.
 
 ### Cowork and Chat in Home
 - **Status:** GA
@@ -202,10 +202,10 @@ Researcher can add HubSpot data to its responses through the HubSpot connector. 
 
 ### Learning agent in Microsoft 365 Copilot
 - **Status:** Rolling out
-- **Last change:** 2026-11-21, AI upskilling tab, AI Skills Navigator playlists, starter prompts, prompt coaching and admin AI policy (Frontier) announced 2026-11-17
+- **Last change:** 2026-11-25, personalized AI upskilling notifications in Teams added to the Microsoft 365 Roadmap (item 579905): preview November 2026, general availability December 2026; 2026-11-21, AI upskilling tab, AI Skills Navigator playlists, starter prompts, prompt coaching and admin AI policy (Frontier) announced 2026-11-17
 - **More info:** [Overview of Learning agent](https://learn.microsoft.com/en-us/viva/learning/learning-agent-overview)
 
-An agent in Microsoft Copilot that gives employees personalized microlearning and structured learning paths, including Copilot upskilling tips, plans and assessments. An AI upskilling tab, AI Skills Navigator playlists and prompt coaching help users practice Copilot in their own work, personalized with Work IQ memory. End users add it from the agent store, and admins deploy it in the Microsoft 365 admin center, assign training and, in Frontier, add their AI usage policy. A Microsoft Copilot license is needed, and Viva Learning Premium unlocks advanced features.
+An agent in Microsoft Copilot that gives employees personalized microlearning and structured learning paths, including Copilot upskilling tips, plans and assessments. An AI upskilling tab, AI Skills Navigator playlists and prompt coaching help users practice Copilot in their own work, personalized with Work IQ memory. The agent will also send Teams notifications with learning suggestions based on the user's role, Copilot adoption stage and usage. End users add it from the agent store, and admins deploy it in the Microsoft 365 admin center, assign training and, in Frontier, add their AI usage policy. A Microsoft Copilot license is needed, and Viva Learning Premium unlocks advanced features.
 
 ### Office in Copilot
 - **Status:** GA
@@ -242,6 +242,13 @@ Results from Copilot connectors in Search appear as entity cards with metadata i
 
 A plugin that brings Salesforce account, opportunity and pipeline context into Copilot Cowork, with more than 38 prebuilt sales skills. Sales users work with Salesforce data without leaving Copilot. Admins control which plugins are available.
 
+### Service Agent in Microsoft 365
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap: preview December 2026, general availability December 2027
+- **More info:** [Microsoft 365 Roadmap item 577829](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=577829)
+
+An agent that handles customer service questions around the clock, grounded in company knowledge, Microsoft 365 data and connected CRM systems. Managers onboard it with knowledge sources, communication guidelines and escalation rules, choose semi or fully autonomous mode, and can review its activity, reasoning and performance. A CRM is optional. It is built on Agent 365 and Work IQ.
+
 ### Tableau Copilot connector
 - **Status:** Rolling out
 - **Last change:** 2026-11-19, listed in the November 17, 2026 release notes
@@ -262,6 +269,13 @@ Today surfaces an end user's priorities across mail, calendar, Teams chats, meet
 - **More info:** [October 2026 announcements - Partner Center](https://learn.microsoft.com/en-us/partner-center/announcements/2026-october)
 
 From 1 December 2026, usage-based billing is on by default for new Microsoft 365 Copilot Business licenses bought through CSP, with a default limit of 4,000 Copilot Credits per user per month that admins can change. Not available at first in several markets.
+
+### Usage-based billing models in Chat and Office
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, announced: Frontier in early December 2026, general availability in mid-December 2026
+- **More info:** [Understand usage-based billing and cost management for Copilot Credits](https://learn.microsoft.com/en-us/copilot/plan/usage-based-billing-overview-copilot-credits)
+
+Users with a Microsoft 365 Copilot license who reach a model usage limit in Copilot Chat or in Word, Excel and PowerPoint can switch to Auto at no extra cost, or keep their chosen model and pay with Copilot Credits if usage-based billing is on for them. A credits icon shows when the current experience is metered, and the prompt /cost shows session usage. Admins allow it through the service "Models with usage-based billing in Chat and Office" in a spending policy.
 
 ### Work IQ API declarative agent access
 - **Status:** Rolling out
@@ -297,6 +311,13 @@ Agents that use Work IQ can react to events, such as a new message or a business
 - **More info:** [What's new in Work IQ at Ignite 2026: agents that get work done](https://techcommunity.microsoft.com/blog/microsoft_365blog/whats-new-in-work-iq-at-ignite-2026-agents-that-get-work-done/4572219)
 
 A Work IQ plugin brings Microsoft 365 work context, such as mail, meetings and files, into ChatGPT for ChatGPT Business and Enterprise customers. Users install it from the ChatGPT plugin directory, and Work IQ permissions and tenant policies still apply. A similar plugin for Anthropic is announced as coming soon.
+
+### Work IQ real-time transcription for meetings and calls
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap: preview December 2026, general availability January 2027
+- **More info:** [Microsoft 365 Roadmap item 572674](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=572674)
+
+Authorized apps and agents can read the transcript of a supported Teams meeting or call while it is in progress, through Work IQ and the Model Context Protocol (MCP). Developers combine the live conversation with business data for things like recommendations, support assistance and action-item capture. It uses an active Teams transcript, needs the right permissions and consent, and does not start transcription by itself.
 
 ## Retired / replaced
 

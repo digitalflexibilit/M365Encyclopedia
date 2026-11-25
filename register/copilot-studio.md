@@ -1,6 +1,6 @@
 # Copilot Studio
 
-Last updated: 2026-11-21
+Last updated: 2026-11-25
 
 ## Current features
 
@@ -20,10 +20,10 @@ New Power Platform API endpoints let admins and developers create, update, list,
 
 ### Agent node in workflows
 - **Status:** Rolling out
-- **Last change:** 2026-11-19, listed in the November 17, 2026 release notes (roadmap items 562222 and 566998)
-- **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
+- **Last change:** 2026-11-25, agent-generated files (PDF, Word, Excel, PowerPoint, CSV) as workflow outputs, general availability December 3, 2026 (roadmap item 580865); 2026-11-19, listed in the November 17, 2026 release notes (roadmap items 562222 and 566998)
+- **More info:** [Add an agent node to a workflow (Microsoft Copilot)](https://learn.microsoft.com/microsoft-copilot-studio/workflows-experience/agent-node-workflow)
 
-Makers add an agent node to a workflow so one step can reason over data, call tools and return a response. It is useful when a workflow needs judgment, for example classifying or summarizing input before the next action.
+Makers add an agent node to a workflow so one step can reason over data, call tools and return a response. It is useful when a workflow needs judgment, for example classifying or summarizing input before the next action. The node can also return files the agent creates, such as PDF, Word, Excel, PowerPoint and CSV, so later steps can email them, save them to SharePoint or OneDrive or attach them to records. This works with inline and published agents.
 
 ### Apps in Copilot Studio
 - **Status:** GA
@@ -38,6 +38,13 @@ Makers describe an app in natural language and Copilot Studio generates a draft 
 - **More info:** [Introducing the new Copilot with Home, Code and Autopilot](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/)
 
 Makers can select Anthropic Claude Fable 5.1 as a model for agents in Copilot Studio, next to other frontier models.
+
+### Code node in workflows
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, announced: general availability on December 1, 2026
+- **More info:** [Microsoft 365 Roadmap item 580866](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580866)
+
+Makers add a Code node to run Python as a step in a Copilot Studio workflow, for logic that expressions and connectors cannot handle, such as data transforms, regex, file parsing and conversion (for example PDF to text, CSV or XML). The code can be generated from a natural-language description or written by hand. It runs in a Microsoft-managed sandbox without outbound calls and consumes Copilot Credits.
 
 ### Connected agents
 - **Status:** Preview
@@ -137,6 +144,13 @@ A Power Platform admin sets a link to the organization's privacy policy per envi
 
 The Review panel in the top menu bar lists blocking issues and warnings while a maker builds an agent, such as data policy blocks or missing sign-in. Each issue has an explanation and an action, and shows when an organization policy causes the restriction.
 
+### Service principal owner for workflows
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 580863](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580863)
+
+A Copilot Studio workflow can be owned by a service principal (a Microsoft Entra app registration) instead of a named user. This keeps production workflows running when the person who built them leaves or changes role.
+
 ### Shared skills marketplace
 - **Status:** Preview
 - **Last change:** 2026-11-14, listed in the October 2026 Copilot Studio release notes
@@ -178,6 +192,13 @@ Makers can give an agent a Windows 365 Cloud PC as a computer-use tool, so it ca
 - **More info:** [Work IQ in Microsoft Copilot Studio (GitHub Copilot)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/agents-experience/add-work-iq)
 
 Work IQ grounds an agent in the user's work context from SharePoint, OneDrive, Outlook mail, Teams, Calendar and People, and can take actions. Makers keep or clear whole workloads; write operations are on by default within the organization's permissions and policies. The Business apps workload, with context from Dynamics 365 and Power Apps, is a preview workload that makers turn on in the agent settings. Usage is billed in Copilot Credits.
+
+### Workflow co-owners
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 580864](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580864)
+
+Makers can share a Copilot Studio workflow with other users as co-owners, from the workflows page or the designer. Before sharing, the maker reviews the connections the workflow uses. Co-owners can view, edit, manage and run the workflow.
 
 ## Retired / replaced
 
