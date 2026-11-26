@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Current features
 
@@ -34,10 +34,10 @@ Cowork applies an organization's named brand kit, with colors, fonts and brand v
 
 ### Business Apps in Work IQ
 - **Status:** Preview
-- **Last change:** 2026-11-14, Microsoft 365 Roadmap item 573293 adds access from Copilot Cowork, planned for December 2026
+- **Last change:** 2026-11-26, Power Apps model-driven apps available as Business Apps in Work IQ (Microsoft 365 Roadmap item 571888, launched); 2026-11-14, Microsoft 365 Roadmap item 573293 adds access from Copilot Cowork, planned for December 2026
 - **More info:** [Business apps in Work IQ](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/business-applications-work-iq)
 
-Brings business context from Dynamics 365 and Power Apps into Copilot and agents, with governed actions. Used by makers and admins who want agents to act on business data. Copilot Cowork users will also be able to reach business applications through Work IQ and use business skills to complete business processes.
+Brings business context from Dynamics 365 and Power Apps into Copilot and agents, with governed actions. Used by makers and admins who want agents to act on business data. Copilot Cowork users will also be able to reach business applications through Work IQ and use business skills to complete business processes. Power Apps model-driven apps can be used through the Work IQ tool in Copilot Studio or through Work IQ MCP chat to list, read, create, update and delete records, with explicit user confirmation before changes are submitted.
 
 ### Business skills in Work IQ MCP
 - **Status:** Roadmap
@@ -111,10 +111,10 @@ The refreshed Edge new tab page combines search, chat, Copilot-suggested actions
 
 ### Copilot Pages
 - **Status:** Preview
-- **Last change:** 2026-11-25, on-page Copilot edits through comments and interactive reports and dashboards added to the Microsoft 365 Roadmap (items 580449 and 580445): preview November 2026, general availability December 2026; 2026-11-17, announced at Ignite 2026, Frontier public preview
+- **Last change:** 2026-11-26, opening and editing pages in Teams added to the Microsoft 365 Roadmap (item 580886), planned for January 2027; 2026-11-25, on-page Copilot edits through comments and interactive reports and dashboards added to the Microsoft 365 Roadmap (items 580449 and 580445): preview November 2026, general availability December 2026; 2026-11-17, announced at Ignite 2026, Frontier public preview
 - **More info:** [Office at Ignite 2026: From apps to agentic system of work](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/4572226)
 
-Copilot turns a prompt and source material into an interactive report, brief, dashboard or animation. Agents can keep the data in the page up to date in the background. Users can leave comments on a page to ask Copilot questions or request specific edits, and people and Copilot can work on the page at the same time with visible presence. End users with Microsoft 365 Copilot get it through the Frontier program.
+Copilot turns a prompt and source material into an interactive report, brief, dashboard or animation. Agents can keep the data in the page up to date in the background. Users can leave comments on a page to ask Copilot questions or request specific edits, and people and Copilot can work on the page at the same time with visible presence. End users with Microsoft 365 Copilot get it through the Frontier program. Pages shared in a Teams chat or channel will open in Teams, in the main window or a new window, for editing and discussion.
 
 ### Copilot Search with embedded chat
 - **Status:** Rolling out

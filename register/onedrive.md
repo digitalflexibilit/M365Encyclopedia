@@ -1,6 +1,6 @@
 # OneDrive
 
-Last updated: 2026-11-22
+Last updated: 2026-11-26
 
 ## Current features
 
@@ -31,6 +31,13 @@ Each file or folder gets one default link. Changing permissions updates the same
 - **More info:** [Microsoft 365 Roadmap item 566315](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=566315)
 
 Replaces the More places page in OneDrive on the web with a Libraries view that lists recently used SharePoint libraries, Teams libraries and favorite sites. End users can filter by keyword, sort by recent activity or name, and switch between list and tile views. Replaces More places.
+
+### OneDrive pay-as-you-go storage
+- **Status:** Rolling out
+- **Last change:** 2026-11-26, roadmap status Rolling out
+- **More info:** [Add more OneDrive and SharePoint storage to your Microsoft 365 subscription](https://learn.microsoft.com/en-us/microsoft-365/commerce/add-storage-space#add-microsoft-365-onedrive-storage)
+
+Admins can let selected OneDrive accounts grow beyond their licensed storage through the Microsoft 365 OneDrive Storage pay-as-you-go service. Only usage above the licensed quota is billed, at USD 0.20 per GB per month. It requires pay-as-you-go billing linked to an Azure subscription and is not available for education, GCC or 21Vianet customers.
 
 ## Retired / replaced
 

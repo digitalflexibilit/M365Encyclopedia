@@ -1,6 +1,6 @@
 # Outlook
 
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-11-25
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 When several Copilot-enabled accounts are added to new Outlook, the Calendar Copilot side pane shows an account dropdown. End users use it to see and switch the active account.
+
+### Copilot Chat in shared and delegate mailboxes
+- **Status:** Rolling out
+- **Last change:** 2026-11-26, rolling out in classic Outlook for Windows
+- **More info:** [Microsoft 365 Roadmap item 573698](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=573698)
+
+Users who have full access or folder-level permission on a shared or delegate mailbox can open Copilot Chat directly from that mailbox in classic Outlook, when the mailbox is added as a resource. It lets assistants and team members use Copilot on mail they manage for others without switching to their own mailbox.
 
 ### Copilot email triage actions
 - **Status:** Rolling out
@@ -52,6 +59,13 @@ New Outlook for Windows and Outlook on the web remember which folders, shared ma
 - **More info:** [Microsoft 365 Roadmap item 579185](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579185)
 
 In new Outlook for Windows, folder sharing will respect the organization's restrictions on Default and Anonymous permissions. When the restrictions are on, users cannot change those two settings. Permissions given directly to individual users are not affected.
+
+### Manage multiple inbox rules at once
+- **Status:** Rolling out
+- **Last change:** 2026-11-26, rolling out in new Outlook for Windows and Outlook on the web
+- **More info:** [Microsoft 365 Roadmap item 569430](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=569430)
+
+End users can select several or all of their inbox rules and delete, enable or disable them in one action. It makes it faster to clean up and organize rules in new Outlook for Windows and Outlook on the web.
 
 ### Message list sort improvements
 - **Status:** Rolling out

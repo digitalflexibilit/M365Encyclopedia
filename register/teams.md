@@ -1,8 +1,15 @@
 # Microsoft Teams
 
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Current features
+
+### Add tag members to channels automatically
+- **Status:** Roadmap
+- **Last change:** 2026-11-26, on the Microsoft 365 Roadmap, in development
+- **More info:** [Microsoft 365 Roadmap item 577174](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=577174)
+
+Team owners can link channels to a tag, so people added to the tag automatically become members of those channels. It keeps channel membership in line with changing groups and reduces manual work.
 
 ### Agent response streaming in all conversation types
 - **Status:** GA
@@ -80,6 +87,13 @@ Admins set meeting settings, including protection settings, that apply automatic
 - **More info:** [Microsoft 365 Roadmap item 574110](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=574110)
 
 Registration capacity for town halls and webinars grows with the event's attendee capacity. Organizers with Teams Enterprise can allow up to 3,000 registrations and those with Attendee Capacity Packs up to 20,000. Large webinars with registration do not support broadcast-style streaming. Admins assign capacity packs in the Teams admin center.
+
+### Expanded Markdown support
+- **Status:** Roadmap
+- **Last change:** 2026-11-26, on the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 576199](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=576199)
+
+The Teams compose box will accept more Markdown syntax, so users can structure and format messages while typing Markdown. Planned for Teams on Windows, Mac and web.
 
 ### Explicit mode for Information Barriers in Teams
 - **Status:** Preview
@@ -179,6 +193,13 @@ Teams checks URLs in chats, channels and meeting messages, including URLs embedd
 
 A redesigned meeting toolbar keeps common actions within reach and separates Leave from the other controls. End users can pin, unpin and rearrange controls to personalize the toolbar, and the full set of controls is easier to browse.
 
+### Onboarding workflow for new team members
+- **Status:** Roadmap
+- **Last change:** 2026-11-26, on the Microsoft 365 Roadmap, in development
+- **More info:** [Microsoft 365 Roadmap item 573452](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=573452)
+
+When people join a team, they are automatically added to the channels that are relevant to them. It helps team owners onboard new members without adding them to channels by hand.
+
 ### Open channels at last read message
 - **Status:** Roadmap
 - **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for February 2027
@@ -255,6 +276,13 @@ End users who decline an unexpected or suspicious invitation to join another org
 - **More info:** [Release notes for Microsoft Teams](https://learn.microsoft.com/en-us/officeupdates/teams-admin)
 
 Admins can require every participant to give explicit consent, for example to the organization's own terms and conditions, before joining any meeting hosted in the organization. The setting is configured in the Teams admin center.
+
+### Shared content on both room displays
+- **Status:** Roadmap
+- **Last change:** 2026-11-26, added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 582052](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=582052)
+
+On Microsoft Teams Rooms on Android with two displays, content shared through HDMI, also outside a Teams meeting, can appear on both screens at once. People start or stop it from the room controls, and admins manage the behavior with room settings.
 
 ### SharePoint app in Teams opens page links
 - **Status:** Rolling out

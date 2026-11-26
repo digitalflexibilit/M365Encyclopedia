@@ -1,6 +1,6 @@
 # Other Microsoft 365 apps
 
-Last updated: 2026-11-25
+Last updated: 2026-11-26
 
 ## Current features
 
@@ -10,6 +10,13 @@ Last updated: 2026-11-25
 - **More info:** [Give your Access forms a fresh look with rounded corners](https://techcommunity.microsoft.com/blog/accessblog/give-your-access-forms-a-fresh-look-with-rounded-corners/4573058)
 
 A new Corner Radius property in Access for Microsoft 365 rounds the corners of form controls. Developers set it in the property sheet or with VBA. It works on ten form controls, including text boxes, combo boxes, list boxes, labels, images, charts and subforms. Report controls, lines, check boxes and tab controls are not supported yet.
+
+### Access management for Copilot Analytics
+- **Status:** Roadmap
+- **Last change:** 2026-11-26, added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 578862](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=578862)
+
+Global, AI and Viva Insights admins will manage who can use Viva Insights Copilot Analytics, and what they can do, directly in the product. Access policies combine a permission set (what users can do) with a partition (whose data they can see). Replaces managing access through Viva Feature Access Management and in-product Manager settings.
 
 ### Agent insights in Viva Insights without an Agent 365 license
 - **Status:** Roadmap

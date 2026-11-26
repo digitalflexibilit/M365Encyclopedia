@@ -1,6 +1,6 @@
 # Dataverse
 
-Last updated: 2026-11-16
+Last updated: 2026-11-26
 
 ## Current features
 
@@ -34,10 +34,10 @@ Admins review Dataverse storage in the Power Platform admin center under Manage,
 
 ### Filter-based security
 - **Status:** Preview
-- **Last change:** 2026-11-16, public preview announced in the October/November 2026 Power Platform feature update
+- **Last change:** 2026-11-26, managing filters in the Power Platform maker portal added to the Microsoft 365 Roadmap (item 581895), planned for March 2027; 2026-11-16, public preview announced in the October/November 2026 Power Platform feature update
 - **More info:** [Filter-based security in Microsoft Dataverse (preview)](https://learn.microsoft.com/en-us/power-platform/admin/filter-based-security)
 
-Admins grant row-level access based on record data, such as a territory or city, instead of ownership. FetchXML record filters linked to a table create filter privileges that are assigned through security roles. A new Filtered ownership type uses only these filters, and on user, team or organization owned tables they add access on top of the existing model.
+Admins grant row-level access based on record data, such as a territory or city, instead of ownership. FetchXML record filters linked to a table create filter privileges that are assigned through security roles. A new Filtered ownership type uses only these filters, and on user, team or organization owned tables they add access on top of the existing model. A simplified experience in the Power Platform maker portal will let admins and makers create and manage the filters.
 
 ### Power Platform dataflows in Dataverse for Teams
 - **Status:** Retiring
