@@ -1,6 +1,6 @@
 # SharePoint
 
-Last updated: 2026-11-25
+Last updated: 2026-11-27
 
 ## Current features
 
@@ -66,6 +66,13 @@ When a SharePoint document library or folder is attached to Microsoft 365 Copilo
 - **More info:** [Release Notes for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes)
 
 Gives SharePoint Advanced Management admins an item-level report of content shared with the Everyone and Everyone except external users groups. Admins use it to find oversharing, for example before rolling out Copilot.
+
+### FAQ web part authoring changes
+- **Status:** GA
+- **Last change:** 2026-11-27, listed as launched on the Microsoft 365 Roadmap
+- **More info:** [Microsoft 365 Roadmap item 570647](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=570647)
+
+The FAQ web part now offers a standard, non-AI experience for creating, editing and managing FAQs by hand. AI-assisted FAQ creation and import moves to Copilot in SharePoint authoring, where authors prompt Copilot with chosen grounding sources and the result is saved to the FAQ web part. Existing FAQ web parts keep working without migration.
 
 ### File archive policies
 - **Status:** Preview

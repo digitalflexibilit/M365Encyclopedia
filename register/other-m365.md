@@ -1,6 +1,6 @@
 # Other Microsoft 365 apps
 
-Last updated: 2026-11-26
+Last updated: 2026-11-27
 
 ## Current features
 
@@ -59,6 +59,13 @@ The Microsoft To Do apps are scheduled to retire on June 30, 2027, as personal t
 - **More info:** [What's new in Copilot Cowork at Ignite 2026](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/whats-new-in-copilot-cowork-at-ignite-2026/4572242)
 
 A plugin that lets Copilot Cowork summarize Viva Engage community conversations and draft community announcements. Used by community managers and communicators with a Copilot license.
+
+### Viva Glint bulk participant removal
+- **Status:** Roadmap
+- **Last change:** 2026-11-27, announced in the November 2026 Viva Glint News to Know, general availability planned for December 2026
+- **More info:** [News to Know, Volume 3, Edition 12, November 2026](https://techcommunity.microsoft.com/blog/viva_glint_blog/news-to-know-%E2%80%93-volume-3-edition-12-november-2026/4576732)
+
+Viva Glint admins can upload a file to remove any number of participants from a closed survey, instead of 25 at a time. Removal permanently deletes the participant's survey response, admins can review the outcome, and the action is recorded in the audit log.
 
 ## Retired / replaced
 

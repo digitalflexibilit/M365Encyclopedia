@@ -1,8 +1,15 @@
 # Planner
 
-Last updated: 2026-11-25
+Last updated: 2026-11-27
 
 ## Current features
+
+### Capacity view
+- **Status:** GA
+- **Last change:** 2026-11-27, listed as launched on the Microsoft 365 Roadmap (Targeted Release and general availability)
+- **More info:** [Microsoft 365 Roadmap item 569733](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=569733)
+
+Capacity view shows a timeline of who is working on what in a plan. Plan owners and team members use it to see how work is spread across the team and spot people who are overloaded or have room for more work.
 
 ### Planner Agent
 - **Status:** Rolling out

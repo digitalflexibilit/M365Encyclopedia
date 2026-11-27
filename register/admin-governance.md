@@ -1,6 +1,6 @@
 # Admin and governance
 
-Last updated: 2026-11-25
+Last updated: 2026-11-27
 
 ## Current features
 
@@ -52,6 +52,27 @@ Shows active agent users and agents for Microsoft 365 Copilot and Copilot Chat, 
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 Admins designate up to 100 SharePoint sites as authoritative under Copilot, Search, Authoritative content, with bulk import and export. Before this there was no central management for these sources.
+
+### Auto-expanding archive up to 3 TB
+- **Status:** GA
+- **Last change:** 2026-11-27, listed as launched on the Microsoft 365 Roadmap
+- **More info:** [Enable auto-expanding archiving](https://learn.microsoft.com/purview/enable-autoexpanding-archiving)
+
+Exchange Online auto-expanding archive mailboxes can grow beyond the former 1.5 TB limit to 3 TB, so archives no longer stop accepting content at 1.5 TB. It applies to mailboxes with eligible E5-level licenses such as Microsoft 365 E5, Office 365 E5 or Microsoft 365 Purview Suite. No extra configuration or per-GB charge is needed if auto-expanding archiving is already on; other licenses keep the 1.5 TB limit.
+
+### Auto-labeling coverage report
+- **Status:** Rolling out
+- **Last change:** 2026-11-27, rolling out according to the Microsoft 365 Roadmap (item 572677)
+- **More info:** [Automatically apply a sensitivity label to Microsoft 365 data](https://learn.microsoft.com/purview/apply-sensitivity-label-automatically)
+
+For each enforced auto-labeling policy that covers SharePoint or OneDrive, admins can view which files were labeled, are pending or are not labeled, and whether those files were found in the latest simulation run. It helps admins follow enforcement progress against the simulation. The report is available for 30 days after a simulation run.
+
+### Auto-labeling for legacy Office files
+- **Status:** Roadmap
+- **Last change:** 2026-11-27, on the Microsoft 365 Roadmap, planned for December 2026
+- **More info:** [Microsoft 365 Roadmap item 574363](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=574363)
+
+Microsoft Purview server-side auto-labeling will also evaluate and label legacy Office formats (.doc, .xls and .ppt) in SharePoint and OneDrive. Admins configure it in existing auto-labeling policies.
 
 ### Auto-labeling scalability improvements
 - **Status:** GA
@@ -151,6 +172,13 @@ Purview DLP policies can stop Copilot from grounding responses on files that con
 
 Gives each agent one continuously updated risk level based on identity, access, data and activity signals. The same risk level is shown in the Microsoft 365 admin center, Defender, Entra and Purview, so admins and security teams work from one assessment.
 
+### Endpoint DLP policy sync status within 30 minutes
+- **Status:** Rolling out
+- **Last change:** 2026-11-27, rolling out according to the Microsoft 365 Roadmap
+- **More info:** [Microsoft 365 Roadmap item 558682](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=558682)
+
+The Microsoft Purview portal shows the Endpoint DLP policy sync status within 30 minutes instead of up to 2 hours. Admins can confirm sooner that policy changes reached devices.
+
 ### Environment routing for Copilot Managed Runtime
 - **Status:** GA
 - **Last change:** 2026-11-16, listed in the October/November 2026 Power Platform feature update; documentation updated 2026-11-13
@@ -164,6 +192,13 @@ Environment routing for Copilot Managed Runtime is on in every tenant and admins
 - **More info:** [Microsoft 365 Roadmap item 579894](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579894)
 
 Microsoft Edge for Business extends its Data Loss Prevention enterprise connectors. Admins can enforce policy consistently on download, upload, paste and print, require a justification to bypass a block and show their own guidance to users.
+
+### High Volume Email for external recipients
+- **Status:** Roadmap
+- **Last change:** 2026-11-27, on the Microsoft 365 Roadmap, planned for March 2027
+- **More info:** [Microsoft 365 Roadmap item 581778](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581778)
+
+High Volume Email (HVE) in Exchange Online, which today only sends to internal recipients, will also deliver to external recipients such as customers and partners. It is meant for transactional messages like notifications, alerts and receipts, not marketing. Admins turn it on per HVE account with a cmdlet, throttling and suppression protect sending reputation, and billing is per external recipient.
 
 ### Local agents in the Microsoft 365 admin center
 - **Status:** Preview
@@ -235,6 +270,13 @@ A REST API returns Monitor's daily metric aggregates for Power Platform resource
 
 Partners and organizations with several tenants get one view to deploy, compare and approve or block agents across tenants, instead of managing each tenant separately.
 
+### Network DLP for all websites through Global Secure Access
+- **Status:** Roadmap
+- **Last change:** 2026-11-27, on the Microsoft 365 Roadmap, planned for March 2027
+- **More info:** [Microsoft 365 Roadmap item 575285](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=575285)
+
+Admins will be able to scope Purview network data security DLP policies, integrated with Microsoft Entra Global Secure Access Internet Access, to all websites or to all websites except specific cloud apps. This extends protection to sites that are not in the Defender for Cloud Apps catalog.
+
 ### Office LTSC 2021 end of support
 - **Status:** Retiring
 - **Last change:** 2026-10-13, feature listed
@@ -304,6 +346,20 @@ Admins choose which types of skills Copilot Studio agents can reference, per env
 - **More info:** [Microsoft 365 Copilot and AI Agent readiness and resiliency with SharePoint Content Governance](https://techcommunity.microsoft.com/blog/spblog/microsoft-365-copilot-and-ai-agent-readiness-and-resiliency-with-sharepoint-cont/4573034)
 
 Microsoft 365 Backup can protect Teams channels, recover a channel together with its SharePoint content and restore deleted or edited channel messages within 30 days. New channels in a protected team are protected automatically. Hard deletion is not yet covered.
+
+### Unified finance and operations user and role management
+- **Status:** Roadmap
+- **Last change:** 2026-11-27, on the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 581777](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581777)
+
+Admins manage system administrator users and security roles for both finance and operations apps and Dataverse in one place in the Power Platform admin center. They can add and enable users, assign and remove roles and review access across both, instead of switching between separate pages. This is the general availability release after the preview.
+
+### Version trimming for content under retention
+- **Status:** Roadmap
+- **Last change:** 2026-11-27, on the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 575284](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=575284)
+
+Admins with the right Purview roles will be able to let SharePoint version management trim file versions in OneDrive and SharePoint even when retention policies apply, through a policy-scoped setting. Version limits are enforced except for protected cases such as legal holds and records. It helps regulated organizations reclaim storage used by retained versions.
 
 ### Work IQ enterprise controls
 - **Status:** Preview

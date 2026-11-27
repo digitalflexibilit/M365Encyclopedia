@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-26
+Last updated: 2026-11-27
 
 ## Current features
 
@@ -97,7 +97,7 @@ Microsoft-operated hosting for apps built in Copilot Code, Cowork, Copilot Studi
 
 ### Copilot memory
 - **Status:** Rolling out
-- **Last change:** 2026-11-21, memory expanding to Word, Excel, PowerPoint, Workspaces, Pages, Outlook and Teams; memory citations GA; email writing style and Work IQ MCP memory access rolling out (announced 2026-11-18)
+- **Last change:** 2026-11-27, Microsoft 365 Roadmap item for memory in Researcher (562996) cancelled, memory in Word, Excel, PowerPoint, Workspaces and OneNote (580889) still planned for November 2026; 2026-11-21, memory expanding to Word, Excel, PowerPoint, Workspaces, Pages, Outlook and Teams; memory citations GA; email writing style and Work IQ MCP memory access rolling out (announced 2026-11-18)
 - **More info:** [The End of Starting Over: How Work IQ helps Copilot understand you and your work](https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/the-end-of-starting-over-how-work-iq-helps-copilot-understand-you-and-your-work/4571169)
 
 Copilot remembers custom instructions, saved memories and details from chat history so users do not have to repeat context. Memory now also learns formatting, tone and work structure across Word, Excel, PowerPoint, Workspaces, Pages, Outlook and Teams, and learns a user's email writing style for drafts. Memory citations under a response show which instructions, memories and past chats were used, and users can delete memories from there. Authorized agents can read the memory profile through a Work IQ MCP tool. Admins control it with the Enhanced personalization setting, which is on by default and can be turned off for the tenant or an Entra group.
@@ -318,6 +318,13 @@ A Work IQ plugin brings Microsoft 365 work context, such as mail, meetings and f
 - **More info:** [Microsoft 365 Roadmap item 572674](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=572674)
 
 Authorized apps and agents can read the transcript of a supported Teams meeting or call while it is in progress, through Work IQ and the Model Context Protocol (MCP). Developers combine the live conversation with business data for things like recommendations, support assistance and action-item capture. It uses an active Teams transcript, needs the right permissions and consent, and does not start transcription by itself.
+
+### Workforce requests in Microsoft 365 Copilot
+- **Status:** GA
+- **Last change:** 2026-11-27, listed as launched on the Microsoft 365 Roadmap
+- **More info:** [Microsoft 365 Roadmap item 581992](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581992)
+
+Dynamics 365 Workforce Engagement Management connects to Microsoft 365 Copilot through MCP tools. Supervisors can list and filter time-off, shift-swap and shift-bid requests they may access, open a request to see scheduling context, and approve or reject pending time-off requests in natural language if they have the reviewer permission.
 
 ## Retired / replaced
 

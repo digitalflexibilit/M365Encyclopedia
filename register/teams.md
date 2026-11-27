@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-26
+Last updated: 2026-11-27
 
 ## Current features
 
@@ -165,6 +165,13 @@ Admins can apply Microsoft Entra Conditional Access policies to selected Teams m
 
 Teams detects possible impersonation by meeting participants or organizers and shows warnings and risk indicators. This helps users recognize suspicious identities before or while they join a meeting. No user action is needed to turn it on.
 
+### Improved device settings on Teams Rooms on Android
+- **Status:** Roadmap
+- **Last change:** 2026-11-27, on the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 581965](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581965)
+
+The on-device admin settings on Teams Rooms on Android get a clearer structure, grouping and navigation. Admins can find and change device settings from the console more easily.
+
 ### Intelligent recap without saving the transcript
 - **Status:** GA
 - **Last change:** 2026-11-12, roadmap status Launched, October 2026
@@ -185,6 +192,13 @@ In Teams for the web and the Teams PWA, a call can open in a simplified window t
 - **More info:** [Malicious URL protection in Microsoft Teams](https://learn.microsoft.com/microsoftteams/malicious-url-protection-teams)
 
 Teams checks URLs in chats, channels and meeting messages, including URLs embedded in QR codes, against threat intelligence and shows a warning to the sender and all recipients when a link looks malicious. It warns but does not block links on click. It is part of Teams baseline protection with no extra license, and admins of existing tenants can turn it off or on under Messaging settings in the Teams admin center.
+
+### Meeting timers in Teams Rooms on Windows
+- **Status:** Roadmap
+- **Last change:** 2026-11-27, on the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 581893](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=581893)
+
+A shared countdown timer for meetings in Microsoft Teams Rooms on Windows. People start, pause, resume or cancel it from the room touch console, and the countdown shows on the front-of-room display and in participants' meeting views. Requires a Teams Rooms Pro license.
 
 ### New meeting controls
 - **Status:** Rolling out
@@ -241,6 +255,13 @@ Users pinch on their touchpad to zoom in on content shared in Teams calls and me
 - **More info:** [Microsoft 365 Roadmap item 579860](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=579860)
 
 Admins use meeting policies to decide who can start recording and transcription: only organizers and co-organizers, or presenters as well. They can also decide whether organizers may change these settings or whether the policy enforces them.
+
+### PowerPoint Live in webinars and structured meetings on Teams Rooms on Android
+- **Status:** GA
+- **Last change:** 2026-11-27, listed as launched on the Microsoft 365 Roadmap
+- **More info:** [Microsoft 365 Roadmap item 576195](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=576195)
+
+People who join webinars and structured meetings from a Teams Rooms on Android device can view and interact with PowerPoint Live presentations, so the room stays in step with the active slide.
 
 ### Profanity filtering control for meeting transcripts
 - **Status:** Rolling out
