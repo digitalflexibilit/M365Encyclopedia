@@ -1,6 +1,6 @@
 # Microsoft 365 Copilot
 
-Last updated: 2026-11-27
+Last updated: 2026-11-28
 
 ## Current features
 
@@ -157,6 +157,13 @@ Besides scheduled prompts and Microsoft 365 events such as a matching email, Cow
 - **More info:** [Microsoft 365 Copilot release notes](https://learn.microsoft.com/en-us/copilot/microsoft-365/release-notes)
 
 Lets Cowork use the end user's local Microsoft Edge browser to complete web steps, including on sites the user is already signed in to. Cowork works in a separate Edge tab, and credentials, cookies and session tokens stay on the device.
+
+### Cowork Plugins page
+- **Status:** GA
+- **Last change:** 2026-11-26, Customize page renamed to Plugins (November 2026 Cowork update)
+- **More info:** [Customize Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/cowork-customize)
+
+The Plugins page in Copilot Cowork is the single place where end users browse, install and share plugins and skills, and create new skills through a guided conversation. It was called the Customize page when it launched with Cowork general availability in June 2026; only the name changed.
 
 ### Cowork projects
 - **Status:** GA
@@ -332,3 +339,4 @@ Dynamics 365 Workforce Engagement Management connects to Microsoft 365 Copilot t
 |---|---|---|---|
 | Notebooks in Microsoft 365 Copilot | 2026-11-17 | Copilot Workspaces | [Copilot Notebooks is now Copilot Workspaces](https://support.microsoft.com/en-us/microsoft-365-copilot/copilot-notebooks-to-copilot-workspaces) |
 | GPT 5.5 model in Cowork | 2026-11 | GPT 6.1 Sol | [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new) |
+| GPT 5.6 Terra model in Cowork | 2026-11 | None named | [What's new in Copilot Cowork](https://learn.microsoft.com/en-us/copilot/cowork/whats-new) |

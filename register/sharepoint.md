@@ -1,6 +1,6 @@
 # SharePoint
 
-Last updated: 2026-11-27
+Last updated: 2026-11-28
 
 ## Current features
 
@@ -24,6 +24,13 @@ Shows SharePoint admins how agents, such as SharePoint agents, declarative agent
 - **More info:** [Microsoft 365 Copilot and AI Agent readiness and resiliency with SharePoint Content Governance](https://techcommunity.microsoft.com/blog/spblog/microsoft-365-copilot-and-ai-agent-readiness-and-resiliency-with-sharepoint-cont/4573034)
 
 Helps admins find third-party apps with high-privilege access to SharePoint and OneDrive and restrict that access. Intended to reduce the risk of apps reading more content than they need.
+
+### App-only permission for tenant App Catalog writes
+- **Status:** Rolling out
+- **Last change:** 2026-11-25, announced: from 2027-01-31 Sites.ReadWrite.All alone no longer authorizes app-only App Catalog writes
+- **More info:** [Configure app-only permissions for tenant App Catalog operations](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/tenant-app-catalog-app-only-permissions)
+
+From 31 January 2027, apps that use app-only authentication to add or update packages or Tenant-Wide Extensions in the SharePoint tenant App Catalog need the SharePointTenantSettings.ReadWrite.All application permission on the Office 365 SharePoint Online resource. This mostly affects unattended automation such as CI/CD pipelines and deployment scripts. Admins add the permission in the Entra app registration, grant admin consent and retest; actions in the App Catalog UI, delegated workflows, reads and deletes are not affected.
 
 ### Application Restrictions for apps and agents
 - **Status:** Rolling out

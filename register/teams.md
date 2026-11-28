@@ -1,6 +1,6 @@
 # Microsoft Teams
 
-Last updated: 2026-11-27
+Last updated: 2026-11-28
 
 ## Current features
 
@@ -143,6 +143,13 @@ Users start Facilitator from their phone to take notes during an in-person conve
 - **More info:** [Microsoft 365 Roadmap item 573450](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=573450)
 
 When Facilitator is in a meeting, its Protection skill checks the transcript for signs that someone outside the organization is trying to trick participants into sharing sensitive information. If it detects an attempt, participants see a warning with options to end the meeting or temporarily restrict information sharing. Teams desktop on Windows and Mac.
+
+### File upload and download authentication for agents
+- **Status:** Rolling out
+- **Last change:** 2026-11-20, announced as action required: code changes available now, new RSC manifest permissions from 2027-01-15, deadline 2027-03-01
+- **More info:** [Send and receive files using bot](https://learn.microsoft.com/en-us/microsoftteams/platform/bots/how-to/bots-filesv4)
+
+Changes how Teams agents (bots) authenticate when they send and receive files, to align with OneDrive and SharePoint authentication requirements. Developers must update the agent code and declare additional resource-specific consent (RSC) permissions in the app manifest, which become available on 15 January 2027. Agents that are not updated by 1 March 2027 can no longer upload or download files.
 
 ### GitHub app in Teams
 - **Status:** GA

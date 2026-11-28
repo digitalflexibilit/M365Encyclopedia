@@ -1,6 +1,6 @@
 # Other Microsoft 365 apps
 
-Last updated: 2026-11-27
+Last updated: 2026-11-28
 
 ## Current features
 
@@ -66,6 +66,13 @@ A plugin that lets Copilot Cowork summarize Viva Engage community conversations 
 - **More info:** [News to Know, Volume 3, Edition 12, November 2026](https://techcommunity.microsoft.com/blog/viva_glint_blog/news-to-know-%E2%80%93-volume-3-edition-12-november-2026/4576732)
 
 Viva Glint admins can upload a file to remove any number of participants from a closed survey, instead of 25 at a time. Removal permanently deletes the participant's survey response, admins can review the outcome, and the action is recorded in the audit log.
+
+### Viva Glint multi-attribute report export enhancements
+- **Status:** Roadmap
+- **Last change:** 2026-11-25, added to the Microsoft 365 Roadmap, planned for January 2027
+- **More info:** [Microsoft 365 Roadmap item 580455](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=580455)
+
+Expands the Viva Glint multi-attribute report export: more users can run it, it supports larger exports, and authorized users can choose which questions and attributes to include. Used by Viva Glint admins and survey report users.
 
 ## Retired / replaced
 
